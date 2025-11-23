@@ -1,0 +1,272 @@
+[
+  {
+    "question": "Wireframe models represent objects using:",
+    "option1": "Lines and curves",
+    "option2": "Solid surfaces",
+    "option3": "Textures",
+    "option4": "Shaded polygons",
+    "option5": "Color maps",
+    "solution": "Lines and curves"
+  },
+  {
+    "question": "Perspective projection gives the illusion of:",
+    "option1": "Depth",
+    "option2": "Rotation",
+    "option3": "Shading",
+    "option4": "Reflection",
+    "option5": "Transparency",
+    "solution": "Depth"
+  },
+  {
+    "question": "In perspective display, objects farther away appear:",
+    "option1": "Smaller",
+    "option2": "Larger",
+    "option3": "Brighter",
+    "option4": "Darker",
+    "option5": "Flat",
+    "solution": "Smaller"
+  },
+  {
+    "question": "Projective transformations are used to map:",
+    "option1": "3D points to 2D display",
+    "option2": "2D points to 3D space",
+    "option3": "Textures to polygons",
+    "option4": "Audio to graphics",
+    "option5": "Pixels to vectors",
+    "solution": "3D points to 2D display"
+  },
+  {
+    "question": "The additional coordinate used in 3D homogeneous coordinates is:",
+    "option1": "W",
+    "option2": "H",
+    "option3": "Q",
+    "option4": "T",
+    "option5": "P",
+    "solution": "W"
+  },
+  {
+    "question": "Hidden line removal helps in:",
+    "option1": "Removing lines not visible to the viewer",
+    "option2": "Increasing resolution",
+    "option3": "Applying texture",
+    "option4": "Adjusting brightness",
+    "option5": "Changing colors",
+    "solution": "Removing lines not visible to the viewer"
+  },
+  {
+    "question": "Back-face removal algorithm removes:",
+    "option1": "Faces turned away from the viewer",
+    "option2": "Overlapping pixels",
+    "option3": "Lines behind objects",
+    "option4": "Shadows",
+    "option5": "Textures",
+    "solution": "Faces turned away from the viewer"
+  },
+  {
+    "question": "In 3D graphics, the z-axis typically represents:",
+    "option1": "Depth",
+    "option2": "Width",
+    "option3": "Height",
+    "option4": "Brightness",
+    "option5": "Texture index",
+    "solution": "Depth"
+  },
+  {
+    "question": "Orthographic projection preserves:",
+    "option1": "Object dimensions",
+    "option2": "Perspective depth",
+    "option3": "Foreshortening",
+    "option4": "Curved surfaces",
+    "option5": "Color intensity",
+    "solution": "Object dimensions"
+  },
+  {
+    "question": "Perspective foreshortening means:",
+    "option1": "Farther objects appear compressed",
+    "option2": "Closer objects appear darker",
+    "option3": "All objects appear same size",
+    "option4": "Depth is removed",
+    "option5": "Objects appear blurred",
+    "solution": "Farther objects appear compressed"
+  },
+  {
+    "question": "A wireframe cube consists of:",
+    "option1": "12 edges",
+    "option2": "6 edges",
+    "option3": "16 edges",
+    "option4": "8 edges",
+    "option5": "4 edges",
+    "solution": "12 edges"
+  },
+  {
+    "question": "The process of converting a 3D scene to a 2D image is:",
+    "option1": "Projection",
+    "option2": "Shading",
+    "option3": "Filtering",
+    "option4": "Rasterizing",
+    "option5": "Scan conversion",
+    "solution": "Projection"
+  },
+  {
+    "question": "Back-face culling improves:",
+    "option1": "Rendering efficiency",
+    "option2": "Image color",
+    "option3": "Resolution",
+    "option4": "Texture quality",
+    "option5": "Audio output",
+    "solution": "Rendering efficiency"
+  },
+  {
+    "question": "In perspective projection, the center of projection is also called:",
+    "option1": "Viewer eye point",
+    "option2": "Focal plane",
+    "option3": "Clipping plane",
+    "option4": "Buffer zone",
+    "option5": "Shadow point",
+    "solution": "Viewer eye point"
+  },
+  {
+    "question": "Which transformation rotates an object around the z-axis?",
+    "option1": "Rotation in XY-plane",
+    "option2": "Rotation in XZ-plane",
+    "option3": "Translation",
+    "option4": "Scaling",
+    "option5": "Clipping",
+    "solution": "Rotation in XY-plane"
+  },
+  {
+    "question": "Hidden surface elimination is used to remove:",
+    "option1": "Surfaces blocked by other surfaces",
+    "option2": "Transparent surfaces",
+    "option3": "Dark pixels",
+    "option4": "Thin edges",
+    "option5": "Shadow regions",
+    "solution": "Surfaces blocked by other surfaces"
+  },
+  {
+    "question": "Z-buffer algorithm compares values of:",
+    "option1": "Depth",
+    "option2": "Color",
+    "option3": "Brightness",
+    "option4": "Opacity",
+    "option5": "Texture",
+    "solution": "Depth"
+  },
+  {
+    "question": "Perspective projection uses which division step?",
+    "option1": "Divide by W",
+    "option2": "Divide by X",
+    "option3": "Divide by Y",
+    "option4": "Divide by Z",
+    "option5": "Divide by H",
+    "solution": "Divide by W"
+  },
+  {
+    "question": "Back-face culling considers the direction of:",
+    "option1": "Surface normal",
+    "option2": "Light ray",
+    "option3": "Texture axis",
+    "option4": "Pixel gradient",
+    "option5": "Shadow vector",
+    "solution": "Surface normal"
+  },
+  {
+    "question": "A face is considered back-facing when the dot product of surface normal and view vector is:",
+    "option1": "Greater than 0",
+    "option2": "Equal to 0",
+    "option3": "Less than 0",
+    "option4": "Always negative",
+    "option5": "Always positive",
+    "solution": "Less than 0"
+  },
+  {
+    "question": "The main drawback of wireframe models is:",
+    "option1": "Ambiguity in object appearance",
+    "option2": "High memory usage",
+    "option3": "Slow rendering",
+    "option4": "Loss of colors",
+    "option5": "Overuse of textures",
+    "solution": "Ambiguity in object appearance"
+  },
+  {
+    "question": "3D transformations include:",
+    "option1": "Rotation, scaling, translation",
+    "option2": "Shading, clipping, filtering",
+    "option3": "Audio mixing",
+    "option4": "Pixel interpolation",
+    "option5": "Curve fitting",
+    "solution": "Rotation, scaling, translation"
+  },
+  {
+    "question": "Perspective projection maps parallel lines so they appear to:",
+    "option1": "Converge at a point",
+    "option2": "Stay parallel always",
+    "option3": "Expand outward",
+    "option4": "Form arcs",
+    "option5": "Rotate automatically",
+    "solution": "Converge at a point"
+  },
+  {
+    "question": "Which transformation simulates moving the camera?",
+    "option1": "Viewing transformation",
+    "option2": "Model transformation",
+    "option3": "Texture transformation",
+    "option4": "Clipping transformation",
+    "option5": "Raster transformation",
+    "solution": "Viewing transformation"
+  },
+  {
+    "question": "Hidden line removal is mostly used in:",
+    "option1": "Wireframe models",
+    "option2": "Shaded models",
+    "option3": "Textured models",
+    "option4": "Audio rendering",
+    "option5": "2D animation",
+    "solution": "Wireframe models"
+  },
+  {
+    "question": "Which projection does NOT simulate realistic depth?",
+    "option1": "Orthographic projection",
+    "option2": "Perspective projection",
+    "option3": "Oblique projection",
+    "option4": "Curvilinear projection",
+    "option5": "Fisheye projection",
+    "solution": "Orthographic projection"
+  },
+  {
+    "question": "In 3D rotations, a right-hand rule is used to determine:",
+    "option1": "Rotation direction",
+    "option2": "Shading gradient",
+    "option3": "Texture orientation",
+    "option4": "Brightness level",
+    "option5": "Pixel position",
+    "solution": "Rotation direction"
+  },
+  {
+    "question": "A polygon with its normal pointing away from the camera is:",
+    "option1": "Culled",
+    "option2": "Rendered",
+    "option3": "Shaded",
+    "option4": "Textured",
+    "option5": "Highlighted",
+    "solution": "Culled"
+  },
+  {
+    "question": "Which algorithm eliminates faces at the back of the object?",
+    "option1": "Back-face removal",
+    "option2": "Z-buffer",
+    "option3": "Scanline algorithm",
+    "option4": "Gouraud shading",
+    "option5": "Phong shading",
+    "solution": "Back-face removal"
+  },
+  {
+    "question": "Perspective division is necessary to convert:",
+    "option1": "Homogeneous coordinates to 3D",
+    "option2": "RGB to XYZ",
+    "option3": "Angles to radians",
+    "option4": "Textures to bitmaps",
+    "option5": "Normals to tangents",
+    "solution": "Homogeneous coordinates to 3D"
+  }
+]

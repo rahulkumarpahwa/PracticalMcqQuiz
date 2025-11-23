@@ -1,0 +1,263 @@
+[
+  {
+    "question": "Screen coordinates are typically measured in:",
+    "option1": "Pixels",
+    "option2": "Meters",
+    "option3": "Radians",
+    "option4": "Inches",
+    "option5": "Degrees",
+    "solution": "Pixels"
+  },
+  {
+    "question": "User coordinates are also known as:",
+    "option1": "World coordinates",
+    "option2": "Device coordinates",
+    "option3": "Clip coordinates",
+    "option4": "Perspective coordinates",
+    "option5": "Raster coordinates",
+    "solution": "World coordinates"
+  },
+  {
+    "question": "Homogeneous coordinates are mainly used to:",
+    "option1": "Perform transformations",
+    "option2": "Increase screen brightness",
+    "option3": "Enhance resolution",
+    "option4": "Store RGB values",
+    "option5": "Manage clipping operations",
+    "solution": "Perform transformations"
+  },
+  {
+    "question": "Which dimension is added in homogeneous coordinates?",
+    "option1": "W-coordinate",
+    "option2": "S-coordinate",
+    "option3": "Z-coordinate",
+    "option4": "P-coordinate",
+    "option5": "B-coordinate",
+    "solution": "W-coordinate"
+  },
+  {
+    "question": "Which algorithm transforms world coordinates to device coordinates?",
+    "option1": "View algorithm",
+    "option2": "Line clipping algorithm",
+    "option3": "Circle drawing algorithm",
+    "option4": "Perspective division",
+    "option5": "Flood fill algorithm",
+    "solution": "View algorithm"
+  },
+  {
+    "question": "Two-dimensional transformations include:",
+    "option1": "Scaling, rotation, translation",
+    "option2": "Shading and lighting",
+    "option3": "Hidden surface removal",
+    "option4": "Anti-aliasing operations",
+    "option5": "Keyframe animation",
+    "solution": "Scaling, rotation, translation"
+  },
+  {
+    "question": "Which line drawing algorithm uses only integer arithmetic?",
+    "option1": "Bresenham’s line algorithm",
+    "option2": "DDA algorithm",
+    "option3": "Midpoint circle algorithm",
+    "option4": "Wu’s algorithm",
+    "option5": "Scanline algorithm",
+    "solution": "Bresenham’s line algorithm"
+  },
+  {
+    "question": "DDA algorithm stands for:",
+    "option1": "Digital Differential Analyzer",
+    "option2": "Direct Data Access",
+    "option3": "Dynamic Display Analyzer",
+    "option4": "Dual Display Algorithm",
+    "option5": "Digital Device Algorithm",
+    "solution": "Digital Differential Analyzer"
+  },
+  {
+    "question": "Circle drawing algorithms are primarily used to:",
+    "option1": "Plot circular arcs",
+    "option2": "Generate transformations",
+    "option3": "Increase resolution",
+    "option4": "Clip polygons",
+    "option5": "Load display files",
+    "solution": "Plot circular arcs"
+  },
+  {
+    "question": "The midpoint circle algorithm is based on:",
+    "option1": "Incremental decision parameters",
+    "option2": "Vector addition",
+    "option3": "Raster sweep",
+    "option4": "Matrix multiplication",
+    "option5": "Homogeneous division",
+    "solution": "Incremental decision parameters"
+  },
+  {
+    "question": "The purpose of display code generation is to:",
+    "option1": "Convert graphics commands to low-level instructions",
+    "option2": "Animate scenes",
+    "option3": "Clip objects",
+    "option4": "Perform lighting calculations",
+    "option5": "Remove hidden surfaces",
+    "solution": "Convert graphics commands to low-level instructions"
+  },
+  {
+    "question": "Graphical functions include:",
+    "option1": "Line, arc, circle drawing operations",
+    "option2": "Database management",
+    "option3": "Audio processing",
+    "option4": "File compression",
+    "option5": "Encryption tasks",
+    "solution": "Line, arc, circle drawing operations"
+  },
+  {
+    "question": "Which transformation preserves distances and angles?",
+    "option1": "Rotation",
+    "option2": "Scaling",
+    "option3": "Shearing",
+    "option4": "Reflection",
+    "option5": "Translation",
+    "solution": "Rotation"
+  },
+  {
+    "question": "In 2D scaling, scaling factor greater than 1 causes:",
+    "option1": "Magnification",
+    "option2": "Rotation",
+    "option3": "Clipping",
+    "option4": "Shrinking",
+    "option5": "Mirroring",
+    "solution": "Magnification"
+  },
+  {
+    "question": "Translation in 2D moves an object by:",
+    "option1": "Adding displacement values",
+    "option2": "Multiplying coordinates",
+    "option3": "Using decision variables",
+    "option4": "Subtracting intensities",
+    "option5": "Normalizing vectors",
+    "solution": "Adding displacement values"
+  },
+  {
+    "question": "The slope value m in line generation is:",
+    "option1": "Δy / Δx",
+    "option2": "Δx / Δy",
+    "option3": "x² + y²",
+    "option4": "x − y",
+    "option5": "xy product",
+    "solution": "Δy / Δx"
+  },
+  {
+    "question": "The coordinate system visible on the screen is:",
+    "option1": "Device coordinates",
+    "option2": "World coordinates",
+    "option3": "Normalized coordinates",
+    "option4": "Model coordinates",
+    "option5": "Perspective coordinates",
+    "solution": "Device coordinates"
+  },
+  {
+    "question": "Circle symmetry allows plotting points in increments of:",
+    "option1": "Eight octants",
+    "option2": "Four quadrants",
+    "option3": "Six sectors",
+    "option4": "Two regions",
+    "option5": "Single arc",
+    "solution": "Eight octants"
+  },
+  {
+    "question": "Which algorithm converts user-defined coordinates to screen coordinates?",
+    "option1": "View transformation",
+    "option2": "Scanline conversion",
+    "option3": "Frame buffer update",
+    "option4": "Rasterization",
+    "option5": "Polygon fill method",
+    "solution": "View transformation"
+  },
+  {
+    "question": "The purpose of homogeneous coordinates in transformations is:",
+    "option1": "Represent translation via matrix multiplication",
+    "option2": "Improve raster resolution",
+    "option3": "Generate lighting effects",
+    "option4": "Increase pixel sharpness",
+    "option5": "Store shading values",
+    "solution": "Represent translation via matrix multiplication"
+  },
+  {
+    "question": "Normalized device coordinates lie within the range:",
+    "option1": "-1 to +1",
+    "option2": "0 to 1",
+    "option3": "-10 to +10",
+    "option4": "0 to 255",
+    "option5": "0 to 360",
+    "solution": "-1 to +1"
+  },
+  {
+    "question": "Which transformation flips an object about an axis?",
+    "option1": "Reflection",
+    "option2": "Rotation",
+    "option3": "Scaling",
+    "option4": "Shearing",
+    "option5": "Translation",
+    "solution": "Reflection"
+  },
+  {
+    "question": "Shearing transformation primarily affects:",
+    "option1": "Shape distortion",
+    "option2": "Rotation rate",
+    "option3": "Color intensity",
+    "option4": "Z-depth",
+    "option5": "Brightness",
+    "solution": "Shape distortion"
+  },
+  {
+    "question": "Which algorithm uses floating-point arithmetic?",
+    "option1": "DDA algorithm",
+    "option2": "Bresenham’s algorithm",
+    "option3": "Midpoint circle algorithm",
+    "option4": "Polygon scanline",
+    "option5": "Back-face culling",
+    "solution": "DDA algorithm"
+  },
+  {
+    "question": "Device coordinate system origin is usually at:",
+    "option1": "Top-left corner",
+    "option2": "Bottom-left corner",
+    "option3": "Center of screen",
+    "option4": "Top-right corner",
+    "option5": "Bottom-right corner",
+    "solution": "Top-left corner"
+  },
+  {
+    "question": "The Bresenham line algorithm avoids:",
+    "option1": "Floating-point operations",
+    "option2": "Pixel plotting",
+    "option3": "Slope calculation",
+    "option4": "Incremental updates",
+    "option5": "Decision parameters",
+    "solution": "Floating-point operations"
+  },
+  {
+    "question": "The view algorithm defines:",
+    "option1": "How the world is mapped to the display area",
+    "option2": "Lighting angles",
+    "option3": "Shading smoothness",
+    "option4": "Texture details",
+    "option5": "Shadow regions",
+    "solution": "How the world is mapped to the display area"
+  },
+  {
+    "question": "The circle equation x² + y² = r² is used in:",
+    "option1": "Direct circle drawing method",
+    "option2": "DDA line algorithm",
+    "option3": "Rotation transformation",
+    "option4": "Raster clipping",
+    "option5": "Color shading",
+    "solution": "Direct circle drawing method"
+  },
+  {
+    "question": "The main drawback of direct line drawing method is:",
+    "option1": "Use of floating-point computations",
+    "option2": "Too fast for hardware",
+    "option3": "Cannot generate circles",
+    "option4": "Does not support scaling",
+    "option5": "Only works in integers",
+    "solution": "Use of floating-point computations"
+  }
+]

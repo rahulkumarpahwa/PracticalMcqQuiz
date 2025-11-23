@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Graphics Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 min-h-screen p-6">
+    <div class="max-w-4xl mx-auto">
+      <header class="mb-6">
+        <h1 class="text-3xl font-semibold">Graphics Quiz</h1>
+        <p class="text-sm text-gray-600">
+          Select a topic and click an option — the correct answer and solution
+          appear immediately.
+        </p>
+      </header>
+
+      <div class="mb-4 flex gap-3 items-center">
+        <label class="font-medium">Topic:</label>
+        <select
+          id="topicSelect"
+          class="px-3 py-2 border rounded shadow-sm"
+        ></select>
+        <button
+          id="shuffleBtn"
+          class="ml-auto px-3 py-2 bg-indigo-600 text-white rounded"
+        >
+          Shuffle
+        </button>
+      </div>
+
+      <main>
+        <div id="questionCard" class="bg-white border rounded-lg p-6 shadow">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h2 id="topicTitle" class="text-xl font-semibold"></h2>
+              <div class="text-sm text-gray-600" id="qCounter"></div>
+            </div>
+            <div class="text-sm text-gray-500" id="status"></div>
+          </div>
+
+          <div id="questionText" class="text-lg mb-4">Loading...</div>
+
+          <div
+            id="options"
+            class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4"
+          ></div>
+
+          <div
+            id="solutionArea"
+            class="hidden p-3 border-l-4 border-indigo-500 bg-indigo-50 text-indigo-900 rounded"
+          ></div>
+
+          <div class="mt-4 flex gap-2">
+            <button id="prevBtn" class="px-3 py-2 bg-gray-200 rounded">
+              Previous
+            </button>
+            <button
+              id="nextBtn"
+              class="px-3 py-2 bg-gray-800 text-white rounded"
+            >
+              Next
+            </button>
+            <div class="ml-auto text-sm text-gray-600" id="hintArea"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

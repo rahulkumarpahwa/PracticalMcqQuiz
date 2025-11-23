@@ -1,0 +1,272 @@
+[
+  {
+    "question": "Turbo C graphics functions are available in which header file?",
+    "option1": "graphics.h",
+    "option2": "stdio.h",
+    "option3": "stdlib.h",
+    "option4": "conio.h",
+    "option5": "dos.h",
+    "solution": "graphics.h"
+  },
+  {
+    "question": "Which function initializes the graphics mode in Turbo C?",
+    "option1": "initgraph()",
+    "option2": "graphstart()",
+    "option3": "startgfx()",
+    "option4": "openwindow()",
+    "option5": "gfxbegin()",
+    "solution": "initgraph()"
+  },
+  {
+    "question": "Turbo C graphics primitives include:",
+    "option1": "Points, lines, circles",
+    "option2": "Textures and shaders",
+    "option3": "Meshes and skeletons",
+    "option4": "Audio streams",
+    "option5": "Video frames",
+    "solution": "Points, lines, circles"
+  },
+  {
+    "question": "Which function plots a pixel on the screen?",
+    "option1": "putpixel()",
+    "option2": "plot()",
+    "option3": "drawpix()",
+    "option4": "pixel()",
+    "option5": "showpixel()",
+    "solution": "putpixel()"
+  },
+  {
+    "question": "Which function retrieves the color of a pixel?",
+    "option1": "getpixel()",
+    "option2": "readpixel()",
+    "option3": "colread()",
+    "option4": "pixinfo()",
+    "option5": "fetchpixel()",
+    "solution": "getpixel()"
+  },
+  {
+    "question": "Turbo C uses which coordinate system?",
+    "option1": "Origin at top-left",
+    "option2": "Origin at center",
+    "option3": "Origin at bottom-left",
+    "option4": "Origin at bottom-right",
+    "option5": "Origin at random point",
+    "solution": "Origin at top-left"
+  },
+  {
+    "question": "Which function draws a line?",
+    "option1": "line()",
+    "option2": "drawline()",
+    "option3": "lineto()",
+    "option4": "plotline()",
+    "option5": "makeline()",
+    "solution": "line()"
+  },
+  {
+    "question": "Which function draws a circle?",
+    "option1": "circle()",
+    "option2": "drawcircle()",
+    "option3": "round()",
+    "option4": "arcircle()",
+    "option5": "makecircle()",
+    "solution": "circle()"
+  },
+  {
+    "question": "The function closegraph() is used to:",
+    "option1": "Close graphics mode",
+    "option2": "Draw a box",
+    "option3": "Reset pixel buffer",
+    "option4": "Render animation",
+    "option5": "Save graphics",
+    "solution": "Close graphics mode"
+  },
+  {
+    "question": "Which function sets the current drawing color?",
+    "option1": "setcolor()",
+    "option2": "color()",
+    "option3": "setink()",
+    "option4": "col()",
+    "option5": "gfxcolor()",
+    "solution": "setcolor()"
+  },
+  {
+    "question": "setbkcolor() is used for setting:",
+    "option1": "Background color",
+    "option2": "Border color",
+    "option3": "Line thickness",
+    "option4": "Fill style",
+    "option5": "Font color",
+    "solution": "Background color"
+  },
+  {
+    "question": "fillpoly() is used to:",
+    "option1": "Fill a polygon",
+    "option2": "Fill a circle",
+    "option3": "Erase a polygon",
+    "option4": "Draw a polyline",
+    "option5": "Generate color gradient",
+    "solution": "Fill a polygon"
+  },
+  {
+    "question": "Which action represents a primitive operation?",
+    "option1": "Drawing a line",
+    "option2": "Compiling a program",
+    "option3": "Opening a file",
+    "option4": "Playing audio",
+    "option5": "Loading fonts",
+    "solution": "Drawing a line"
+  },
+  {
+    "question": "Variables in Turbo C graphics include:",
+    "option1": "Coordinates, color values",
+    "option2": "Shaders and textures",
+    "option3": "Video buffers",
+    "option4": "3D meshes",
+    "option5": "Audio waveforms",
+    "solution": "Coordinates, color values"
+  },
+  {
+    "question": "Which operator is used to specify fill pattern?",
+    "option1": "setfillstyle()",
+    "option2": "settexture()",
+    "option3": "setshader()",
+    "option4": "setbrush()",
+    "option5": "setpattern()",
+    "solution": "setfillstyle()"
+  },
+  {
+    "question": "Turbo C animation involves:",
+    "option1": "Redrawing frames continuously",
+    "option2": "Changing screen resolution",
+    "option3": "Decreasing refresh rate",
+    "option4": "Removing pixels only",
+    "option5": "Loading external shaders",
+    "solution": "Redrawing frames continuously"
+  },
+  {
+    "question": "Which function is used to display text in graphics mode?",
+    "option1": "outtext()",
+    "option2": "print()",
+    "option3": "textshow()",
+    "option4": "puttext()",
+    "option5": "showchars()",
+    "solution": "outtext()"
+  },
+  {
+    "question": "Turbo C graphics transformations include:",
+    "option1": "Scaling, rotating, translating objects manually",
+    "option2": "Real-time ray tracing",
+    "option3": "Hardware acceleration",
+    "option4": "Physically based rendering",
+    "option5": "Dynamic texture mapping",
+    "solution": "Scaling, rotating, translating objects manually"
+  },
+  {
+    "question": "Which function saves screen contents to disk?",
+    "option1": "writeimagefile()",
+    "option2": "savepix()",
+    "option3": "capture()",
+    "option4": "storeimg()",
+    "option5": "dumpbuffer()",
+    "solution": "writeimagefile()"
+  },
+  {
+    "question": "Loading stored graphic images is done using:",
+    "option1": "readimagefile()",
+    "option2": "openimage()",
+    "option3": "loadgfx()",
+    "option4": "fetchimg()",
+    "option5": "showimage()",
+    "solution": "readimagefile()"
+  },
+  {
+    "question": "Which technique is used to create animation effects in Turbo C?",
+    "option1": "Frame-by-frame redraw",
+    "option2": "GPU shader programming",
+    "option3": "Z-buffering",
+    "option4": "Ray tracing",
+    "option5": "Anti-aliasing",
+    "solution": "Frame-by-frame redraw"
+  },
+  {
+    "question": "The towers of Hanoi animation uses:",
+    "option1": "Recursive movement visualization",
+    "option2": "Texture mapping",
+    "option3": "Shadow generation",
+    "option4": "Illumination models",
+    "option5": "Color dithering",
+    "solution": "Recursive movement visualization"
+  },
+  {
+    "question": "Which sorting algorithm can be animated easily in Turbo C?",
+    "option1": "Bubble sort",
+    "option2": "RSA encryption",
+    "option3": "DFS algorithm",
+    "option4": "Dijkstra's algorithm",
+    "option5": "Bellman-Ford",
+    "solution": "Bubble sort"
+  },
+  {
+    "question": "A graphic primitive is:",
+    "option1": "Basic drawing element",
+    "option2": "Complete 3D model",
+    "option3": "Video file",
+    "option4": "Sound effect",
+    "option5": "File pointer",
+    "solution": "Basic drawing element"
+  },
+  {
+    "question": "The ellipse() function draws:",
+    "option1": "An ellipse shape",
+    "option2": "A 3D cylinder",
+    "option3": "A filled polygon",
+    "option4": "A curved line",
+    "option5": "A textured circle",
+    "solution": "An ellipse shape"
+  },
+  {
+    "question": "Turbo C supports how many default colors?",
+    "option1": "16",
+    "option2": "8",
+    "option3": "32",
+    "option4": "64",
+    "option5": "256",
+    "solution": "16"
+  },
+  {
+    "question": "Bar() function is used to draw:",
+    "option1": "Filled rectangle",
+    "option2": "3D bar graph",
+    "option3": "Line chart",
+    "option4": "Polygon boundary",
+    "option5": "Circular arc",
+    "solution": "Filled rectangle"
+  },
+  {
+    "question": "Which function sets the current fill style?",
+    "option1": "setfillstyle()",
+    "option2": "fillcolor()",
+    "option3": "brushstyle()",
+    "option4": "patternstyle()",
+    "option5": "setbrush()",
+    "solution": "setfillstyle()"
+  },
+  {
+    "question": "Turbo C graphics system uses which display model?",
+    "option1": "Raster display",
+    "option2": "Vector display",
+    "option3": "Plasma cell display",
+    "option4": "Pen plotter",
+    "option5": "Color mask display",
+    "solution": "Raster display"
+  },
+  {
+    "question": "Turbo C uses which coordinate format?",
+    "option1": "(x, y) integer coordinates",
+    "option2": "Floating point coordinates",
+    "option3": "Homogeneous coordinates",
+    "option4": "3D coordinates",
+    "option5": "Normalized coordinates",
+    "solution": "(x, y) integer coordinates"
+  }
+]

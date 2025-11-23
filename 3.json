@@ -1,0 +1,263 @@
+[
+  {
+    "question": "Which device uses a graphical on-screen pointer for selecting objects?",
+    "option1": "Mouse",
+    "option2": "Digitizing tablet",
+    "option3": "Trackball",
+    "option4": "Light pen",
+    "option5": "Keyboard",
+    "solution": "Mouse"
+  },
+  {
+    "question": "A light pen works by detecting:",
+    "option1": "Light emitted from the screen",
+    "option2": "Infrared signals",
+    "option3": "Ultrasonic waves",
+    "option4": "Pressure on a surface",
+    "option5": "Magnetic fields",
+    "solution": "Light emitted from the screen"
+  },
+  {
+    "question": "Digitizing tablets are mainly used for:",
+    "option1": "Graphic design and drawing",
+    "option2": "Display output",
+    "option3": "Text processing",
+    "option4": "Audio recording",
+    "option5": "Network communication",
+    "solution": "Graphic design and drawing"
+  },
+  {
+    "question": "Trackballs are essentially:",
+    "option1": "Upside-down mice",
+    "option2": "Touchscreens",
+    "option3": "Light sensors",
+    "option4": "Laser pens",
+    "option5": "Pressure pads",
+    "solution": "Upside-down mice"
+  },
+  {
+    "question": "Interactive graphical techniques include:",
+    "option1": "Zooming and panning",
+    "option2": "Sorting algorithms",
+    "option3": "Lighting effects",
+    "option4": "Texture mapping",
+    "option5": "Raster clipping",
+    "solution": "Zooming and panning"
+  },
+  {
+    "question": "Rubber-band technique is used for:",
+    "option1": "Drawing temporary straight lines",
+    "option2": "Coloring shapes",
+    "option3": "Resolving polygons",
+    "option4": "Shading surfaces",
+    "option5": "Texture creation",
+    "solution": "Drawing temporary straight lines"
+  },
+  {
+    "question": "Windowing is defined as:",
+    "option1": "Selecting a sub-region of the display",
+    "option2": "Clipping polygons",
+    "option2": "Applying textures",
+    "option4": "Removing hidden surfaces",
+    "option5": "Rasterizing circles",
+    "solution": "Selecting a sub-region of the display"
+  },
+  {
+    "question": "Panning allows the user to:",
+    "option1": "Move the view horizontally or vertically",
+    "option2": "Increase object brightness",
+    "option3": "Delete graphical objects",
+    "option4": "Change frame rate",
+    "option5": "Resize the window",
+    "solution": "Move the view horizontally or vertically"
+  },
+  {
+    "question": "Zooming is:",
+    "option1": "Magnifying or reducing the view",
+    "option2": "Clipping objects",
+    "option3": "Changing the color palette",
+    "option4": "Animating objects",
+    "option5": "Resizing the viewport",
+    "solution": "Magnifying or reducing the view"
+  },
+  {
+    "question": "Scissoring refers to:",
+    "option1": "Restricting drawing to a rectangular region",
+    "option2": "Dividing polygons",
+    "option3": "Color blending",
+    "option4": "Transforming objects",
+    "option5": "Splitting display code",
+    "solution": "Restricting drawing to a rectangular region"
+  },
+  {
+    "question": "Mouse programming typically involves handling:",
+    "option1": "Events and interrupts",
+    "option2": "Network packets",
+    "option3": "Audio frequencies",
+    "option4": "Database queries",
+    "option5": "Machine code loops",
+    "solution": "Events and interrupts"
+  },
+  {
+    "question": "Linking technique is used for:",
+    "option1": "Connecting graphical objects",
+    "option2": "Enhancing color saturation",
+    "option3": "Shadow generation",
+    "option4": "Display buffering",
+    "option5": "Error handling",
+    "solution": "Connecting graphical objects"
+  },
+  {
+    "question": "A pointing device among the following is:",
+    "option1": "Trackball",
+    "option2": "Speaker",
+    "option3": "Plotter",
+    "option4": "Keyboard",
+    "option5": "Printer",
+    "solution": "Trackball"
+  },
+  {
+    "question": "The cursor in graphics represents:",
+    "option1": "Current graphical position",
+    "option2": "File pointer",
+    "option3": "Memory address",
+    "option4": "Network socket",
+    "option5": "CPU register",
+    "solution": "Current graphical position"
+  },
+  {
+    "question": "Which technique helps in selecting objects by highlighting them?",
+    "option1": "Picking",
+    "option2": "Shading",
+    "option3": "Clipping",
+    "option4": "Shearing",
+    "option5": "Scaling",
+    "solution": "Picking"
+  },
+  {
+    "question": "Which device is used for precise 2D and 3D coordinate recording?",
+    "option1": "Digitizing tablet",
+    "option2": "Mouse",
+    "option3": "Joystick",
+    "option4": "Trackball",
+    "option5": "Light pen",
+    "solution": "Digitizing tablet"
+  },
+  {
+    "question": "A joystick is mainly used in:",
+    "option1": "Interactive gaming",
+    "option2": "Document editing",
+    "option3": "Raster scanning",
+    "option4": "Audio processing",
+    "option5": "Frame buffering",
+    "solution": "Interactive gaming"
+  },
+  {
+    "question": "Windowing is closely related to:",
+    "option1": "Clipping",
+    "option2": "Shading",
+    "option3": "Rasterization",
+    "option4": "Modeling",
+    "option5": "Lighting",
+    "solution": "Clipping"
+  },
+  {
+    "question": "Which cursor-based technique helps in drawing boxes interactively?",
+    "option1": "Rubber-band method",
+    "option2": "Zooming",
+    "option3": "Panning",
+    "option4": "Windowing",
+    "option5": "Scissoring",
+    "solution": "Rubber-band method"
+  },
+  {
+    "question": "Panning is similar to:",
+    "option1": "Moving a camera over a scene",
+    "option2": "Changing frame color",
+    "option3": "Editing text",
+    "option4": "Resizing a window",
+    "option5": "Rotating objects",
+    "solution": "Moving a camera over a scene"
+  },
+  {
+    "question": "Interactive graphics allow the user to:",
+    "option1": "Modify the display in real time",
+    "option2": "Only watch static images",
+    "option3": "Compile programs",
+    "option4": "Edit audio",
+    "option5": "Perform backups",
+    "solution": "Modify the display in real time"
+  },
+  {
+    "question": "Which technique temporarily displays graphics while dragging?",
+    "option1": "Elastic (rubber band) technique",
+    "option2": "Zoom technique",
+    "option3": "Pixel replication",
+    "option4": "Color dithering",
+    "option5": "Shading technique",
+    "solution": "Elastic (rubber band) technique"
+  },
+  {
+    "question": "Mouse double-click is detected using:",
+    "option1": "Time-based event logic",
+    "option2": "Intensity detection",
+    "option3": "Clipping region",
+    "option4": "Coordinate normalization",
+    "option5": "Transformation matrix",
+    "solution": "Time-based event logic"
+  },
+  {
+    "question": "Crosshair cursor is commonly used for:",
+    "option1": "Pointing and precision drawing",
+    "option2": "Running animations",
+    "option3": "Color blending",
+    "option4": "Depth computation",
+    "option5": "Shading surfaces",
+    "solution": "Pointing and precision drawing"
+  },
+  {
+    "question": "Which technique is implemented when only part of the display needs to be shown?",
+    "option1": "Windowing",
+    "option2": "Clipping",
+    "option3": "Zooming",
+    "option4": "Shifting",
+    "option5": "Rasterizing",
+    "solution": "Windowing"
+  },
+  {
+    "question": "Scissoring is also known as:",
+    "option1": "Masking",
+    "option2": "Flood fill",
+    "option3": "Projection",
+    "option4": "Raster fill",
+    "option5": "Illumination",
+    "solution": "Masking"
+  },
+  {
+    "question": "In interactive graphics, user input is mainly gathered through:",
+    "option1": "Pointing devices",
+    "option2": "Printers",
+    "option3": "Hard disks",
+    "option4": "Network cables",
+    "option5": "Speakers",
+    "solution": "Pointing devices"
+  },
+  {
+    "question": "Which is an example of interactive positioning technique?",
+    "option1": "Dragging objects with the mouse",
+    "option2": "Automatic shading",
+    "option3": "Raster generation",
+    "option4": "Model transformation",
+    "option5": "Data compression",
+    "solution": "Dragging objects with the mouse"
+  },
+  {
+    "question": "Mouse programming in graphics deals with:",
+    "option1": "Detecting clicks and movement",
+    "option2": "Executing SQL queries",
+    "option3": "Adjusting voltage",
+    "option4": "Setting resolutions",
+    "option5": "Handling lighting models",
+    "solution": "Detecting clicks and movement"
+  }
+]

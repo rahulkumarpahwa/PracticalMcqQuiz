@@ -1,0 +1,272 @@
+[
+  {
+    "question": "Which device is used to plot individual points and lines directly on paper?",
+    "option1": "Vector plotter",
+    "option2": "Raster display",
+    "option3": "LCD panel",
+    "option4": "Plasma screen",
+    "option5": "LED matrix",
+    "solution": "Vector plotter"
+  },
+  {
+    "question": "Raster displays operate on which basic element?",
+    "option1": "Vertices",
+    "option2": "Pixels",
+    "option3": "Edges",
+    "option4": "Vectors",
+    "option5": "Luminance beams",
+    "solution": "Pixels"
+  },
+  {
+    "question": "Which system uses electron beams to refresh the screen continuously?",
+    "option1": "Raster scan",
+    "option2": "Vector refresh",
+    "option3": "Static LCD",
+    "option4": "Digital frame buffer",
+    "option5": "Plasma panel",
+    "solution": "Raster scan"
+  },
+  {
+    "question": "Vector refresh displays are also known as:",
+    "option1": "Random scan displays",
+    "option2": "Raster scan displays",
+    "option3": "Plasma displays",
+    "option4": "LCD displays",
+    "option5": "Frame buffer displays",
+    "solution": "Random scan displays"
+  },
+  {
+    "question": "Which memory component stores pixel intensity values?",
+    "option1": "Video RAM",
+    "option2": "Accumulator",
+    "option3": "Hard Disk",
+    "option4": "Shadow Buffer",
+    "option5": "Light Sensor",
+    "solution": "Video RAM"
+  },
+  {
+    "question": "Plasma panels work on the principle of:",
+    "option1": "Ionized gas discharge",
+    "option2": "Cathode ray scanning",
+    "option3": "Liquid crystal twisting",
+    "option4": "LED reflection",
+    "option5": "Fiber optic refraction",
+    "solution": "Ionized gas discharge"
+  },
+  {
+    "question": "Continuous-refresh vector displays require which component?",
+    "option1": "Refresh buffer",
+    "option2": "Static RAM",
+    "option3": "Color palette",
+    "option4": "Pen plotter",
+    "option5": "External UPS",
+    "solution": "Refresh buffer"
+  },
+  {
+    "question": "Which type of CRT display uses three phosphor dots per pixel?",
+    "option1": "Penetration CRT",
+    "option2": "Shadow mask CRT",
+    "option3": "Plasma CRT",
+    "option4": "Monochrome CRT",
+    "option5": "OLED CRT",
+    "solution": "Shadow mask CRT"
+  },
+  {
+    "question": "In penetration CRTs, the number of displayable colors is limited because:",
+    "option1": "Only two-layer phosphors are used",
+    "option2": "Electron gun is weak",
+    "option3": "Beam cannot focus correctly",
+    "option4": "Resolution is lower",
+    "option5": "Frame buffer is small",
+    "solution": "Only two-layer phosphors are used"
+  },
+  {
+    "question": "Hard-copy devices include:",
+    "option1": "Inkjet printers",
+    "option2": "LCD monitors",
+    "option3": "CRT monitors",
+    "option4": "Plasma displays",
+    "option5": "LED panels",
+    "solution": "Inkjet printers"
+  },
+  {
+    "question": "Which system draws images by directly controlling the electron beam path?",
+    "option1": "Vector display",
+    "option2": "Raster display",
+    "option3": "Plasma panel",
+    "option4": "LCD display",
+    "option5": "LED display",
+    "solution": "Vector display"
+  },
+  {
+    "question": "A digital frame buffer stores:",
+    "option1": "Numeric color values for all pixels",
+    "option2": "Vector coordinates",
+    "option3": "ASCII character codes",
+    "option4": "Mesh geometry",
+    "option5": "Video compression data",
+    "solution": "Numeric color values for all pixels"
+  },
+  {
+    "question": "Which component interprets commands and generates low-level display instructions?",
+    "option1": "Display processor",
+    "option2": "Character generator",
+    "option3": "GPU cooling system",
+    "option4": "Screen buffer",
+    "option5": "Monitor circuit",
+    "solution": "Display processor"
+  },
+  {
+    "question": "Character generators store:",
+    "option1": "Bitmap patterns for alphanumeric symbols",
+    "option2": "3D models",
+    "option3": "Audio waveforms",
+    "option4": "Texture coordinates",
+    "option5": "Pixel shaders",
+    "solution": "Bitmap patterns for alphanumeric symbols"
+  },
+  {
+    "question": "Vector plotters use:",
+    "option1": "Continuous pen movement",
+    "option2": "Pixel illumination",
+    "option3": "Gas discharge",
+    "option4": "Color masks",
+    "option5": "Polygon shading",
+    "solution": "Continuous pen movement"
+  },
+  {
+    "question": "Which type of display consists of a grid of small cells containing gas?",
+    "option1": "Plasma panel",
+    "option2": "Raster CRT",
+    "option3": "LCD",
+    "option4": "Vector CRT",
+    "option5": "Hard copy printer",
+    "solution": "Plasma panel"
+  },
+  {
+    "question": "Which is an example of a storage display?",
+    "option1": "Direct-view storage tube",
+    "option2": "LCD monitor",
+    "option3": "LED TV",
+    "option4": "Plasma display",
+    "option5": "Inkjet printer",
+    "solution": "Direct-view storage tube"
+  },
+  {
+    "question": "Which display requires constant refreshing?",
+    "option1": "Raster CRT",
+    "option2": "Storage CRT",
+    "option3": "LCD",
+    "option4": "Plasma",
+    "option5": "Printer output",
+    "solution": "Raster CRT"
+  },
+  {
+    "question": "Penetration CRT uses:",
+    "option1": "Layers of phosphors",
+    "option2": "Shadow masks",
+    "option3": "Gas discharge",
+    "option4": "Pixel buffers",
+    "option5": "Color filters",
+    "solution": "Layers of phosphors"
+  },
+  {
+    "question": "Shadow mask CRT ensures color accuracy by:",
+    "option1": "Using a metal sheet with holes",
+    "option2": "Applying two phosphor layers",
+    "option3": "Using vector scanning",
+    "option4": "Increasing refresh rate",
+    "option5": "Color dithering",
+    "solution": "Using a metal sheet with holes"
+  },
+  {
+    "question": "Which device prints color images using heat-sensitive paper?",
+    "option1": "Thermal printer",
+    "option2": "Dot matrix printer",
+    "option3": "Inkjet printer",
+    "option4": "Laser printer",
+    "option5": "Drum plotter",
+    "solution": "Thermal printer"
+  },
+  {
+    "question": "Which plotter type uses pins to draw dots on paper?",
+    "option1": "Pixel plotter",
+    "option2": "Pen plotter",
+    "option3": "Electrostatic printer",
+    "option4": "Raster painter",
+    "option5": "CRT plotter",
+    "solution": "Pixel plotter"
+  },
+  {
+    "question": "Storage tube displays do not require:",
+    "option1": "Refresh circuits",
+    "option2": "Electron beams",
+    "option3": "Phosphor coating",
+    "option4": "Power supply",
+    "option5": "Display processor",
+    "solution": "Refresh circuits"
+  },
+  {
+    "question": "Which display has the best brightness and contrast?",
+    "option1": "Plasma display",
+    "option2": "Penetration CRT",
+    "option3": "Shadow mask CRT",
+    "option4": "LCD",
+    "option5": "Vector CRT",
+    "solution": "Plasma display"
+  },
+  {
+    "question": "Hard-copy color printers can include:",
+    "option1": "Laser printers",
+    "option2": "CRT devices",
+    "option3": "Storage tubes",
+    "option4": "Plasma panels",
+    "option5": "Vector displays",
+    "solution": "Laser printers"
+  },
+  {
+    "question": "A pixel is:",
+    "option1": "Picture element",
+    "option2": "Panel element",
+    "option3": "Plot element",
+    "option4": "Pipeline element",
+    "option5": "Primitive element",
+    "solution": "Picture element"
+  },
+  {
+    "question": "Which system uses an electron gun?",
+    "option1": "CRT",
+    "option2": "LCD",
+    "option3": "LED",
+    "option4": "Plasma",
+    "option5": "Inkjet printer",
+    "solution": "CRT"
+  },
+  {
+    "question": "Colour look-up tables help in:",
+    "option1": "Mapping pixel values to RGB intensities",
+    "option2": "Increasing resolution",
+    "option3": "Decreasing refresh rate",
+    "option4": "Reducing storage space",
+    "option5": "Fixing shadow mask errors",
+    "solution": "Mapping pixel values to RGB intensities"
+  },
+  {
+    "question": "The device that produces permanent visual output is:",
+    "option1": "Hard-copy printer",
+    "option2": "CRT",
+    "option3": "LCD",
+    "option4": "Vector display",
+    "option5": "Plasma panel",
+    "solution": "Hard-copy printer"
+  },
+  {
+    "question": "Which device uses electromechanical movement for plotting?",
+    "option1": "Pen plotter",
+    "option2": "Raster display",
+    "option3": "LCD",
+    "option4": "LED array",
+    "option5": "Plasma panel",
+    "solution": "Pen plotter"
+  }
+]

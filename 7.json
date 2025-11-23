@@ -1,0 +1,254 @@
+[
+  {
+    "question": "Which project best demonstrates 2D geometric transformations?",
+    "option1": "Animating a rotating, scaling triangle",
+    "option2": "Rendering a textured sphere",
+    "option3": "Implementing a sound visualizer",
+    "option4": "Building a web API",
+    "option5": "Designing a database schema",
+    "solution": "Animating a rotating, scaling triangle"
+  },
+  {
+    "question": "Which transformation is NOT part of basic 2D transforms?",
+    "option1": "Shearing",
+    "option2": "Translation",
+    "option3": "Rotation",
+    "option4": "Scaling",
+    "option5": "Extrusion",
+    "solution": "Extrusion"
+  },
+  {
+    "question": "A good beginner 3D project is:",
+    "option1": "Wireframe cube with interactive rotation",
+    "option2": "Real-time global illumination",
+    "option3": "Physics-based cloth simulation",
+    "option4": "Full PBR rendering engine",
+    "option5": "Distributed rendering cluster",
+    "solution": "Wireframe cube with interactive rotation"
+  },
+  {
+    "question": "Which technique helps a user reposition the view in an interactive project?",
+    "option1": "Panning",
+    "option2": "Z-buffering",
+    "option3": "Back-face removal",
+    "option4": "Scanline fill",
+    "option5": "Texture mapping",
+    "solution": "Panning"
+  },
+  {
+    "question": "Which Turbo C feature is useful to demonstrate animation?",
+    "option1": "Frame-by-frame redraw using getpixel/putpixel",
+    "option2": "Hardware shaders",
+    "option3": "Multithreaded rendering",
+    "option4": "GPU tessellation",
+    "option5": "Deferred shading",
+    "solution": "Frame-by-frame redraw using getpixel/putpixel"
+  },
+  {
+    "question": "A 2D transformation project should include tests for:",
+    "option1": "Translation, rotation, scaling correctness",
+    "option2": "Network latency",
+    "option3": "Database indexing",
+    "option4": "Audio latency",
+    "option5": "File I/O throughput",
+    "solution": "Translation, rotation, scaling correctness"
+  },
+  {
+    "question": "Which project demonstrates clipping and windowing interactively?",
+    "option1": "A zoomable drawing canvas with rectangular window selection",
+    "option2": "Audio equalizer",
+    "option3": "Text editor",
+    "option4": "Static image viewer",
+    "option5": "File compressor",
+    "solution": "A zoomable drawing canvas with rectangular window selection"
+  },
+  {
+    "question": "Which 3D project element demonstrates hidden-surface elimination?",
+    "option1": "Implementing z-buffer to render filled polygons",
+    "option2": "Using rubber-band lines for selection",
+    "option3": "Animating bubble sort",
+    "option4": "Printing graphics to disk",
+    "option5": "Using getpixel to sample color",
+    "solution": "Implementing z-buffer to render filled polygons"
+  },
+  {
+    "question": "For a GUI-based graphics project, which control is essential?",
+    "option1": "View manipulation controls (zoom/rotate/pan)",
+    "option2": "SQL query editor",
+    "option3": "Audio playback control",
+    "option4": "File system defragmenter",
+    "option5": "Mail client integration",
+    "solution": "View manipulation controls (zoom/rotate/pan)"
+  },
+  {
+    "question": "Which small project best teaches interactive pointing devices?",
+    "option1": "Drawing app that supports mouse drag and rubber-band line",
+    "option2": "Batch image converter",
+    "option3": "Static slideshow generator",
+    "option4": "Command-line calculator",
+    "option5": "Background file sync service",
+    "solution": "Drawing app that supports mouse drag and rubber-band line"
+  },
+  {
+    "question": "Which project is suitable to illustrate 2D composite transformations?",
+    "option1": "Applying translate → rotate → scale to a shape and showing order effect",
+    "option2": "Printing images to an inkjet",
+    "option3": "Implementing a file system",
+    "option4": "Sorting network packets",
+    "option5": "Building a REST API",
+    "solution": "Applying translate → rotate → scale to a shape and showing order effect"
+  },
+  {
+    "question": "A final-year project on 3D should include:",
+    "option1": "Modeling, viewing transform, projection, and visibility",
+    "option2": "Only text rendering",
+    "option3": "Purely database design",
+    "option4": "Audio signal processing",
+    "option5": "Email client features",
+    "solution": "Modeling, viewing transform, projection, and visibility"
+  },
+  {
+    "question": "Which learning outcome comes from implementing Turbo C graphics routines?",
+    "option1": "Understanding low-level raster operations",
+    "option2": "Mastering modern GPU pipelines",
+    "option3": "Creating distributed systems",
+    "option4": "Developing mobile apps",
+    "option5": "Designing relational schemas",
+    "solution": "Understanding low-level raster operations"
+  },
+  {
+    "question": "Which project demonstrates GUI event-driven programming with graphics?",
+    "option1": "Interactive drawing tool with buttons and menus",
+    "option2": "Static image slideshow without controls",
+    "option3": "Batch image resizer script",
+    "option4": "Headless image processor",
+    "option5": "Command-line file copier",
+    "solution": "Interactive drawing tool with buttons and menus"
+  },
+  {
+    "question": "Which project best exercises 3D projective transformations?",
+    "option1": "Perspective camera with adjustable focal length",
+    "option2": "2D pixel-art editor",
+    "option3": "Text-only console game",
+    "option4": "Simple encryption tool",
+    "option5": "Spreadsheet application",
+    "solution": "Perspective camera with adjustable focal length"
+  },
+  {
+    "question": "For teaching interactive techniques, which demo is useful?",
+    "option1": "Rubber-band rectangle selection and dragging objects",
+    "option2": "Offline batch rendering",
+    "option3": "Non-interactive slideshow",
+    "option4": "Static chart generator",
+    "option5": "File checksum utility",
+    "solution": "Rubber-band rectangle selection and dragging objects"
+  },
+  {
+    "question": "Which project demonstrates animation algorithms using Turbo C?",
+    "option1": "Animating sorting algorithm bars frame-by-frame",
+    "option2": "Implementing SQL joins",
+    "option3": "Creating an HTTP server",
+    "option4": "Building an email parser",
+    "option5": "Compiling a language",
+    "solution": "Animating sorting algorithm bars frame-by-frame"
+  },
+  {
+    "question": "Which project element teaches coordinate transformations clearly?",
+    "option1": "Displaying object before and after applying a transform matrix",
+    "option2": "Saving images to disk only",
+    "option3": "Measuring file sizes",
+    "option4": "Playing sound effects",
+    "option5": "Transmitting data over serial",
+    "solution": "Displaying object before and after applying a transform matrix"
+  },
+  {
+    "question": "Which small project illustrates back-face removal simply?",
+    "option1": "Rendering a cube and culling faces based on normals",
+    "option2": "Rendering only points",
+    "option3": "Painting gradients",
+    "option4": "Printing to thermal paper",
+    "option5": "Encoding video",
+    "solution": "Rendering a cube and culling faces based on normals"
+  },
+  {
+    "question": "Which GUI requirement is important for student projects?",
+    "option1": "Clear feedback for user actions and undo capability",
+    "option2": "Automatic OS updates",
+    "option3": "Real-time network synchronization",
+    "option4": "High-frequency trading hooks",
+    "option5": "Filesystem encryption",
+    "solution": "Clear feedback for user actions and undo capability"
+  },
+  {
+    "question": "Which project is ideal to teach viewport and window mapping?",
+    "option1": "Map viewer that converts world to device coordinates",
+    "option2": "Audio file organizer",
+    "option3": "Simple text formatter",
+    "option4": "Static wallpaper changer",
+    "option5": "Log file analyzer",
+    "solution": "Map viewer that converts world to device coordinates"
+  },
+  {
+    "question": "Which student project demonstrates interactive clipping?",
+    "option1": "Line drawing app that clips lines to a rectangular window",
+    "option2": "Static image exporter",
+    "option3": "Batch file renamer",
+    "option4": "Headless render farm",
+    "option5": "Simple calculator",
+    "solution": "Line drawing app that clips lines to a rectangular window"
+  },
+  {
+    "question": "Which 3D rendering topic is lightweight enough for a course project?",
+    "option1": "Implementing a simple scanline or z-buffer rasterizer",
+    "option2": "Path-traced global illumination",
+    "option3": "Physically accurate fluid dynamics",
+    "option4": "Large-scale volumetric rendering",
+    "option5": "Distributed real-time raytracing",
+    "solution": "Implementing a simple scanline or z-buffer rasterizer"
+  },
+  {
+    "question": "Which Turbo C demo helps students understand pixel addressing?",
+    "option1": "putpixel/getpixel manipulation and direct image copy",
+    "option2": "Using GL shaders",
+    "option3": "OpenCL kernel execution",
+    "option4": "Direct3D texture streaming",
+    "option5": "Vulkan command buffer recording",
+    "solution": "putpixel/getpixel manipulation and direct image copy"
+  },
+  {
+    "question": "A good final project combining topics could be:",
+    "option1": "Interactive 3D scene with model transforms, camera controls, and simple visibility",
+    "option2": "CLI text processing tool",
+    "option3": "Network packet sniffer",
+    "option4": "Database migration script",
+    "option5": "Spreadsheet macro",
+    "solution": "Interactive 3D scene with model transforms, camera controls, and simple visibility"
+  },
+  {
+    "question": "Which assessment criterion is most relevant for graphics projects?",
+    "option1": "Correctness of transformations and interactivity",
+    "option2": "Number of files in the repo",
+    "option3": "Use of third-party APIs only",
+    "option4": "Time spent coding",
+    "option5": "Font choices in documentation",
+    "solution": "Correctness of transformations and interactivity"
+  },
+  {
+    "question": "Which project helps teach combining 2D and 3D concepts?",
+    "option1": "2D GUI overlay (HUD) on a 3D scene",
+    "option2": "Pure text mode renderer",
+    "option3": "Database-backed website",
+    "option4": "Audio synthesizer",
+    "option5": "Compiler front-end",
+    "solution": "2D GUI overlay (HUD) on a 3D scene"
+  },
+  {
+    "question": "Which feature is essential for an educational graphics project using Turbo C?",
+    "option1": "Step-by-step visualization of algorithms",
+    "option2": "Multi-GPU scaling",
+    "option3": "Cloud deployment",
+    "option4": "Mobile app store publishing",
+    "option5": "Blockchain integration",
+    "solution": "Step-by-step visualization of algorithms"
+  }
+]
