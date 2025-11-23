@@ -8,4 +8,6 @@
   5. Turbo-C Graphic Language
   6. OpenGL
   7. Programming Projects
-# PracticalMcqQuiz
+
+https://practicalmcqquiz.netlify.app/
+http://quiz.rahulkumarpahwa.tech/

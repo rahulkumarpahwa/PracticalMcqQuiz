@@ -250,5 +250,185 @@
     "option4": "Mobile app store publishing",
     "option5": "Blockchain integration",
     "solution": "Step-by-step visualization of algorithms"
+  },
+  {
+    "question": "In a 2D transformation project, which issue arises when applying transformations in the wrong sequence?",
+    "option1": "Final object shape and position become incorrect due to non-commutativity",
+    "option2": "Screen refresh rate decreases automatically",
+    "option3": "Clipping is disabled by the system",
+    "option4": "Z-buffer becomes active in 2D mode",
+    "option5": "Mouse coordinates no longer map to device coordinates",
+    "solution": "Final object shape and position become incorrect due to non-commutativity"
+  },
+  {
+    "question": "When building a 3D transformation project, why must objects be transformed into camera (view) space before projection?",
+    "option1": "Ensures correctness of perspective projection relative to the viewer",
+    "option2": "Improves mouse picking accuracy",
+    "option3": "Reduces memory consumption",
+    "option4": "Forces all normals to face the camera",
+    "option5": "Removes back-facing polygons automatically",
+    "solution": "Ensures correctness of perspective projection relative to the viewer"
+  },
+  {
+    "question": "Which difficulty commonly appears when implementing 2D composite transformations manually?",
+    "option1": "Accumulated floating-point errors distort the final image",
+    "option2": "Turbo C disables matrix multiplication",
+    "option3": "Clipping must be done before each transformation",
+    "option4": "Coordinate space must be recalculated in polar form",
+    "option5": "Viewports require hardware switching",
+    "solution": "Accumulated floating-point errors distort the final image"
+  },
+  {
+    "question": "In interactive graphics projects, which challenge occurs when supporting dragging of multiple objects simultaneously?",
+    "option1": "Maintaining object-specific transformation states without interference",
+    "option2": "Z-buffer must be flushed each frame",
+    "option3": "Mouse interrupts fail during parallel events",
+    "option4": "Clipping boundaries move automatically",
+    "option5": "All objects must share the same viewport",
+    "solution": "Maintaining object-specific transformation states without interference"
+  },
+  {
+    "question": "When implementing zoom functionality for 2D projects, what is the major mathematical difficulty?",
+    "option1": "Ensuring zoom is performed around the correct anchor point",
+    "option2": "Resetting device coordinates on every frame",
+    "option3": "Maintaining constant pixel intensity",
+    "option4": "Avoiding texture aliasing",
+    "option5": "Computing polygon fill rates",
+    "solution": "Ensuring zoom is performed around the correct anchor point"
+  },
+  {
+    "question": "In a 3D transformation demo, why is it necessary to normalize normals after scaling?",
+    "option1": "Non-uniform scaling distorts surface normals affecting lighting calculations",
+    "option2": "It ensures textures are not blurred",
+    "option3": "Prevents clipping errors",
+    "option4": "Avoids z-fighting",
+    "option5": "Improves mouse selection accuracy",
+    "solution": "Non-uniform scaling distorts surface normals affecting lighting calculations"
+  },
+  {
+    "question": "Why does using putpixel() inside animation loops degrade performance in Turbo C graphics?",
+    "option1": "Each call computes memory offsets via the slow BGI layer",
+    "option2": "Hardware acceleration conflicts with the command",
+    "option3": "It forces the CPU to perform perspective correction",
+    "option4": "The frame buffer is cleared each time",
+    "option5": "It triggers a mouse interrupt handler",
+    "solution": "Each call computes memory offsets via the slow BGI layer"
+  },
+  {
+    "question": "Which core issue arises in GUI-based graphics applications when redrawing complex scenes?",
+    "option1": "Redundant redrawing causes flicker without double buffering",
+    "option2": "Textures become corrupted after each redraw",
+    "option3": "Vectors fail to convert to raster",
+    "option4": "Color depth automatically reduces",
+    "option5": "Device drivers get reloaded every frame",
+    "solution": "Redundant redrawing causes flicker without double buffering"
+  },
+  {
+    "question": "In a 3D project, implementing back-face culling incorrectly may cause:",
+    "option1": "Visible polygons to disappear based on incorrect normal orientation",
+    "option2": "Objects to lose their color information",
+    "option3": "Perspective projection to convert into orthographic projection",
+    "option4": "Screen resolution to change",
+    "option5": "The viewport to collapse to zero",
+    "solution": "Visible polygons to disappear based on incorrect normal orientation"
+  },
+  {
+    "question": "Which practical issue occurs when performing object rotation using Euler angles?",
+    "option1": "Gimbal lock leading to loss of a degree of freedom",
+    "option2": "Viewport clipping becomes inaccurate",
+    "option3": "Object always rotates about the world origin",
+    "option4": "Normals invert randomly",
+    "option5": "Hardware interrupts are disabled",
+    "solution": "Gimbal lock leading to loss of a degree of freedom"
+  },
+  {
+    "question": "When developing interactive tools (zoom, pan, rotate), a major architectural challenge is:",
+    "option1": "Maintaining separate world-to-screen mapping states",
+    "option2": "Forcing the GPU to recalculate raster lines",
+    "option3": "Memory fragmentation across VRAM",
+    "option4": "Applying homogeneous coordinates to hardware buffers",
+    "option5": "Avoiding recursion in the event loop",
+    "solution": "Maintaining separate world-to-screen mapping states"
+  },
+  {
+    "question": "Why is matrix multiplication chaining required in any transformation-focused educational project?",
+    "option1": "It allows combining multiple affine transformations efficiently",
+    "option2": "It ensures that the z-buffer initializes properly",
+    "option3": "It maintains integer precision",
+    "option4": "It automatically adjusts aspect ratio",
+    "option5": "It enforces viewport scaling",
+    "solution": "It allows combining multiple affine transformations efficiently"
+  },
+  {
+    "question": "In a 3D programming project, what issue can arise if the near-plane value is extremely small?",
+    "option1": "Z-buffer precision collapses causing z-fighting artifacts",
+    "option2": "All objects are clipped",
+    "option3": "Ambient lighting disappears",
+    "option4": "Vertices collapse to origin",
+    "option5": "Texture coordinates invert",
+    "solution": "Z-buffer precision collapses causing z-fighting artifacts"
+  },
+  {
+    "question": "Why does animation of algorithms (sorting, searching) flicker heavily in Turbo C?",
+    "option1": "Single-buffer rendering makes intermediate frames visible",
+    "option2": "The BGI layer overwrites memory incorrectly",
+    "option3": "Colors cannot be reused",
+    "option4": "getpixel() returns cached values",
+    "option5": "Turbo C uses 24-bit color internally",
+    "solution": "Single-buffer rendering makes intermediate frames visible"
+  },
+  {
+    "question": "In a 2D project, what is the critical problem when scaling about an arbitrary pivot?",
+    "option1": "Pivot must be translated to origin before scaling and restored afterward",
+    "option2": "Scaling matrix must be inverted every frame",
+    "option3": "Clipping boundaries disappear",
+    "option4": "Viewport must be reset",
+    "option5": "XOR drawing must be used",
+    "solution": "Pivot must be translated to origin before scaling and restored afterward"
+  },
+  {
+    "question": "Which difficulty occurs when building an interactive polyline editor?",
+    "option1": "Maintaining vertex adjacency during drag updates",
+    "option2": "Z-buffer must be disabled",
+    "option3": "2D lines must be converted to 3D automatically",
+    "option4": "The clipping window is removed",
+    "option5": "The GUI cannot process mouse interrupts",
+    "solution": "Maintaining vertex adjacency during drag updates"
+  },
+  {
+    "question": "Why is object-level undo/redo difficult in interactive graphic editors?",
+    "option1": "Each transformation must be stored as a separate reversible step",
+    "option2": "The screen buffer cannot be rewound",
+    "option3": "Stack overflow occurs during redraw",
+    "option4": "Turbo C blocks memory stacks",
+    "option5": "Mouse events cannot be logged",
+    "solution": "Each transformation must be stored as a separate reversible step"
+  },
+  {
+    "question": "Which advanced challenge appears when combining 2D and 3D transformations in one project?",
+    "option1": "Consistent handling of mixed coordinate spaces",
+    "option2": "Textures must be disabled",
+    "option3": "Projection matrix becomes unavailable",
+    "option4": "Clipping cannot be applied",
+    "option5": "Viewport must remain circular",
+    "solution": "Consistent handling of mixed coordinate spaces"
+  },
+  {
+    "question": "In a GUI application with drawing capabilities, which performance problem arises when resizing windows?",
+    "option1": "All graphics must be redrawn due to viewport change",
+    "option2": "Z-buffer must be recalculated",
+    "option3": "Mouse events stop firing",
+    "option4": "Textures distort automatically",
+    "option5": "Transformation matrices reset",
+    "solution": "All graphics must be redrawn due to viewport change"
+  },
+  {
+    "question": "Which key architectural decision impacts the scalability of a large graphics project?",
+    "option1": "Separating rendering logic from input/event handling",
+    "option2": "Always using immediate mode rendering",
+    "option3": "Disabling clipping globally",
+    "option4": "Using integer-only math",
+    "option5": "Avoiding transformation matrices entirely",
+    "solution": "Separating rendering logic from input/event handling"
   }
 ]

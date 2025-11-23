@@ -268,5 +268,185 @@
     "option4": "Textures to bitmaps",
     "option5": "Normals to tangents",
     "solution": "Homogeneous coordinates to 3D"
+  },
+  {
+    "question": "In 3D graphics, which condition indicates that a polygon is back-facing relative to the viewer?",
+    "option1": "The dot product of the surface normal and view vector is less than 0",
+    "option2": "The polygon has more than four vertices",
+    "option3": "The polygon lies completely in world coordinate space",
+    "option4": "The z-coordinate of the polygon is positive",
+    "option5": "The polygon uses orthographic projection",
+    "solution": "The dot product of the surface normal and view vector is less than 0"
+  },
+  {
+    "question": "Why does perspective projection require homogeneous division?",
+    "option1": "To convert non-linear perspective mapping into screen-space coordinates",
+    "option2": "To ensure uniform scaling across axes",
+    "option3": "To remove shading artifacts",
+    "option4": "To normalize texture coordinates",
+    "option5": "To handle infinite z-values",
+    "solution": "To convert non-linear perspective mapping into screen-space coordinates"
+  },
+  {
+    "question": "Which problem arises when rotating objects using Euler angles?",
+    "option1": "Gimbal lock",
+    "option2": "High memory consumption",
+    "option3": "Loss of polygon connectivity",
+    "option4": "Undefined z-buffer behavior",
+    "option5": "Aliasing of normals",
+    "solution": "Gimbal lock"
+  },
+  {
+    "question": "Which 3D technique eliminates hidden surfaces by comparing depth values per pixel?",
+    "option1": "Z-buffer algorithm",
+    "option2": "Back-face culling only",
+    "option3": "Scanline fill",
+    "option4": "Phong shading",
+    "option5": "Bresenham rasterization",
+    "solution": "Z-buffer algorithm"
+  },
+  {
+    "question": "A major disadvantage of the Z-buffer algorithm is:",
+    "option1": "Requires large memory proportional to screen resolution",
+    "option2": "Cannot handle triangles",
+    "option3": "Only works with orthographic projection",
+    "option4": "Does not support filled polygons",
+    "option5": "Fails with floating-point coordinates",
+    "solution": "Requires large memory proportional to screen resolution"
+  },
+  {
+    "question": "Which operation is necessary before applying perspective division?",
+    "option1": "Transforming vertices into clip space",
+    "option2": "Applying object-space shading",
+    "option3": "Executing z-buffer comparison",
+    "option4": "Normalizing color intensities",
+    "option5": "Computing bounding volumes",
+    "solution": "Transforming vertices into clip space"
+  },
+  {
+    "question": "Which projection preserves parallel lines but distorts depth?",
+    "option1": "Oblique projection",
+    "option2": "Perspective projection",
+    "option3": "Curvilinear projection",
+    "option4": "Spherical projection",
+    "option5": "Fisheye projection",
+    "solution": "Oblique projection"
+  },
+  {
+    "question": "Which matrix in 3D transformations handles rotation around an arbitrary axis?",
+    "option1": "Rodrigues’ rotation matrix",
+    "option2": "Shearing matrix",
+    "option3": "Projection matrix",
+    "option4": "Scaling matrix",
+    "option5": "Reflection matrix",
+    "solution": "Rodrigues’ rotation matrix"
+  },
+  {
+    "question": "Why is homogeneous coordinate W important in 3D transformations?",
+    "option1": "It allows translation to be expressed in matrix multiplication",
+    "option2": "It stores brightness values",
+    "option3": "It produces texture coordinates",
+    "option4": "It removes hidden lines",
+    "option5": "It directly maps to pixel grid",
+    "solution": "It allows translation to be expressed in matrix multiplication"
+  },
+  {
+    "question": "Which mathematical issue can occur when computing normals for nearly co-linear vertices?",
+    "option1": "Numerical instability",
+    "option2": "Texture aliasing",
+    "option3": "Mode switching",
+    "option4": "Perspective jitter",
+    "option5": "Color overflow",
+    "solution": "Numerical instability"
+  },
+  {
+    "question": "In 3D clipping, clipping in homogeneous clip space is advantageous because:",
+    "option1": "It avoids division by W until after clipping",
+    "option2": "It eliminates the need for back-face removal",
+    "option3": "It guarantees integer coordinates",
+    "option4": "It avoids lighting computations",
+    "option5": "It provides higher screen resolution",
+    "solution": "It avoids division by W until after clipping"
+  },
+  {
+    "question": "Which condition indicates a degenerate triangle in 3D rendering?",
+    "option1": "Area computed from vertices equals zero",
+    "option2": "All edges have equal length",
+    "option3": "Z-values are identical",
+    "option4": "Normals point toward the camera",
+    "option5": "Texture coordinates are unavailable",
+    "solution": "Area computed from vertices equals zero"
+  },
+  {
+    "question": "The viewing transformation converts:",
+    "option1": "World coordinates to eye coordinates",
+    "option2": "Eye coordinates to world coordinates",
+    "option3": "Device coordinates to world coordinates",
+    "option4": "Screen pixels to clip space",
+    "option5": "Raster values to projection matrix",
+    "solution": "World coordinates to eye coordinates"
+  },
+  {
+    "question": "Which hidden line removal method requires polygons to be sorted by depth?",
+    "option1": "Painter’s algorithm",
+    "option2": "Z-buffering",
+    "option3": "Back-face culling",
+    "option4": "Scanline algorithm",
+    "option5": "Depth peeling",
+    "solution": "Painter’s algorithm"
+  },
+  {
+    "question": "Perspective foreshortening causes which effect in 3D scenes?",
+    "option1": "Objects farther away appear smaller",
+    "option2": "Parallel lines remain parallel",
+    "option3": "Objects retain constant pixel size",
+    "option4": "Viewing frustum becomes a cube",
+    "option5": "Near objects appear less detailed",
+    "solution": "Objects farther away appear smaller"
+  },
+  {
+    "question": "Which data structure is MOST suited for accelerating hidden-surface calculations in complex scenes?",
+    "option1": "Bounding volume hierarchy (BVH)",
+    "option2": "Linked lists",
+    "option3": "Hash table",
+    "option4": "Stack buffer",
+    "option5": "Queue-based clipping",
+    "solution": "Bounding volume hierarchy (BVH)"
+  },
+  {
+    "question": "Which issue arises when applying successive 3D rotations using rotation matrices?",
+    "option1": "Accumulated floating-point drift",
+    "option2": "Loss of z-depth information",
+    "option3": "Removal of object visibility",
+    "option4": "Decreased frame buffer memory",
+    "option5": "Increased triangle count",
+    "solution": "Accumulated floating-point drift"
+  },
+  {
+    "question": "In perspective projection, the view frustum is defined by:",
+    "option1": "Near plane, far plane, left, right, top, bottom boundaries",
+    "option2": "Only near plane and far plane",
+    "option3": "A cube centered at origin",
+    "option4": "A cylinder aligned with z-axis",
+    "option5": "Screen resolution",
+    "solution": "Near plane, far plane, left, right, top, bottom boundaries"
+  },
+  {
+    "question": "Why is back-face culling insufficient for full hidden-surface elimination?",
+    "option1": "It does not remove surfaces hidden by other front-facing surfaces",
+    "option2": "It fails for orthographic projection",
+    "option3": "It requires shading before culling",
+    "option4": "It only works on convex objects",
+    "option5": "It depends on texture mapping",
+    "solution": "It does not remove surfaces hidden by other front-facing surfaces"
+  },
+  {
+    "question": "Which numerical problem can occur during perspective division?",
+    "option1": "Division by near-zero W producing extreme distortion",
+    "option2": "Loss of color accuracy",
+    "option3": "Ambiguous normal orientation",
+    "option4": "Incorrect back-face direction",
+    "option5": "Failure to clip triangles",
+    "solution": "Division by near-zero W producing extreme distortion"
   }
 ]

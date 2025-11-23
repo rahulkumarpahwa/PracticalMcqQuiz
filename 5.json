@@ -268,5 +268,185 @@
     "option4": "3D coordinates",
     "option5": "Normalized coordinates",
     "solution": "(x, y) integer coordinates"
+  },
+  {
+    "question": "In Turbo C graphics, what is the main reason XOR drawing is used for animations such as dragging and rubber-band lines?",
+    "option1": "It allows drawing and erasing without redrawing the background",
+    "option2": "It produces smoother anti-aliased edges",
+    "option3": "It guarantees constant frame rate",
+    "option4": "It increases VRAM bandwidth",
+    "option5": "It avoids integer coordinate rounding",
+    "solution": "It allows drawing and erasing without redrawing the background"
+  },
+  {
+    "question": "The BGI driver used by Turbo C graphics is limited because:",
+    "option1": "It provides only software rendering with no hardware acceleration",
+    "option2": "It cannot draw polygons",
+    "option3": "It does not support clipping",
+    "option4": "It restricts all colors to 256-bit",
+    "option5": "It cannot calculate pixel addresses",
+    "solution": "It provides only software rendering with no hardware acceleration"
+  },
+  {
+    "question": "In Turbo C graphics, the function putpixel(x, y, c) is slow mainly because:",
+    "option1": "It computes pixel memory addresses at runtime via BGI layer",
+    "option2": "It uses floating-point operations internally",
+    "option3": "It updates the entire screen every call",
+    "option4": "It runs in hardware interrupt mode",
+    "option5": "It uses DMA transfer per pixel",
+    "solution": "It computes pixel memory addresses at runtime via BGI layer"
+  },
+  {
+    "question": "Which problem arises when performing repeated animations using putpixel without clearing frames?",
+    "option1": "Ghost images appear due to frame overwrite not being erased",
+    "option2": "Z-buffer becomes corrupted",
+    "option3": "Textures become aliased",
+    "option4": "Memory leak occurs in the BGI driver",
+    "option5": "Objects rotate incorrectly",
+    "solution": "Ghost images appear due to frame overwrite not being erased"
+  },
+  {
+    "question": "Why is double-buffering difficult to implement directly in Turbo C graphics?",
+    "option1": "BGI does not expose raw pointers to video memory",
+    "option2": "Turbo C does not support arrays",
+    "option3": "Line drawing functions are unavailable",
+    "option4": "Interrupts cannot be disabled",
+    "option5": "Mouse handler conflicts with page flipping",
+    "solution": "BGI does not expose raw pointers to video memory"
+  },
+  {
+    "question": "A major limitation of setcolor() in Turbo C graphics is:",
+    "option1": "It supports only a fixed palette of 16 colors in standard modes",
+    "option2": "It resets pixel values after each frame",
+    "option3": "It disables clipping",
+    "option4": "It cannot be used inside loops",
+    "option5": "It accepts only hexadecimal values",
+    "solution": "It supports only a fixed palette of 16 colors in standard modes"
+  },
+  {
+    "question": "The function line(x1, y1, x2, y2) internally uses:",
+    "option1": "A modified Bresenham line algorithm through BGI layer",
+    "option2": "DDA algorithm for all slopes",
+    "option3": "Hardware rasterization",
+    "option4": "Z-buffer based drawing",
+    "option5": "Floating-point midpoint algorithm",
+    "solution": "A modified Bresenham line algorithm through BGI layer"
+  },
+  {
+    "question": "Which issue occurs when drawing shapes partially outside the screen boundary in Turbo C?",
+    "option1": "Clipping is not applied automatically and may cause memory writes outside safe range",
+    "option2": "Turbo C auto-resizes the window",
+    "option3": "Shapes disappear entirely",
+    "option4": "The color palette resets",
+    "option5": "The graphics mode exits automatically",
+    "solution": "Clipping is not applied automatically and may cause memory writes outside safe range"
+  },
+  {
+    "question": "What is the typical reason for flickering in Turbo C animations?",
+    "option1": "Redrawing frames directly on the visible buffer without double-buffering",
+    "option2": "Mouse interrupts overriding CPU cycles",
+    "option3": "Incorrect timer frequency",
+    "option4": "Invalid color mode selection",
+    "option5": "Shadow buffer misalignment",
+    "solution": "Redrawing frames directly on the visible buffer without double-buffering"
+  },
+  {
+    "question": "Why is circle(x, y, r) slower compared to line() in Turbo C?",
+    "option1": "It computes symmetric points repeatedly using BGI software loops",
+    "option2": "It relies on recursive subdivision",
+    "option3": "It requires texture sampling",
+    "option4": "It performs z-depth calculation",
+    "option5": "It clears the frame buffer before drawing",
+    "solution": "It computes symmetric points repeatedly using BGI software loops"
+  },
+  {
+    "question": "Which problem arises when saving images using writeimagefile()?",
+    "option1": "It saves only a rectangular region and not the full screen unless specified",
+    "option2": "It saves only in PNG format",
+    "option3": "It removes all pixel colors",
+    "option4": "It automatically compresses using JPEG",
+    "option5": "It overwrites the frame buffer",
+    "solution": "It saves only a rectangular region and not the full screen unless specified"
+  },
+  {
+    "question": "In Turbo C, the function getimage() captures:",
+    "option1": "A raw block of pixel memory without format conversion",
+    "option2": "A BMP-formatted bitmap",
+    "option3": "An indexed color table",
+    "option4": "A compressed JPEG stream",
+    "option5": "A polygon vertex list",
+    "solution": "A raw block of pixel memory without format conversion"
+  },
+  {
+    "question": "What is a major downside of using floodfill() in Turbo C?",
+    "option1": "It is slow and can freeze for large regions due to stack-based recursion",
+    "option2": "It cannot fill polygons",
+    "option3": "It supports only grayscale colors",
+    "option4": "It corrupts the VRAM",
+    "option5": "It requires hardware acceleration",
+    "solution": "It is slow and can freeze for large regions due to stack-based recursion"
+  },
+  {
+    "question": "Why is text rendering using outtextxy() often misaligned?",
+    "option1": "The function uses a fixed-width bitmap font without kerning",
+    "option2": "The coordinates must be multiples of 8",
+    "option3": "It uses trigonometric scaling",
+    "option4": "It rounds coordinates to nearest even number",
+    "option5": "It depends on page flipping mode",
+    "solution": "The function uses a fixed-width bitmap font without kerning"
+  },
+  {
+    "question": "When performing transformations manually in Turbo C, which challenge occurs?",
+    "option1": "Lack of matrix multiplication support in the API",
+    "option2": "BGI automatically modifies the coordinate system",
+    "option3": "Transforms cannot be performed on polygons",
+    "option4": "setviewport() disables transformations",
+    "option5": "Coordinates must be floating-point only",
+    "solution": "Lack of matrix multiplication support in the API"
+  },
+  {
+    "question": "Which limitation of Turbo C makes smooth animations difficult?",
+    "option1": "Restricted 16-color palette reduces motion clarity",
+    "option2": "No vsync synchronization",
+    "option3": "Mouse cannot be used",
+    "option4": "No support for line clipping",
+    "option5": "Only integer coordinates are allowed",
+    "solution": "Restricted 16-color palette reduces motion clarity"
+  },
+  {
+    "question": "Why are BGI functions slower than direct VGA memory programming?",
+    "option1": "BGI introduces an abstraction layer performing extra checks and function calls",
+    "option2": "BGI uses hardware interrupts exclusively",
+    "option3": "BGI stores frames in system RAM only",
+    "option4": "BGI always uses floating-point calculations",
+    "option5": "BGI doubles the pixel resolution internally",
+    "solution": "BGI introduces an abstraction layer performing extra checks and function calls"
+  },
+  {
+    "question": "In animations such as Towers of Hanoi in Turbo C, the main bottleneck is:",
+    "option1": "Frequent redrawing of static background elements",
+    "option2": "Incorrect recursion depth",
+    "option3": "Failure of frame swapping",
+    "option4": "Color palette underflow",
+    "option5": "Recursive stack tearing",
+    "solution": "Frequent redrawing of static background elements"
+  },
+  {
+    "question": "Why do transformations implemented in Turbo C graphics often appear inaccurate?",
+    "option1": "All coordinates are integer-rounded, causing geometric distortion",
+    "option2": "Turbo C converts all values to grayscale",
+    "option3": "The viewport shifts automatically",
+    "option4": "Frame buffer interpolation fails",
+    "option5": "The graphics mode loses precision after each frame",
+    "solution": "All coordinates are integer-rounded, causing geometric distortion"
+  },
+  {
+    "question": "Which internal issue makes Turbo C animations tear during motion?",
+    "option1": "Lack of vertical synchronization (vsync)",
+    "option2": "Incorrect segmentation registers",
+    "option3": "Texture cache misses",
+    "option4": "Faulty blitting hardware",
+    "option5": "Missing polygon rasterizer",
+    "solution": "Lack of vertical synchronization (vsync)"
   }
 ]

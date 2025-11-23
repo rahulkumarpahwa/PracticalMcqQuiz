@@ -57,7 +57,7 @@
     "question": "Windowing is defined as:",
     "option1": "Selecting a sub-region of the display",
     "option2": "Clipping polygons",
-    "option2": "Applying textures",
+    "option3": "Applying textures",
     "option4": "Removing hidden surfaces",
     "option5": "Rasterizing circles",
     "solution": "Selecting a sub-region of the display"
@@ -259,5 +259,186 @@
     "option4": "Setting resolutions",
     "option5": "Handling lighting models",
     "solution": "Detecting clicks and movement"
+  },
+  {
+    "question": "In an interactive rubber-band technique, which fundamental property must be preserved for the feedback line during drag operations?",
+    "option1": "Dynamic endpoint recomputation using XOR draw mode",
+    "option2": "Constant frame buffer refresh",
+    "option3": "Precomputed camera matrices",
+    "option4": "Bilinear interpolation of pixel colors",
+    "option5": "View-space culling",
+    "solution": "Dynamic endpoint recomputation using XOR draw mode"
+  },
+  {
+    "question": "Which limitation causes pointer devices like the mouse to require acceleration algorithms?",
+    "option1": "Small desktop-to-display mapping range",
+    "option2": "Insufficient sampling rate of the screen",
+    "option3": "High pixel density of LCD screens",
+    "option4": "Clipping in device coordinates",
+    "option5": "Rasterization speed mismatch",
+    "solution": "Small desktop-to-display mapping range"
+  },
+  {
+    "question": "In a digitizer tablet, how is absolute positioning achieved?",
+    "option1": "Mapping sensor grid coordinates directly to screen coordinates",
+    "option2": "Relative displacement accumulation like a mouse",
+    "option3": "Laser-based triangulation",
+    "option4": "Tracking CRT electron beams",
+    "option5": "XOR-based screen positioning",
+    "solution": "Mapping sensor grid coordinates directly to screen coordinates"
+  },
+  {
+    "question": "The main difficulty in implementing interactive zoom is:",
+    "option1": "Maintaining consistent mapping between world window and viewport",
+    "option2": "Refreshing the frame buffer faster",
+    "option3": "Avoiding changes in clipping boundaries",
+    "option4": "Maintaining mouse interrupt handlers",
+    "option5": "Uniform texture interpolation",
+    "solution": "Maintaining consistent mapping between world window and viewport"
+  },
+  {
+    "question": "Which interaction issue arises when using a light pen on raster displays?",
+    "option1": "Detection depends on beam scan timing synchronization",
+    "option2": "Beam cannot register vertical hits",
+    "option3": "Pen cannot detect color changes",
+    "option4": "Pen emits its own light confusing sensors",
+    "option5": "Pen cannot detect raster lines in real-time",
+    "solution": "Detection depends on beam scan timing synchronization"
+  },
+  {
+    "question": "A trackball is more suitable than a mouse for some 3D applications because:",
+    "option1": "It allows continuous rotation without repositioning",
+    "option2": "It provides higher DPI",
+    "option3": "It has built-in pressure sensors",
+    "option4": "It reduces latency in GUI operations",
+    "option5": "It automatically handles world-to-screen mapping",
+    "solution": "It allows continuous rotation without repositioning"
+  },
+  {
+    "question": "Why is XOR drawing preferred for temporary interactive graphics such as selection boxes?",
+    "option1": "It allows erasing without redrawing background",
+    "option2": "It increases pixel intensity smoothness",
+    "option3": "It evaluates z-buffer values automatically",
+    "option4": "It optimizes GPU texture fetches",
+    "option5": "It adjusts mouse sensitivity during drawing",
+    "solution": "It allows erasing without redrawing background"
+  },
+  {
+    "question": "In panning, a major implementation challenge is:",
+    "option1": "Shifting the window without shifting device viewport dimensions",
+    "option2": "Maintaining perspective correctness",
+    "option3": "Recomputing z-depth values",
+    "option4": "Keeping track of mouse acceleration curves",
+    "option5": "Preventing color bleeding",
+    "solution": "Shifting the window without shifting device viewport dimensions"
+  },
+  {
+    "question": "Why is scissoring preferred over clipping for restricting draw regions?",
+    "option1": "Scissoring operates directly in device coordinates",
+    "option2": "Scissoring allows infinite recursion",
+    "option3": "Clipping removes device coordinates completely",
+    "option4": "Scissoring supports multi-layer selection",
+    "option5": "Clipping cannot handle straight lines",
+    "solution": "Scissoring operates directly in device coordinates"
+  },
+  {
+    "question": "Which factor limits precision of pointing in low-resolution displays?",
+    "option1": "Pixel quantization",
+    "option2": "Lack of device drivers",
+    "option3": "Poor phosphor response",
+    "option4": "Homogeneous coordinate errors",
+    "option5": "Line clipping inaccuracies",
+    "solution": "Pixel quantization"
+  },
+  {
+    "question": "In interactive windowing, mapping errors occur mainly due to:",
+    "option1": "Non-matching aspect ratios between window and viewport",
+    "option2": "Restricted color depth",
+    "option3": "Limited clipping region size",
+    "option4": "Perspective division faults",
+    "option5": "Rasterization pipeline stalls",
+    "solution": "Non-matching aspect ratios between window and viewport"
+  },
+  {
+    "question": "Why is 'picking' complex in scenes with 3D objects?",
+    "option1": "Objects require projection to screen space before selection computation",
+    "option2": "Pick rays cannot penetrate z-buffer",
+    "option3": "Depth testing must be disabled",
+    "option4": "Textures must be removed first",
+    "option5": "Mouse resolution is insufficient",
+    "solution": "Objects require projection to screen space before selection computation"
+  },
+  {
+    "question": "A major difficulty in implementing linking between objects is:",
+    "option1": "Maintaining consistent relative transformations during motion",
+    "option2": "Redrawing lines using XOR mode",
+    "option3": "Distinguishing between click states",
+    "option4": "Mapping device coordinates to pixel shaders",
+    "option5": "Keyframe interpolation",
+    "solution": "Maintaining consistent relative transformations during motion"
+  },
+  {
+    "question": "Why does interactive dragging often require partial redrawing?",
+    "option1": "To restore previously overwritten regions",
+    "option2": "To recompute z-buffer indices",
+    "option3": "To recalculate projection matrices",
+    "option4": "To maintain high-precision color interpolation",
+    "option5": "To trigger vsync locks",
+    "solution": "To restore previously overwritten regions"
+  },
+  {
+    "question": "Which factor limits the responsiveness of an interactive graphics system?",
+    "option1": "Event-handling latency in software",
+    "option2": "Screen phosphor decay",
+    "option3": "Shadow mask misalignment",
+    "option4": "Lack of RGB DAC synchronization",
+    "option5": "Monitor gamma settings",
+    "solution": "Event-handling latency in software"
+  },
+  {
+    "question": "Picking using area selection is harder than point selection because:",
+    "option1": "All objects intersecting the region must be tested with bounding volume checks",
+    "option2": "Z-buffer must be disabled",
+    "option3": "Textures must be downscaled",
+    "option4": "Mouse resolution decreases",
+    "option5": "Clipping becomes unnecessary",
+    "solution": "All objects intersecting the region must be tested with bounding volume checks"
+  },
+  {
+    "question": "The biggest challenge in interactive clipping is:",
+    "option1": "Efficient redrawing after clipping boundaries change dynamically",
+    "option2": "Maintaining consistent color depth",
+    "option3": "Applying shearing transformations",
+    "option4": "Using homogeneous coordinates",
+    "option5": "Managing frame buffer overflows",
+    "solution": "Efficient redrawing after clipping boundaries change dynamically"
+  },
+  {
+    "question": "A typical problem in implementing a zoomable viewport is:",
+    "option1": "Re-calculating world window scale while maintaining center alignment",
+    "option2": "Changing pixel resolution",
+    "option3": "Enforcing homogeneous coordinates",
+    "option4": "Removing unused scanlines",
+    "option5": "Resetting device drivers",
+    "solution": "Re-calculating world window scale while maintaining center alignment"
+  },
+  {
+    "question": "Interactive transformations suffer from jitter mainly because:",
+    "option1": "Device coordinates are integer-quantized",
+    "option2": "Color LUT updates lag behind",
+    "option3": "Raster beam moves too slowly",
+    "option4": "Cache misses in frame buffer",
+    "option5": "Clipping is inconsistent",
+    "solution": "Device coordinates are integer-quantized"
+  },
+  {
+    "question": "Complex GUI systems rely on event loops because:",
+    "option1": "They decouple user input processing from rendering tasks",
+    "option2": "They increase device refresh rate",
+    "option3": "They force uniform color mapping",
+    "option4": "They eliminate real-time clipping",
+    "option5": "They improve phosphor brightness",
+    "solution": "They decouple user input processing from rendering tasks"
   }
 ]
+

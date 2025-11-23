@@ -268,5 +268,185 @@
     "option4": "Network buffer",
     "option5": "Print buffer",
     "solution": "Z-buffer"
+  },
+  {
+    "question": "In the modern OpenGL pipeline, which stage is responsible for assembling vertices into primitives before rasterization?",
+    "option1": "Primitive assembly stage",
+    "option2": "Fragment shader stage",
+    "option3": "Vertex post-processing stage",
+    "option4": "Compute shader stage",
+    "option5": "Tessellation evaluation stage",
+    "solution": "Primitive assembly stage"
+  },
+  {
+    "question": "Why must glVertex*() calls be avoided in performance-critical OpenGL applications?",
+    "option1": "Immediate mode causes CPU-GPU synchronization overhead",
+    "option2": "It disables back-face culling",
+    "option3": "It forces perspective correction",
+    "option4": "It requires normalized device coordinates",
+    "option5": "It breaks z-buffer functionality",
+    "solution": "Immediate mode causes CPU-GPU synchronization overhead"
+  },
+  {
+    "question": "Which matrix transforms coordinates from eye space to clip space in the classic OpenGL pipeline?",
+    "option1": "Projection matrix",
+    "option2": "Model matrix",
+    "option3": "View matrix",
+    "option4": "Viewport matrix",
+    "option5": "Normal matrix",
+    "solution": "Projection matrix"
+  },
+  {
+    "question": "Which step happens before perspective division in the OpenGL pipeline?",
+    "option1": "Clipping in homogeneous clip space",
+    "option2": "Viewport transformation",
+    "option3": "Fragment shading",
+    "option4": "Depth testing",
+    "option5": "Rasterization",
+    "solution": "Clipping in homogeneous clip space"
+  },
+  {
+    "question": "Why are vertex buffer objects (VBOs) faster than glBegin/glEnd rendering?",
+    "option1": "Data stays on GPU memory instead of being sent each frame",
+    "option2": "They automatically apply back-face culling",
+    "option3": "They reduce z-buffer pressure",
+    "option4": "They eliminate overdraw completely",
+    "option5": "They remove the need for shaders",
+    "solution": "Data stays on GPU memory instead of being sent each frame"
+  },
+  {
+    "question": "Which type of shader is responsible for interpolating values across fragments?",
+    "option1": "Rasterization stage (fixed-function)",
+    "option2": "Geometry shader",
+    "option3": "Tessellation control shader",
+    "option4": "Vertex shader",
+    "option5": "Compute shader",
+    "solution": "Rasterization stage (fixed-function)"
+  },
+  {
+    "question": "A normalized device coordinate (NDC) of z = 1 indicates:",
+    "option1": "The far clipping plane",
+    "option2": "The near clipping plane",
+    "option3": "Outside the view frustum",
+    "option4": "A back-facing primitive",
+    "option5": "A point after viewport mapping",
+    "solution": "The far clipping plane"
+  },
+  {
+    "question": "Which transform is applied LAST in the traditional OpenGL pipeline?",
+    "option1": "Viewport transform",
+    "option2": "Model transform",
+    "option3": "View transform",
+    "option4": "Projection transform",
+    "option5": "Perspective divide",
+    "solution": "Viewport transform"
+  },
+  {
+    "question": "Which OpenGL operation is NOT allowed between glBegin() and glEnd()?",
+    "option1": "glEnable()",
+    "option2": "glVertex3f()",
+    "option3": "glColor3f()",
+    "option4": "glNormal3f()",
+    "option5": "glTexCoord2f()",
+    "solution": "glEnable()"
+  },
+  {
+    "question": "Which OpenGL feature reduces geometric detail dynamically based on distance?",
+    "option1": "Level of detail (LOD)",
+    "option2": "Alpha blending",
+    "option3": "Vertex snapping",
+    "option4": "Perspective correction",
+    "option5": "Stencil buffering",
+    "solution": "Level of detail (LOD)"
+  },
+  {
+    "question": "Which buffer is responsible for masking pixels so that only certain regions are updated?",
+    "option1": "Stencil buffer",
+    "option2": "Depth buffer",
+    "option3": "Accumulation buffer",
+    "option4": "Color buffer",
+    "option5": "Auxiliary buffer",
+    "solution": "Stencil buffer"
+  },
+  {
+    "question": "Why must normals be re-normalized after non-uniform scaling?",
+    "option1": "Non-uniform scaling distorts direction vectors",
+    "option2": "OpenGL uses only integer normals",
+    "option3": "Normals depend on clip-space coordinates",
+    "option4": "Perspective divide breaks normalization",
+    "option5": "Back-face culling requires integer normals",
+    "solution": "Non-uniform scaling distorts direction vectors"
+  },
+  {
+    "question": "Call order matters because glMatrixMode(GL_MODELVIEW) followed by glLoadIdentity() will:",
+    "option1": "Reset both model and view transformations",
+    "option2": "Reset only the projection matrix",
+    "option3": "Disable clipping",
+    "option4": "Force shading to flat mode",
+    "option5": "Reset the z-buffer",
+    "solution": "Reset both model and view transformations"
+  },
+  {
+    "question": "What is the main drawback of using glFlush() instead of glFinish()?",
+    "option1": "glFlush() does not wait for GPU completion",
+    "option2": "glFlush() clears all buffers",
+    "option3": "glFlush() disables depth testing",
+    "option4": "glFlush() resets textures",
+    "option5": "glFlush() breaks double-buffering",
+    "solution": "glFlush() does not wait for GPU completion"
+  },
+  {
+    "question": "Which buffer must be cleared when depth testing is enabled?",
+    "option1": "Depth buffer",
+    "option2": "Stencil buffer",
+    "option3": "Texture buffer",
+    "option4": "Frame buffer",
+    "option5": "Accumulation buffer",
+    "solution": "Depth buffer"
+  },
+  {
+    "question": "What is the major benefit of using indexed rendering (glDrawElements) over glDrawArrays?",
+    "option1": "Reduces duplicated vertices in meshes",
+    "option2": "Allows floating-point frame buffers",
+    "option3": "Automatically optimizes culling",
+    "option4": "Performs shader compilation",
+    "option5": "Removes the need for VBOs",
+    "solution": "Reduces duplicated vertices in meshes"
+  },
+  {
+    "question": "Why must textures have power-of-two dimensions in older OpenGL versions?",
+    "option1": "Hardware texture samplers required power-of-two addressing",
+    "option2": "Z-buffer division required even dimensions",
+    "option3": "Stencil buffer was aligned with texture borders",
+    "option4": "Viewport transform required square textures",
+    "option5": "Lighting computations depended on texture size",
+    "solution": "Hardware texture samplers required power-of-two addressing"
+  },
+  {
+    "question": "Which operation converts clip-space coordinates to NDC in OpenGL?",
+    "option1": "Perspective division (divide by W)",
+    "option2": "glViewport()",
+    "option3": "Model-view transformation",
+    "option4": "Depth testing",
+    "option5": "Fragment shading",
+    "solution": "Perspective division (divide by W)"
+  },
+  {
+    "question": "Which OpenGL mechanism allows conditional drawing based on scene visibility?",
+    "option1": "Occlusion queries",
+    "option2": "Alpha test",
+    "option3": "Stencil write masking",
+    "option4": "Depth bias",
+    "option5": "Clip distance array",
+    "solution": "Occlusion queries"
+  },
+  {
+    "question": "Which problem occurs if the near plane in perspective projection is set too close to zero?",
+    "option1": "Z-buffer precision collapses",
+    "option2": "Objects turn transparent",
+    "option3": "Stencil operations are disabled",
+    "option4": "Clipping becomes inconsistent",
+    "option5": "Rasterization becomes nonlinear",
+    "solution": "Z-buffer precision collapses"
   }
 ]

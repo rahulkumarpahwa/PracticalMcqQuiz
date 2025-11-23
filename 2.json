@@ -259,5 +259,185 @@
     "option4": "Does not support scaling",
     "option5": "Only works in integers",
     "solution": "Use of floating-point computations"
+  },
+  {
+    "question": "In coordinate mapping, which step ensures that world coordinates retain geometric proportions when converted to device coordinates?",
+    "option1": "Normalization using a canonical view volume",
+    "option2": "Applying unit scaling",
+    "option3": "Direct clipping in world coordinates",
+    "option4": "Applying homogeneous division",
+    "option5": "Integer rounding of device coordinates",
+    "solution": "Normalization using a canonical view volume"
+  },
+  {
+    "question": "Which transformation matrix property ensures that 2D rotations preserve object shape?",
+    "option1": "Orthogonality of the rotation matrix",
+    "option2": "Presence of shear coefficients",
+    "option3": "Non-zero determinant",
+    "option4": "Addition of homogeneous coordinate",
+    "option5": "Use of translation vectors",
+    "solution": "Orthogonality of the rotation matrix"
+  },
+  {
+    "question": "In homogeneous coordinates, translation is achieved using:",
+    "option1": "An augmented 3×3 matrix with translation components in the last column",
+    "option2": "Scaling factors placed on the diagonal",
+    "option3": "Zeroing the bottom row",
+    "option4": "Changing vector magnitudes only",
+    "option5": "Multiplying by a 2×2 linear matrix",
+    "solution": "An augmented 3×3 matrix with translation components in the last column"
+  },
+  {
+    "question": "Which difficulty arises when applying composite transformations to objects with multiple local coordinate systems?",
+    "option1": "Maintaining consistent transformation order",
+    "option2": "Removing hidden surfaces",
+    "option3": "Ensuring fast pixel rasterization",
+    "option4": "Performing clipping before mapping",
+    "option5": "Ensuring bitwise accuracy",
+    "solution": "Maintaining consistent transformation order"
+  },
+  {
+    "question": "The view transformation primarily converts:",
+    "option1": "World coordinates to viewing coordinates",
+    "option2": "Device coordinates to world coordinates",
+    "option3": "Screen pixels to homogeneous space",
+    "option4": "Perspective view to orthographic view",
+    "option5": "Raster lines to vector segments",
+    "solution": "World coordinates to viewing coordinates"
+  },
+  {
+    "question": "Which algorithm relies on floating-point increments and thus is sensitive to rounding error accumulation?",
+    "option1": "DDA line algorithm",
+    "option2": "Bresenham line algorithm",
+    "option3": "Midpoint circle algorithm",
+    "option4": "Scanline polygon fill",
+    "option5": "Sutherland–Hodgman clipping",
+    "solution": "DDA line algorithm"
+  },
+  {
+    "question": "In view mapping, the 'window' represents:",
+    "option1": "A selected region in world coordinates to be displayed",
+    "option2": "A selected region of the device screen",
+    "option3": "A raster block used for flicker reduction",
+    "option4": "The location of the frame buffer",
+    "option5": "A clipping boundary in device space",
+    "solution": "A selected region in world coordinates to be displayed"
+  },
+  {
+    "question": "Which is a major advantage of using homogeneous coordinates for 2D transformations?",
+    "option1": "Translation becomes representable as matrix multiplication",
+    "option2": "Less memory is required for coordinates",
+    "option3": "Coordinates remain normalized automatically",
+    "option4": "It eliminates all rounding errors",
+    "option5": "It merges raster and vector operations",
+    "solution": "Translation becomes representable as matrix multiplication"
+  },
+  {
+    "question": "The slope-intercept form of a line is unsuitable for rasterization because:",
+    "option1": "It requires floating-point multiplication for each step",
+    "option2": "It cannot represent negative slopes",
+    "option3": "It produces only vertical lines",
+    "option4": "It requires device clipping first",
+    "option5": "It yields inaccurate homogeneous coordinates",
+    "solution": "It requires floating-point multiplication for each step"
+  },
+  {
+    "question": "Which geometric property of circles is exploited by the midpoint circle algorithm?",
+    "option1": "Eight-way symmetry",
+    "option2": "Constant curvature",
+    "option3": "Homogeneous radial invariance",
+    "option4": "Matrix singularity",
+    "option5": "Perspective invariance",
+    "solution": "Eight-way symmetry"
+  },
+  {
+    "question": "In 2D scaling about an arbitrary point, what is the first step in the transformation sequence?",
+    "option1": "Translate the point to the origin",
+    "option2": "Apply scaling matrix",
+    "option3": "Apply shear",
+    "option4": "Convert to normalized device space",
+    "option5": "Apply rotation around the point",
+    "solution": "Translate the point to the origin"
+  },
+  {
+    "question": "If a composite transformation matrix has determinant 0, it indicates:",
+    "option1": "The transformation collapses area into a line or point",
+    "option2": "The transformation is purely rotational",
+    "option3": "The transformation does not affect object visibility",
+    "option4": "The mapping is perspective correct",
+    "option5": "The matrix is suitable for projection",
+    "solution": "The transformation collapses area into a line or point"
+  },
+  {
+    "question": "Which mapping operation determines how world window coordinates are converted to viewport coordinates?",
+    "option1": "Linear interpolation mapping",
+    "option2": "Shearing matrix computation",
+    "option3": "Implicit clipping",
+    "option4": "Affine constraint solving",
+    "option5": "Nonlinear curve fitting",
+    "solution": "Linear interpolation mapping"
+  },
+  {
+    "question": "Homogeneous coordinates avoid special-case handling for:",
+    "option1": "Affine transformations involving translation",
+    "option2": "Nonlinear lighting expansions",
+    "option3": "Antialiasing operations",
+    "option4": "Pixel quantization",
+    "option5": "Scanline merging",
+    "solution": "Affine transformations involving translation"
+  },
+  {
+    "question": "Which factor decides whether the Bresenham line algorithm increments x or y?",
+    "option1": "Decision parameter based on error accumulation",
+    "option2": "Resolution of device coordinates",
+    "option3": "Homogeneous coordinate value",
+    "option4": "Circle symmetry conditions",
+    "option5": "Frame buffer memory type",
+    "solution": "Decision parameter based on error accumulation"
+  },
+  {
+    "question": "Applying rotation about an arbitrary point in 2D requires:",
+    "option1": "Translation → Rotation → Inverse Translation",
+    "option2": "Rotation → Scaling → Translation",
+    "option3": "Clipping → Rotation → Scale",
+    "option4": "Normalization → Shear → Rotation",
+    "option5": "Shear → Rotation → Inverse Shear",
+    "solution": "Translation → Rotation → Inverse Translation"
+  },
+  {
+    "question": "View mapping must maintain aspect ratio when:",
+    "option1": "The window and viewport proportions differ",
+    "option2": "Using Bresenham’s algorithm",
+    "option3": "Drawing circles using midpoint algorithm",
+    "option4": "Raster resolution is fixed",
+    "option5": "User coordinates are negative",
+    "solution": "The window and viewport proportions differ"
+  },
+  {
+    "question": "Which situation causes a shear transformation matrix to be non-invertible?",
+    "option1": "When scaling factor is zero along one axis",
+    "option2": "When the object is rotated by 90°",
+    "option3": "When the shear factor equals 1",
+    "option4": "When the window and viewport overlap",
+    "option5": "When mapping between integer grids",
+    "solution": "When scaling factor is zero along one axis"
+  },
+  {
+    "question": "Why is the integer-only nature of Bresenham’s algorithm advantageous?",
+    "option1": "It avoids floating-point inefficiencies and rounding errors",
+    "option2": "It increases the color depth",
+    "option3": "It automatically handles clipping",
+    "option4": "It converts world to device coordinates",
+    "option5": "It computes circle centers directly",
+    "solution": "It avoids floating-point inefficiencies and rounding errors"
+  },
+  {
+    "question": "A view transformation chain must preserve collinearity because:",
+    "option1": "Affine transformations map straight lines to straight lines",
+    "option2": "Raster lines must remain horizontal",
+    "option3": "Screen pixels are grid aligned",
+    "option4": "Clipping requires rectangular boundaries",
+    "option5": "Device coordinates use orthogonal axes",
+    "solution": "Affine transformations map straight lines to straight lines"
   }
 ]

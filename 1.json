@@ -268,5 +268,186 @@
     "option4": "LED array",
     "option5": "Plasma panel",
     "solution": "Pen plotter"
+  },
+  {
+    "question": "In a random-scan (vector) display, the refresh rate depends primarily on:",
+    "option1": "Number of line segments in the scene",
+    "option2": "Number of pixels on the screen",
+    "option3": "Phosphor decay time only",
+    "option4": "Shadow-mask aperture size",
+    "option5": "Frame buffer memory size",
+    "solution": "Number of line segments in the scene"
+  },
+  {
+    "question": "In a direct-view storage tube (DVST), once a picture is drawn, it remains until:",
+    "option1": "The screen is erased using a flood gun",
+    "option2": "The refresh buffer overwrites the content",
+    "option3": "Pixel intensities naturally decay",
+    "option4": "User triggers a redraw cycle",
+    "option5": "The beam scans the screen again",
+    "solution": "The screen is erased using a flood gun"
+  },
+  {
+    "question": "Which factor limits the number of distinguishable colors in a penetration CRT?",
+    "option1": "Number of phosphor layers and beam energy levels",
+    "option2": "Shadow mask hole density",
+    "option3": "Bandwidth of the electron beam",
+    "option4": "Vertical retrace time",
+    "option5": "Resolution of the frame buffer",
+    "solution": "Number of phosphor layers and beam energy levels"
+  },
+  {
+    "question": "Why are shadow mask CRTs less bright than aperture-grill CRTs?",
+    "option1": "The shadow mask blocks a significant portion of electron beam energy",
+    "option2": "Beam cannot focus easily on RGB stripes",
+    "option3": "Phosphor decay time is too short",
+    "option4": "Frame buffer bandwidth is lower",
+    "option5": "Electron gun voltage is limited",
+    "solution": "The shadow mask blocks a significant portion of electron beam energy"
+  },
+  {
+    "question": "In raster displays, 'beam penetration' technique becomes impractical for high resolutions because:",
+    "option1": "Precise control of beam energy becomes more difficult",
+    "option2": "Phosphor layers cannot handle large pixel densities",
+    "option3": "Mask alignment becomes impossible",
+    "option4": "Frame buffer does not support RGB mapping",
+    "option5": "Refresh rate becomes extremely slow",
+    "solution": "Precise control of beam energy becomes more difficult"
+  },
+  {
+    "question": "A plasma panel displays images using:",
+    "option1": "Ionized gas that emits UV light exciting phosphors",
+    "option2": "Electron beam scanning like CRT",
+    "option3": "Liquid crystals blocking light",
+    "option4": "Electromagnetic induction in phosphors",
+    "option5": "Pixel-level LED drivers",
+    "solution": "Ionized gas that emits UV light exciting phosphors"
+  },
+  {
+    "question": "In a raster display, the time required for vertical retrace depends on:",
+    "option1": "The total number of scanlines including blanking intervals",
+    "option2": "Pixel color depth",
+    "option3": "Shadow mask configuration",
+    "option4": "CRT tube voltage only",
+    "option5": "Frame buffer storage format",
+    "solution": "The total number of scanlines including blanking intervals"
+  },
+  {
+    "question": "Digital frame buffers implement color using:",
+    "option1": "Indexed color tables or direct RGB encoding",
+    "option2": "Analog beam modulation exclusively",
+    "option3": "Phosphor layer switching",
+    "option4": "Voltage modulation at pixel electrodes",
+    "option5": "Magnetic beam shaping",
+    "solution": "Indexed color tables or direct RGB encoding"
+  },
+  {
+    "question": "The main drawback of storage-tube displays is that:",
+    "option1": "They cannot selectively update small parts of the screen",
+    "option2": "They require very high refresh rate",
+    "option3": "They cannot maintain image for more than 5 seconds",
+    "option4": "They produce excessive flicker",
+    "option5": "They need constant beam scanning",
+    "solution": "They cannot selectively update small parts of the screen"
+  },
+  {
+    "question": "Which characteristic makes vector displays unsuitable for complex shaded images?",
+    "option1": "They draw only lines and cannot fill areas efficiently",
+    "option2": "Phosphor response time is too slow",
+    "option3": "Beam width cannot be adjusted",
+    "option4": "Frame buffer is integrated permanently",
+    "option5": "High power consumption for pixels",
+    "solution": "They draw only lines and cannot fill areas efficiently"
+  },
+  {
+    "question": "The brightness of a pixel in a raster CRT is controlled by:",
+    "option1": "Modulating the electron beam intensity while scanning",
+    "option2": "Changing shadow mask aperture size",
+    "option3": "Adjusting phosphor molecular density",
+    "option4": "Moving the beam at higher speed",
+    "option5": "Stretching the scanlines",
+    "solution": "Modulating the electron beam intensity while scanning"
+  },
+  {
+    "question": "Why do plasma panels consume more power than LCDs?",
+    "option1": "Each pixel is an active discharge cell requiring sustained ionization",
+    "option2": "They require high-frequency backlight modulation",
+    "option3": "They store multiple frame buffers",
+    "option4": "They use mechanical shutters",
+    "option5": "Voltage conversion losses are high",
+    "solution": "Each pixel is an active discharge cell requiring sustained ionization"
+  },
+  {
+    "question": "In a shadow mask CRT, color purity mainly depends on:",
+    "option1": "Precise alignment of three electron guns",
+    "option2": "Memory bandwidth of the frame buffer",
+    "option3": "Phosphor decay variance",
+    "option4": "Raster line density",
+    "option5": "Availability of gamma correction",
+    "solution": "Precise alignment of three electron guns"
+  },
+  {
+    "question": "Which is true about vector refresh displays?",
+    "option1": "Display time increases proportionally with number of vectors",
+    "option2": "Display time is constant regardless of image complexity",
+    "option3": "They store pixel values in memory for all pixels",
+    "option4": "They require shadow masks for color",
+    "option5": "They only support monochrome imaging",
+    "solution": "Display time increases proportionally with number of vectors"
+  },
+  {
+    "question": "Which factor limits the speed of raster scanning in CRT?",
+    "option1": "Phosphor persistence and electron gun deflection speed",
+    "option2": "Number of possible RGB values",
+    "option3": "Frame buffer file format",
+    "option4": "Shadow mask thickness",
+    "option5": "LCD refresh synchronization",
+    "solution": "Phosphor persistence and electron gun deflection speed"
+  },
+  {
+    "question": "Why do LCDs not suffer from geometric distortion like CRTs?",
+    "option1": "They use fixed grid pixel structure unaffected by deflection errors",
+    "option2": "They use magnetic scanning",
+    "option3": "Their phosphors are sprayed uniformly",
+    "option4": "Their voltage patterns auto-correct shape",
+    "option5": "LCDs refresh using electron beams",
+    "solution": "They use fixed grid pixel structure unaffected by deflection errors"
+  },
+  {
+    "question": "Which display device is MOST affected by phosphor persistence?",
+    "option1": "CRT",
+    "option2": "LCD",
+    "option3": "LED display",
+    "option4": "Plasma panel",
+    "option5": "E-ink display",
+    "solution": "CRT"
+  },
+  {
+    "question": "Color Look-Up Table (CLUT) advantages include:",
+    "option1": "Efficient modifications of entire image colors by editing LUT entries",
+    "option2": "Higher resolution than RGB frame buffers",
+    "option3": "Faster horizontal retrace",
+    "option4": "Direct control of plasma discharge",
+    "option5": "Avoiding frame buffer usage",
+    "solution": "Efficient modifications of entire image colors by editing LUT entries"
+  },
+  {
+    "question": "A key limitation of pen plotters is that they:",
+    "option1": "Are slow for complex images due to mechanical movement",
+    "option2": "Cannot draw continuous curves",
+    "option3": "Have fixed color depth",
+    "option4": "Require CRT-based rasterization",
+    "option5": "Cannot draw straight lines",
+    "solution": "Are slow for complex images due to mechanical movement"
+  },
+  {
+    "question": "An advantage of raster displays over vector displays is that:",
+    "option1": "They can easily support shaded and textured images",
+    "option2": "They require no frame buffer",
+    "option3": "They consume less memory for high resolutions",
+    "option4": "They do not require pixel addressing",
+    "option5": "They use deflection amplifiers only",
+    "solution": "They can easily support shaded and textured images"
   }
 ]
+
