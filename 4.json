@@ -1,452 +1,401 @@
 [
   {
-    "question": "Wireframe models represent objects using:",
-    "option1": "Lines and curves",
-    "option2": "Solid surfaces",
-    "option3": "Textures",
-    "option4": "Shaded polygons",
-    "option5": "Color maps",
-    "solution": "Lines and curves"
+    "question": "Servlets run on which side?",
+    "option1": "Server side",
+    "option2": "Client side",
+    "option3": "Both client and server",
+    "option4": "Browser",
+    "option5": "JVM only",
+    "solution": "Server side"
   },
   {
-    "question": "Perspective projection gives the illusion of:",
-    "option1": "Depth",
-    "option2": "Rotation",
-    "option3": "Shading",
-    "option4": "Reflection",
-    "option5": "Transparency",
-    "solution": "Depth"
+    "question": "Servlets are part of which Java package?",
+    "option1": "javax.http",
+    "option2": "java.servlet",
+    "option3": "javax.servlet",
+    "option4": "org.servlet",
+    "option5": "java.server",
+    "solution": "javax.servlet"
   },
   {
-    "question": "In perspective display, objects farther away appear:",
-    "option1": "Smaller",
-    "option2": "Larger",
-    "option3": "Brighter",
-    "option4": "Darker",
-    "option5": "Flat",
-    "solution": "Smaller"
+    "question": "Servlets run inside:",
+    "option1": "Web container",
+    "option2": "Database server",
+    "option3": "Operating system",
+    "option4": "Compiler",
+    "option5": "Client browser",
+    "solution": "Web container"
   },
   {
-    "question": "Projective transformations are used to map:",
-    "option1": "3D points to 2D display",
-    "option2": "2D points to 3D space",
-    "option3": "Textures to polygons",
-    "option4": "Audio to graphics",
-    "option5": "Pixels to vectors",
-    "solution": "3D points to 2D display"
+    "question": "Which interface must all servlets implement?",
+    "option1": "Runnable",
+    "option2": "Servlet",
+    "option3": "HttpServletListener",
+    "option4": "ServletContext",
+    "option5": "ServletService",
+    "solution": "Servlet"
   },
   {
-    "question": "The additional coordinate used in 3D homogeneous coordinates is:",
-    "option1": "W",
-    "option2": "H",
-    "option3": "Q",
-    "option4": "T",
-    "option5": "P",
-    "solution": "W"
+    "question": "Which class provides HTTP-specific request handling?",
+    "option1": "Servlet",
+    "option2": "HttpServlet",
+    "option3": "GenericServlet",
+    "option4": "HttpRequest",
+    "option5": "ServletConfig",
+    "solution": "HttpServlet"
   },
   {
-    "question": "Hidden line removal helps in:",
-    "option1": "Removing lines not visible to the viewer",
-    "option2": "Increasing resolution",
-    "option3": "Applying texture",
-    "option4": "Adjusting brightness",
-    "option5": "Changing colors",
-    "solution": "Removing lines not visible to the viewer"
+    "question": "Which method is called only once during servlet lifecycle?",
+    "option1": "init()",
+    "option2": "service()",
+    "option3": "doGet()",
+    "option4": "doPost()",
+    "option5": "destroy()",
+    "solution": "init()"
   },
   {
-    "question": "Back-face removal algorithm removes:",
-    "option1": "Faces turned away from the viewer",
-    "option2": "Overlapping pixels",
-    "option3": "Lines behind objects",
-    "option4": "Shadows",
-    "option5": "Textures",
-    "solution": "Faces turned away from the viewer"
+    "question": "Which method handles GET requests?",
+    "option1": "handleGet()",
+    "option2": "doGet()",
+    "option3": "serviceGet()",
+    "option4": "getService()",
+    "option5": "processGet()",
+    "solution": "doGet()"
   },
   {
-    "question": "In 3D graphics, the z-axis typically represents:",
-    "option1": "Depth",
-    "option2": "Width",
-    "option3": "Height",
-    "option4": "Brightness",
-    "option5": "Texture index",
-    "solution": "Depth"
+    "question": "Which method handles POST requests?",
+    "option1": "post()",
+    "option2": "doPost()",
+    "option3": "servicePost()",
+    "option4": "handlePost()",
+    "option5": "processPost()",
+    "solution": "doPost()"
   },
   {
-    "question": "Orthographic projection preserves:",
-    "option1": "Object dimensions",
-    "option2": "Perspective depth",
-    "option3": "Foreshortening",
-    "option4": "Curved surfaces",
-    "option5": "Color intensity",
-    "solution": "Object dimensions"
+    "question": "Servlets vs CGI: Servlets are faster because:",
+    "option1": "They run as OS processes",
+    "option2": "They create a new process for each request",
+    "option3": "They use multithreading inside JVM",
+    "option4": "They run in database",
+    "option5": "They run in browser",
+    "solution": "They use multithreading inside JVM"
   },
   {
-    "question": "Perspective foreshortening means:",
-    "option1": "Farther objects appear compressed",
-    "option2": "Closer objects appear darker",
-    "option3": "All objects appear same size",
-    "option4": "Depth is removed",
-    "option5": "Objects appear blurred",
-    "solution": "Farther objects appear compressed"
+    "question": "Which method is automatically called for every request?",
+    "option1": "init()",
+    "option2": "destroy()",
+    "option3": "service()",
+    "option4": "config()",
+    "option5": "load()",
+    "solution": "service()"
+  },
+
+  {
+    "question": "Which object stores servlet initialization parameters?",
+    "option1": "ServletContext",
+    "option2": "ServletConfig",
+    "option3": "HttpSession",
+    "option4": "RequestConfig",
+    "option5": "ServletParams",
+    "solution": "ServletConfig"
   },
   {
-    "question": "A wireframe cube consists of:",
-    "option1": "12 edges",
-    "option2": "6 edges",
-    "option3": "16 edges",
-    "option4": "8 edges",
-    "option5": "4 edges",
-    "solution": "12 edges"
+    "question": "Which object stores application-level data?",
+    "option1": "ServletConfig",
+    "option2": "ServletContext",
+    "option3": "HttpRequest",
+    "option4": "ServletInfo",
+    "option5": "GlobalSession",
+    "solution": "ServletContext"
   },
   {
-    "question": "The process of converting a 3D scene to a 2D image is:",
-    "option1": "Projection",
-    "option2": "Shading",
-    "option3": "Filtering",
-    "option4": "Rasterizing",
-    "option5": "Scan conversion",
-    "solution": "Projection"
+    "question": "Which method writes output to client?",
+    "option1": "response.send()",
+    "option2": "request.write()",
+    "option3": "response.getWriter()",
+    "option4": "writer.print()",
+    "option5": "sendWriter()",
+    "solution": "response.getWriter()"
   },
   {
-    "question": "Back-face culling improves:",
-    "option1": "Rendering efficiency",
-    "option2": "Image color",
-    "option3": "Resolution",
-    "option4": "Texture quality",
-    "option5": "Audio output",
-    "solution": "Rendering efficiency"
+    "question": "Which HTTP method is idempotent?",
+    "option1": "POST",
+    "option2": "PUT",
+    "option3": "DELETE",
+    "option4": "GET",
+    "option5": "PATCH",
+    "solution": "GET"
   },
   {
-    "question": "In perspective projection, the center of projection is also called:",
-    "option1": "Viewer eye point",
-    "option2": "Focal plane",
-    "option3": "Clipping plane",
-    "option4": "Buffer zone",
-    "option5": "Shadow point",
-    "solution": "Viewer eye point"
+    "question": "To redirect a request, we use:",
+    "option1": "response.redirect()",
+    "option2": "request.redirect()",
+    "option3": "response.sendRedirect()",
+    "option4": "context.redirect()",
+    "option5": "server.redirect()",
+    "solution": "response.sendRedirect()"
   },
   {
-    "question": "Which transformation rotates an object around the z-axis?",
-    "option1": "Rotation in XY-plane",
-    "option2": "Rotation in XZ-plane",
-    "option3": "Translation",
-    "option4": "Scaling",
-    "option5": "Clipping",
-    "solution": "Rotation in XY-plane"
+    "question": "Which file configures servlets in older versions?",
+    "option1": "web.jar",
+    "option2": "config.txt",
+    "option3": "web.xml",
+    "option4": "server.xml",
+    "option5": "servlet.json",
+    "solution": "web.xml"
   },
   {
-    "question": "Hidden surface elimination is used to remove:",
-    "option1": "Surfaces blocked by other surfaces",
-    "option2": "Transparent surfaces",
-    "option3": "Dark pixels",
-    "option4": "Thin edges",
-    "option5": "Shadow regions",
-    "solution": "Surfaces blocked by other surfaces"
+    "question": "Which annotation replaces web.xml configuration?",
+    "option1": "@ServletMapping",
+    "option2": "@WebService",
+    "option3": "@WebServlet",
+    "option4": "@Servlet",
+    "option5": "@WebConfig",
+    "solution": "@WebServlet"
   },
   {
-    "question": "Z-buffer algorithm compares values of:",
-    "option1": "Depth",
-    "option2": "Color",
-    "option3": "Brightness",
-    "option4": "Opacity",
-    "option5": "Texture",
-    "solution": "Depth"
+    "question": "Which object represents client request?",
+    "option1": "ServletRequest",
+    "option2": "HttpServletResponse",
+    "option3": "HttpContext",
+    "option4": "ServletContext",
+    "option5": "ServletConfig",
+    "solution": "ServletRequest"
   },
   {
-    "question": "Perspective projection uses which division step?",
-    "option1": "Divide by W",
-    "option2": "Divide by X",
-    "option3": "Divide by Y",
-    "option4": "Divide by Z",
-    "option5": "Divide by H",
-    "solution": "Divide by W"
+    "question": "Which object is used to store session data?",
+    "option1": "HttpSession",
+    "option2": "SessionManager",
+    "option3": "SessionObject",
+    "option4": "SessionHolder",
+    "option5": "ServletContext",
+    "solution": "HttpSession"
   },
   {
-    "question": "Back-face culling considers the direction of:",
-    "option1": "Surface normal",
-    "option2": "Light ray",
-    "option3": "Texture axis",
-    "option4": "Pixel gradient",
-    "option5": "Shadow vector",
-    "solution": "Surface normal"
+    "question": "Which method ends servlet lifecycle?",
+    "option1": "finish()",
+    "option2": "end()",
+    "option3": "destroy()",
+    "option4": "terminate()",
+    "option5": "close()",
+    "solution": "destroy()"
+  },
+
+  {
+    "question": "Which method reads form data in POST request?",
+    "option1": "request.getForm()",
+    "option2": "request.fetch()",
+    "option3": "request.getParameter()",
+    "option4": "request.getField()",
+    "option5": "request.form()",
+    "solution": "request.getParameter()"
   },
   {
-    "question": "A face is considered back-facing when the dot product of surface normal and view vector is:",
-    "option1": "Greater than 0",
-    "option2": "Equal to 0",
-    "option3": "Less than 0",
-    "option4": "Always negative",
-    "option5": "Always positive",
-    "solution": "Less than 0"
+    "question": "Which HTTP response code indicates success?",
+    "option1": "404",
+    "option2": "500",
+    "option3": "200",
+    "option4": "403",
+    "option5": "301",
+    "solution": "200"
   },
   {
-    "question": "The main drawback of wireframe models is:",
-    "option1": "Ambiguity in object appearance",
-    "option2": "High memory usage",
-    "option3": "Slow rendering",
-    "option4": "Loss of colors",
-    "option5": "Overuse of textures",
-    "solution": "Ambiguity in object appearance"
+    "question": "Which method sends binary data to client?",
+    "option1": "response.getWriter()",
+    "option2": "response.sendBinary()",
+    "option3": "response.getOutputStream()",
+    "option4": "request.getStream()",
+    "option5": "response.binary()",
+    "solution": "response.getOutputStream()"
   },
   {
-    "question": "3D transformations include:",
-    "option1": "Rotation, scaling, translation",
-    "option2": "Shading, clipping, filtering",
-    "option3": "Audio mixing",
-    "option4": "Pixel interpolation",
-    "option5": "Curve fitting",
-    "solution": "Rotation, scaling, translation"
+    "question": "Which is TRUE about servlets?",
+    "option1": "They are platform dependent",
+    "option2": "They run inside JVM",
+    "option3": "They require browser plugins",
+    "option4": "They replace HTML",
+    "option5": "They must run as OS processes",
+    "solution": "They run inside JVM"
   },
   {
-    "question": "Perspective projection maps parallel lines so they appear to:",
-    "option1": "Converge at a point",
-    "option2": "Stay parallel always",
-    "option3": "Expand outward",
-    "option4": "Form arcs",
-    "option5": "Rotate automatically",
-    "solution": "Converge at a point"
+    "question": "Cookies are stored:",
+    "option1": "On server",
+    "option2": "On client browser",
+    "option3": "In HttpSession",
+    "option4": "In servlet container",
+    "option5": "In web.xml",
+    "solution": "On client browser"
   },
   {
-    "question": "Which transformation simulates moving the camera?",
-    "option1": "Viewing transformation",
-    "option2": "Model transformation",
-    "option3": "Texture transformation",
-    "option4": "Clipping transformation",
-    "option5": "Raster transformation",
-    "solution": "Viewing transformation"
+    "question": "Which method sets content type?",
+    "option1": "response.setType()",
+    "option2": "response.setHeader()",
+    "option3": "response.setContentType()",
+    "option4": "request.setContent()",
+    "option5": "response.content()",
+    "solution": "response.setContentType()"
   },
   {
-    "question": "Hidden line removal is mostly used in:",
-    "option1": "Wireframe models",
-    "option2": "Shaded models",
-    "option3": "Textured models",
-    "option4": "Audio rendering",
-    "option5": "2D animation",
-    "solution": "Wireframe models"
+    "question": "CGI creates new process per request while Servlet:",
+    "option1": "Creates script",
+    "option2": "Reuses a single thread",
+    "option3": "Uses multithreaded model",
+    "option4": "Uses OS threads",
+    "option5": "Uses subprocesses",
+    "solution": "Uses multithreaded model"
   },
   {
-    "question": "Which projection does NOT simulate realistic depth?",
-    "option1": "Orthographic projection",
-    "option2": "Perspective projection",
-    "option3": "Oblique projection",
-    "option4": "Curvilinear projection",
-    "option5": "Fisheye projection",
-    "solution": "Orthographic projection"
+    "question": "Dispatcher.forward() happens on:",
+    "option1": "Client side",
+    "option2": "Browser",
+    "option3": "Server side",
+    "option4": "Network level",
+    "option5": "Database layer",
+    "solution": "Server side"
   },
   {
-    "question": "In 3D rotations, a right-hand rule is used to determine:",
-    "option1": "Rotation direction",
-    "option2": "Shading gradient",
-    "option3": "Texture orientation",
-    "option4": "Brightness level",
-    "option5": "Pixel position",
-    "solution": "Rotation direction"
+    "question": "sendRedirect() performs:",
+    "option1": "Server-internal jump",
+    "option2": "Client-side redirect",
+    "option3": "Database redirect",
+    "option4": "Thread jump",
+    "option5": "Browser compression",
+    "solution": "Client-side redirect"
   },
   {
-    "question": "A polygon with its normal pointing away from the camera is:",
-    "option1": "Culled",
-    "option2": "Rendered",
-    "option3": "Shaded",
-    "option4": "Textured",
-    "option5": "Highlighted",
-    "solution": "Culled"
+    "question": "Servlet mapping is done using:",
+    "option1": "@ServletMap",
+    "option2": "@WebMapping",
+    "option3": "@WebServlet",
+    "option4": "@ServerMap",
+    "option5": "@WebResource",
+    "solution": "@WebServlet"
   },
   {
-    "question": "Which algorithm eliminates faces at the back of the object?",
-    "option1": "Back-face removal",
-    "option2": "Z-buffer",
-    "option3": "Scanline algorithm",
-    "option4": "Gouraud shading",
-    "option5": "Phong shading",
-    "solution": "Back-face removal"
+    "question": "Which object is used for shared resource access?",
+    "option1": "ServletConfig",
+    "option2": "ServletContext",
+    "option3": "HttpSession",
+    "option4": "HttpResponse",
+    "option5": "Cookie",
+    "solution": "ServletContext"
   },
   {
-    "question": "Perspective division is necessary to convert:",
-    "option1": "Homogeneous coordinates to 3D",
-    "option2": "RGB to XYZ",
-    "option3": "Angles to radians",
-    "option4": "Textures to bitmaps",
-    "option5": "Normals to tangents",
-    "solution": "Homogeneous coordinates to 3D"
+    "question": "Which is a disadvantage of servlets?",
+    "option1": "Thread safety issues",
+    "option2": "Platform independence",
+    "option3": "Speed",
+    "option4": "Reusability",
+    "option5": "Low memory use",
+    "solution": "Thread safety issues"
   },
   {
-    "question": "In 3D graphics, which condition indicates that a polygon is back-facing relative to the viewer?",
-    "option1": "The dot product of the surface normal and view vector is less than 0",
-    "option2": "The polygon has more than four vertices",
-    "option3": "The polygon lies completely in world coordinate space",
-    "option4": "The z-coordinate of the polygon is positive",
-    "option5": "The polygon uses orthographic projection",
-    "solution": "The dot product of the surface normal and view vector is less than 0"
+    "question": "Which is used to forward request?",
+    "option1": "RequestDispatcher.forward()",
+    "option2": "response.redirect()",
+    "option3": "context.switch()",
+    "option4": "session.forward()",
+    "option5": "server.forward()",
+    "solution": "RequestDispatcher.forward()"
   },
   {
-    "question": "Why does perspective projection require homogeneous division?",
-    "option1": "To convert non-linear perspective mapping into screen-space coordinates",
-    "option2": "To ensure uniform scaling across axes",
-    "option3": "To remove shading artifacts",
-    "option4": "To normalize texture coordinates",
-    "option5": "To handle infinite z-values",
-    "solution": "To convert non-linear perspective mapping into screen-space coordinates"
+    "question": "Which object handles error messages?",
+    "option1": "ServletError",
+    "option2": "ServletResponse",
+    "option3": "ServletContext",
+    "option4": "ErrorManager",
+    "option5": "HttpSession",
+    "solution": "ServletResponse"
+  },
+
+  {
+    "question": "Hard: doGet() and doPost() are called by:",
+    "option1": "Web container",
+    "option2": "Client browser",
+    "option3": "Servlet class",
+    "option4": "Java compiler",
+    "option5": "Operating system",
+    "solution": "Web container"
   },
   {
-    "question": "Which problem arises when rotating objects using Euler angles?",
-    "option1": "Gimbal lock",
-    "option2": "High memory consumption",
-    "option3": "Loss of polygon connectivity",
-    "option4": "Undefined z-buffer behavior",
-    "option5": "Aliasing of normals",
-    "solution": "Gimbal lock"
+    "question": "Hard: Which URL pattern is valid?",
+    "option1": "*.java",
+    "option2": "*.do",
+    "option3": "*.serv",
+    "option4": "/*",
+    "option5": "://mapping",
+    "solution": "*.do"
   },
   {
-    "question": "Which 3D technique eliminates hidden surfaces by comparing depth values per pixel?",
-    "option1": "Z-buffer algorithm",
-    "option2": "Back-face culling only",
-    "option3": "Scanline fill",
-    "option4": "Phong shading",
-    "option5": "Bresenham rasterization",
-    "solution": "Z-buffer algorithm"
+    "question": "Hard: Filters in servlets are used for:",
+    "option1": "Pre-processing and post-processing requests",
+    "option2": "Database access",
+    "option3": "HTML parsing",
+    "option4": "JSP compilation",
+    "option5": "Thread creation",
+    "solution": "Pre-processing and post-processing requests"
   },
   {
-    "question": "A major disadvantage of the Z-buffer algorithm is:",
-    "option1": "Requires large memory proportional to screen resolution",
-    "option2": "Cannot handle triangles",
-    "option3": "Only works with orthographic projection",
-    "option4": "Does not support filled polygons",
-    "option5": "Fails with floating-point coordinates",
-    "solution": "Requires large memory proportional to screen resolution"
+    "question": "Hard: Identify output:\nresponse.setContentType(\"text/html\");",
+    "option1": "Sets HTML content type",
+    "option2": "Closes response",
+    "option3": "Redirects response",
+    "option4": "Disconnects server",
+    "option5": "Throws exception",
+    "solution": "Sets HTML content type"
   },
   {
-    "question": "Which operation is necessary before applying perspective division?",
-    "option1": "Transforming vertices into clip space",
-    "option2": "Applying object-space shading",
-    "option3": "Executing z-buffer comparison",
-    "option4": "Normalizing color intensities",
-    "option5": "Computing bounding volumes",
-    "solution": "Transforming vertices into clip space"
+    "question": "Hard: Which class loads servlet lazily?",
+    "option1": "ServletLoader",
+    "option2": "Container",
+    "option3": "ServletContext",
+    "option4": "WebappClassLoader",
+    "option5": "HttpProcessor",
+    "solution": "WebappClassLoader"
   },
   {
-    "question": "Which projection preserves parallel lines but distorts depth?",
-    "option1": "Oblique projection",
-    "option2": "Perspective projection",
-    "option3": "Curvilinear projection",
-    "option4": "Spherical projection",
-    "option5": "Fisheye projection",
-    "solution": "Oblique projection"
+    "question": "Hard: Session tracking CANNOT use:",
+    "option1": "Cookies",
+    "option2": "URL rewriting",
+    "option3": "Hidden fields",
+    "option4": "JavaScript",
+    "option5": "HttpSession",
+    "solution": "JavaScript"
   },
   {
-    "question": "Which matrix in 3D transformations handles rotation around an arbitrary axis?",
-    "option1": "Rodrigues’ rotation matrix",
-    "option2": "Shearing matrix",
-    "option3": "Projection matrix",
-    "option4": "Scaling matrix",
-    "option5": "Reflection matrix",
-    "solution": "Rodrigues’ rotation matrix"
+    "question": "Hard: Which multithreading issue affects servlets?",
+    "option1": "Race condition",
+    "option2": "Lack of memory",
+    "option3": "Response overflow",
+    "option4": "Request duplication",
+    "option5": "Header corruption",
+    "solution": "Race condition"
   },
   {
-    "question": "Why is homogeneous coordinate W important in 3D transformations?",
-    "option1": "It allows translation to be expressed in matrix multiplication",
-    "option2": "It stores brightness values",
-    "option3": "It produces texture coordinates",
-    "option4": "It removes hidden lines",
-    "option5": "It directly maps to pixel grid",
-    "solution": "It allows translation to be expressed in matrix multiplication"
+    "question": "Hard: Which HTTP method is NOT safe?",
+    "option1": "GET",
+    "option2": "HEAD",
+    "option3": "PUT",
+    "option4": "OPTIONS",
+    "option5": "TRACE",
+    "solution": "PUT"
   },
   {
-    "question": "Which mathematical issue can occur when computing normals for nearly co-linear vertices?",
-    "option1": "Numerical instability",
-    "option2": "Texture aliasing",
-    "option3": "Mode switching",
-    "option4": "Perspective jitter",
-    "option5": "Color overflow",
-    "solution": "Numerical instability"
+    "question": "Hard: A servlet becomes thread-safe when:",
+    "option1": "It implements SingleThreadModel",
+    "option2": "It uses only GET",
+    "option3": "It disables context",
+    "option4": "It uses XML config",
+    "option5": "It uses filters",
+    "solution": "It implements SingleThreadModel"
   },
   {
-    "question": "In 3D clipping, clipping in homogeneous clip space is advantageous because:",
-    "option1": "It avoids division by W until after clipping",
-    "option2": "It eliminates the need for back-face removal",
-    "option3": "It guarantees integer coordinates",
-    "option4": "It avoids lighting computations",
-    "option5": "It provides higher screen resolution",
-    "solution": "It avoids division by W until after clipping"
-  },
-  {
-    "question": "Which condition indicates a degenerate triangle in 3D rendering?",
-    "option1": "Area computed from vertices equals zero",
-    "option2": "All edges have equal length",
-    "option3": "Z-values are identical",
-    "option4": "Normals point toward the camera",
-    "option5": "Texture coordinates are unavailable",
-    "solution": "Area computed from vertices equals zero"
-  },
-  {
-    "question": "The viewing transformation converts:",
-    "option1": "World coordinates to eye coordinates",
-    "option2": "Eye coordinates to world coordinates",
-    "option3": "Device coordinates to world coordinates",
-    "option4": "Screen pixels to clip space",
-    "option5": "Raster values to projection matrix",
-    "solution": "World coordinates to eye coordinates"
-  },
-  {
-    "question": "Which hidden line removal method requires polygons to be sorted by depth?",
-    "option1": "Painter’s algorithm",
-    "option2": "Z-buffering",
-    "option3": "Back-face culling",
-    "option4": "Scanline algorithm",
-    "option5": "Depth peeling",
-    "solution": "Painter’s algorithm"
-  },
-  {
-    "question": "Perspective foreshortening causes which effect in 3D scenes?",
-    "option1": "Objects farther away appear smaller",
-    "option2": "Parallel lines remain parallel",
-    "option3": "Objects retain constant pixel size",
-    "option4": "Viewing frustum becomes a cube",
-    "option5": "Near objects appear less detailed",
-    "solution": "Objects farther away appear smaller"
-  },
-  {
-    "question": "Which data structure is MOST suited for accelerating hidden-surface calculations in complex scenes?",
-    "option1": "Bounding volume hierarchy (BVH)",
-    "option2": "Linked lists",
-    "option3": "Hash table",
-    "option4": "Stack buffer",
-    "option5": "Queue-based clipping",
-    "solution": "Bounding volume hierarchy (BVH)"
-  },
-  {
-    "question": "Which issue arises when applying successive 3D rotations using rotation matrices?",
-    "option1": "Accumulated floating-point drift",
-    "option2": "Loss of z-depth information",
-    "option3": "Removal of object visibility",
-    "option4": "Decreased frame buffer memory",
-    "option5": "Increased triangle count",
-    "solution": "Accumulated floating-point drift"
-  },
-  {
-    "question": "In perspective projection, the view frustum is defined by:",
-    "option1": "Near plane, far plane, left, right, top, bottom boundaries",
-    "option2": "Only near plane and far plane",
-    "option3": "A cube centered at origin",
-    "option4": "A cylinder aligned with z-axis",
-    "option5": "Screen resolution",
-    "solution": "Near plane, far plane, left, right, top, bottom boundaries"
-  },
-  {
-    "question": "Why is back-face culling insufficient for full hidden-surface elimination?",
-    "option1": "It does not remove surfaces hidden by other front-facing surfaces",
-    "option2": "It fails for orthographic projection",
-    "option3": "It requires shading before culling",
-    "option4": "It only works on convex objects",
-    "option5": "It depends on texture mapping",
-    "solution": "It does not remove surfaces hidden by other front-facing surfaces"
-  },
-  {
-    "question": "Which numerical problem can occur during perspective division?",
-    "option1": "Division by near-zero W producing extreme distortion",
-    "option2": "Loss of color accuracy",
-    "option3": "Ambiguous normal orientation",
-    "option4": "Incorrect back-face direction",
-    "option5": "Failure to clip triangles",
-    "solution": "Division by near-zero W producing extreme distortion"
+    "question": "Hard coding: What will print?\nPrintWriter out=response.getWriter(); out.print(\"Hi\");",
+    "option1": "Hi",
+    "option2": "null",
+    "option3": "error",
+    "option4": "HTML",
+    "option5": "Nothing",
+    "solution": "Hi"
   }
 ]

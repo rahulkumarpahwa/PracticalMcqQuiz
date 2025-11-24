@@ -1,452 +1,383 @@
 [
   {
-    "question": "Turbo C graphics functions are available in which header file?",
-    "option1": "graphics.h",
-    "option2": "stdio.h",
-    "option3": "stdlib.h",
-    "option4": "conio.h",
-    "option5": "dos.h",
-    "solution": "graphics.h"
+    "question": "Which package provides Java networking classes?",
+    "option1": "java.net",
+    "option2": "javax.network",
+    "option3": "net.java",
+    "option4": "java.network",
+    "option5": "network.java",
+    "solution": "java.net"
   },
   {
-    "question": "Which function initializes the graphics mode in Turbo C?",
-    "option1": "initgraph()",
-    "option2": "graphstart()",
-    "option3": "startgfx()",
-    "option4": "openwindow()",
-    "option5": "gfxbegin()",
-    "solution": "initgraph()"
+    "question": "A computer that requests services from another computer is called:",
+    "option1": "Server",
+    "option2": "Client",
+    "option3": "Router",
+    "option4": "Switch",
+    "option5": "Host",
+    "solution": "Client"
   },
   {
-    "question": "Turbo C graphics primitives include:",
-    "option1": "Points, lines, circles",
-    "option2": "Textures and shaders",
-    "option3": "Meshes and skeletons",
-    "option4": "Audio streams",
-    "option5": "Video frames",
-    "solution": "Points, lines, circles"
+    "question": "The communication between two systems over a network is called:",
+    "option1": "Linking",
+    "option2": "Networking",
+    "option3": "Processing",
+    "option4": "Operating",
+    "option5": "Encoding",
+    "solution": "Networking"
   },
   {
-    "question": "Which function plots a pixel on the screen?",
-    "option1": "putpixel()",
-    "option2": "plot()",
-    "option3": "drawpix()",
-    "option4": "pixel()",
-    "option5": "showpixel()",
-    "solution": "putpixel()"
+    "question": "Which class is used for TCP client communication?",
+    "option1": "Socket",
+    "option2": "ServerSocket",
+    "option3": "DatagramSocket",
+    "option4": "URL",
+    "option5": "HttpURLConnection",
+    "solution": "Socket"
   },
   {
-    "question": "Which function retrieves the color of a pixel?",
-    "option1": "getpixel()",
-    "option2": "readpixel()",
-    "option3": "colread()",
-    "option4": "pixinfo()",
-    "option5": "fetchpixel()",
-    "solution": "getpixel()"
+    "question": "Which class is used for TCP server communication?",
+    "option1": "ServerSocket",
+    "option2": "SocketServer",
+    "option3": "TCPServer",
+    "option4": "NetServer",
+    "option5": "Socket",
+    "solution": "ServerSocket"
   },
   {
-    "question": "Turbo C uses which coordinate system?",
-    "option1": "Origin at top-left",
-    "option2": "Origin at center",
-    "option3": "Origin at bottom-left",
-    "option4": "Origin at bottom-right",
-    "option5": "Origin at random point",
-    "solution": "Origin at top-left"
+    "question": "Which class represents an IP address?",
+    "option1": "IPAddress",
+    "option2": "InetAddress",
+    "option3": "Address",
+    "option4": "IP",
+    "option5": "NetIP",
+    "solution": "InetAddress"
   },
   {
-    "question": "Which function draws a line?",
-    "option1": "line()",
-    "option2": "drawline()",
-    "option3": "lineto()",
-    "option4": "plotline()",
-    "option5": "makeline()",
-    "solution": "line()"
+    "question": "Which method returns localhost address?",
+    "option1": "InetAddress.local()",
+    "option2": "InetAddress.getLocalHost()",
+    "option3": "IP.getHost()",
+    "option4": "InetAddress.this()",
+    "option5": "InetAddress.get()",
+    "solution": "InetAddress.getLocalHost()"
   },
   {
-    "question": "Which function draws a circle?",
-    "option1": "circle()",
-    "option2": "drawcircle()",
-    "option3": "round()",
-    "option4": "arcircle()",
-    "option5": "makecircle()",
-    "solution": "circle()"
+    "question": "Which protocol is connection-oriented?",
+    "option1": "UDP",
+    "option2": "ARP",
+    "option3": "Ethernet",
+    "option4": "TCP",
+    "option5": "FTP",
+    "solution": "TCP"
   },
   {
-    "question": "The function closegraph() is used to:",
-    "option1": "Close graphics mode",
-    "option2": "Draw a box",
-    "option3": "Reset pixel buffer",
-    "option4": "Render animation",
-    "option5": "Save graphics",
-    "solution": "Close graphics mode"
+    "question": "Which protocol is connectionless?",
+    "option1": "TCP",
+    "option2": "UDP",
+    "option3": "HTTP",
+    "option4": "SMTP",
+    "option5": "POP3",
+    "solution": "UDP"
   },
   {
-    "question": "Which function sets the current drawing color?",
-    "option1": "setcolor()",
-    "option2": "color()",
-    "option3": "setink()",
-    "option4": "col()",
-    "option5": "gfxcolor()",
-    "solution": "setcolor()"
+    "question": "Which class is used for UDP communication?",
+    "option1": "DatagramSocket",
+    "option2": "Socket",
+    "option3": "ServerSocket",
+    "option4": "URL",
+    "option5": "InetSocket",
+    "solution": "DatagramSocket"
+  },
+
+  {
+    "question": "Which method sends a UDP packet?",
+    "option1": "send()",
+    "option2": "write()",
+    "option3": "push()",
+    "option4": "fire()",
+    "option5": "sendPacket()",
+    "solution": "send()"
   },
   {
-    "question": "setbkcolor() is used for setting:",
-    "option1": "Background color",
-    "option2": "Border color",
-    "option3": "Line thickness",
-    "option4": "Fill style",
-    "option5": "Font color",
-    "solution": "Background color"
+    "question": "Which is NOT required in TCP communication?",
+    "option1": "IP Address",
+    "option2": "Port Number",
+    "option3": "URL",
+    "option4": "Socket",
+    "option5": "Protocol",
+    "solution": "URL"
   },
   {
-    "question": "fillpoly() is used to:",
-    "option1": "Fill a polygon",
-    "option2": "Fill a circle",
-    "option3": "Erase a polygon",
-    "option4": "Draw a polyline",
-    "option5": "Generate color gradient",
-    "solution": "Fill a polygon"
+    "question": "Which stream is used for reading from a socket?",
+    "option1": "InputStream",
+    "option2": "FileInputStream",
+    "option3": "SocketReader",
+    "option4": "Scanner",
+    "option5": "ByteReader",
+    "solution": "InputStream"
   },
   {
-    "question": "Which action represents a primitive operation?",
-    "option1": "Drawing a line",
-    "option2": "Compiling a program",
-    "option3": "Opening a file",
-    "option4": "Playing audio",
-    "option5": "Loading fonts",
-    "solution": "Drawing a line"
+    "question": "Which class is used for working with URLs?",
+    "option1": "HttpURL",
+    "option2": "URL",
+    "option3": "URLConnection",
+    "option4": "URLFetch",
+    "option5": "NetURL",
+    "solution": "URL"
   },
   {
-    "question": "Variables in Turbo C graphics include:",
-    "option1": "Coordinates, color values",
-    "option2": "Shaders and textures",
-    "option3": "Video buffers",
-    "option4": "3D meshes",
-    "option5": "Audio waveforms",
-    "solution": "Coordinates, color values"
+    "question": "Which method opens a connection to a URL?",
+    "option1": "connect()",
+    "option2": "openConnection()",
+    "option3": "start()",
+    "option4": "openURL()",
+    "option5": "open()",
+    "solution": "openConnection()"
   },
   {
-    "question": "Which operator is used to specify fill pattern?",
-    "option1": "setfillstyle()",
-    "option2": "settexture()",
-    "option3": "setshader()",
-    "option4": "setbrush()",
-    "option5": "setpattern()",
-    "solution": "setfillstyle()"
+    "question": "Which method of URL returns protocol?",
+    "option1": "getType()",
+    "option2": "getName()",
+    "option3": "getProtocol()",
+    "option4": "getServer()",
+    "option5": "getProperty()",
+    "solution": "getProtocol()"
   },
   {
-    "question": "Turbo C animation involves:",
-    "option1": "Redrawing frames continuously",
-    "option2": "Changing screen resolution",
-    "option3": "Decreasing refresh rate",
-    "option4": "Removing pixels only",
-    "option5": "Loading external shaders",
-    "solution": "Redrawing frames continuously"
+    "question": "Which port does HTTP use by default?",
+    "option1": "20",
+    "option2": "443",
+    "option3": "21",
+    "option4": "80",
+    "option5": "53",
+    "solution": "80"
   },
   {
-    "question": "Which function is used to display text in graphics mode?",
-    "option1": "outtext()",
-    "option2": "print()",
-    "option3": "textshow()",
-    "option4": "puttext()",
-    "option5": "showchars()",
-    "solution": "outtext()"
+    "question": "Which method returns host name?",
+    "option1": "getHostName()",
+    "option2": "getName()",
+    "option3": "getServer()",
+    "option4": "getLocation()",
+    "option5": "setHostName()",
+    "solution": "getHostName()"
   },
   {
-    "question": "Turbo C graphics transformations include:",
-    "option1": "Scaling, rotating, translating objects manually",
-    "option2": "Real-time ray tracing",
-    "option3": "Hardware acceleration",
-    "option4": "Physically based rendering",
-    "option5": "Dynamic texture mapping",
-    "solution": "Scaling, rotating, translating objects manually"
+    "question": "Which class is used for UDP packets?",
+    "option1": "Packet",
+    "option2": "DatagramPacket",
+    "option3": "UDPPacket",
+    "option4": "PacketUDP",
+    "option5": "SendPacket",
+    "solution": "DatagramPacket"
   },
   {
-    "question": "Which function saves screen contents to disk?",
-    "option1": "writeimagefile()",
-    "option2": "savepix()",
-    "option3": "capture()",
-    "option4": "storeimg()",
-    "option5": "dumpbuffer()",
-    "solution": "writeimagefile()"
+    "question": "Which protocol is used by browsers to access websites?",
+    "option1": "FTP",
+    "option2": "HTTP",
+    "option3": "SMTP",
+    "option4": "POP3",
+    "option5": "DHCP",
+    "solution": "HTTP"
+  },
+
+  {
+    "question": "Which method waits for a client in ServerSocket?",
+    "option1": "listen()",
+    "option2": "wait()",
+    "option3": "accept()",
+    "option4": "connect()",
+    "option5": "receive()",
+    "solution": "accept()"
   },
   {
-    "question": "Loading stored graphic images is done using:",
-    "option1": "readimagefile()",
-    "option2": "openimage()",
-    "option3": "loadgfx()",
-    "option4": "fetchimg()",
-    "option5": "showimage()",
-    "solution": "readimagefile()"
+    "question": "Which class provides higher-level HTTP communication?",
+    "option1": "URLConnection",
+    "option2": "HttpServlet",
+    "option3": "HttpURLConnection",
+    "option4": "ServerSocket",
+    "option5": "URLStream",
+    "solution": "HttpURLConnection"
   },
   {
-    "question": "Which technique is used to create animation effects in Turbo C?",
-    "option1": "Frame-by-frame redraw",
-    "option2": "GPU shader programming",
-    "option3": "Z-buffering",
-    "option4": "Ray tracing",
-    "option5": "Anti-aliasing",
-    "solution": "Frame-by-frame redraw"
+    "question": "Which port is used by DNS?",
+    "option1": "21",
+    "option2": "22",
+    "option3": "53",
+    "option4": "3306",
+    "option5": "8080",
+    "solution": "53"
   },
   {
-    "question": "The towers of Hanoi animation uses:",
-    "option1": "Recursive movement visualization",
-    "option2": "Texture mapping",
-    "option3": "Shadow generation",
-    "option4": "Illumination models",
-    "option5": "Color dithering",
-    "solution": "Recursive movement visualization"
+    "question": "Which method returns IP address from InetAddress?",
+    "option1": "getIP()",
+    "option2": "getAddress()",
+    "option3": "getHost()",
+    "option4": "getName()",
+    "option5": "getRaw()",
+    "solution": "getAddress()"
   },
   {
-    "question": "Which sorting algorithm can be animated easily in Turbo C?",
-    "option1": "Bubble sort",
-    "option2": "RSA encryption",
-    "option3": "DFS algorithm",
-    "option4": "Dijkstra's algorithm",
-    "option5": "Bellman-Ford",
-    "solution": "Bubble sort"
+    "question": "Which creates a UDP receiver socket?",
+    "option1": "new DatagramSocket(port)",
+    "option2": "new Socket(port)",
+    "option3": "new UDPServer(port)",
+    "option4": "new ServerSocket(port)",
+    "option5": "new Channel(port)",
+    "solution": "new DatagramSocket(port)"
   },
   {
-    "question": "A graphic primitive is:",
-    "option1": "Basic drawing element",
-    "option2": "Complete 3D model",
-    "option3": "Video file",
-    "option4": "Sound effect",
-    "option5": "File pointer",
-    "solution": "Basic drawing element"
+    "question": "Which socket method closes the connection?",
+    "option1": "stop()",
+    "option2": "halt()",
+    "option3": "close()",
+    "option4": "end()",
+    "option5": "destroy()",
+    "solution": "close()"
   },
   {
-    "question": "The ellipse() function draws:",
-    "option1": "An ellipse shape",
-    "option2": "A 3D cylinder",
-    "option3": "A filled polygon",
-    "option4": "A curved line",
-    "option5": "A textured circle",
-    "solution": "An ellipse shape"
+    "question": "Which class resolves domain names?",
+    "option1": "URL",
+    "option2": "Socket",
+    "option3": "InetAddress",
+    "option4": "ServerSocket",
+    "option5": "NetworkResolver",
+    "solution": "InetAddress"
   },
   {
-    "question": "Turbo C supports how many default colors?",
-    "option1": "16",
-    "option2": "8",
-    "option3": "32",
-    "option4": "64",
-    "option5": "256",
-    "solution": "16"
+    "question": "Which stream sends data through socket?",
+    "option1": "OutputStream",
+    "option2": "Writer",
+    "option3": "SendStream",
+    "option4": "Channel",
+    "option5": "NetWriter",
+    "solution": "OutputStream"
   },
   {
-    "question": "Bar() function is used to draw:",
-    "option1": "Filled rectangle",
-    "option2": "3D bar graph",
-    "option3": "Line chart",
-    "option4": "Polygon boundary",
-    "option5": "Circular arc",
-    "solution": "Filled rectangle"
+    "question": "Which is true about TCP?",
+    "option1": "Packet loss is ignored",
+    "option2": "Reliable communication",
+    "option3": "Connectionless communication",
+    "option4": "Faster than UDP",
+    "option5": "Used only for emails",
+    "solution": "Reliable communication"
   },
   {
-    "question": "Which function sets the current fill style?",
-    "option1": "setfillstyle()",
-    "option2": "fillcolor()",
-    "option3": "brushstyle()",
-    "option4": "patternstyle()",
-    "option5": "setbrush()",
-    "solution": "setfillstyle()"
+    "question": "Networking in Java uses:",
+    "option1": "Streams",
+    "option2": "Files",
+    "option3": "Threads only",
+    "option4": "Sockets only",
+    "option5": "Servlets",
+    "solution": "Streams"
   },
   {
-    "question": "Turbo C graphics system uses which display model?",
-    "option1": "Raster display",
-    "option2": "Vector display",
-    "option3": "Plasma cell display",
-    "option4": "Pen plotter",
-    "option5": "Color mask display",
-    "solution": "Raster display"
+    "question": "Which class parses URLs?",
+    "option1": "URLParser",
+    "option2": "URL",
+    "option3": "URI",
+    "option4": "URLDecoder",
+    "option5": "URLEncoder",
+    "solution": "URI"
   },
   {
-    "question": "Turbo C uses which coordinate format?",
-    "option1": "(x, y) integer coordinates",
-    "option2": "Floating point coordinates",
-    "option3": "Homogeneous coordinates",
-    "option4": "3D coordinates",
-    "option5": "Normalized coordinates",
-    "solution": "(x, y) integer coordinates"
+    "question": "Which protocol does NOT guarantee delivery?",
+    "option1": "HTTP",
+    "option2": "TCP",
+    "option3": "UDP",
+    "option4": "FTP",
+    "option5": "SMTP",
+    "solution": "UDP"
+  },
+
+  {
+    "question": "Hard: Which exception is thrown on socket timeout?",
+    "option1": "TimeoutException",
+    "option2": "SocketTimeoutException",
+    "option3": "IOException",
+    "option4": "EOFException",
+    "option5": "NetException",
+    "solution": "SocketTimeoutException"
   },
   {
-    "question": "In Turbo C graphics, what is the main reason XOR drawing is used for animations such as dragging and rubber-band lines?",
-    "option1": "It allows drawing and erasing without redrawing the background",
-    "option2": "It produces smoother anti-aliased edges",
-    "option3": "It guarantees constant frame rate",
-    "option4": "It increases VRAM bandwidth",
-    "option5": "It avoids integer coordinate rounding",
-    "solution": "It allows drawing and erasing without redrawing the background"
+    "question": "Hard: What does socket.getInputStream() return?",
+    "option1": "Network stream",
+    "option2": "File stream",
+    "option3": "Null",
+    "option4": "BufferedWriter",
+    "option5": "Output stream",
+    "solution": "Network stream"
   },
   {
-    "question": "The BGI driver used by Turbo C graphics is limited because:",
-    "option1": "It provides only software rendering with no hardware acceleration",
-    "option2": "It cannot draw polygons",
-    "option3": "It does not support clipping",
-    "option4": "It restricts all colors to 256-bit",
-    "option5": "It cannot calculate pixel addresses",
-    "solution": "It provides only software rendering with no hardware acceleration"
+    "question": "Hard: Which protocol is used by email servers?",
+    "option1": "FTP",
+    "option2": "SMTP",
+    "option3": "DNS",
+    "option4": "DHCP",
+    "option5": "ARP",
+    "solution": "SMTP"
   },
   {
-    "question": "In Turbo C graphics, the function putpixel(x, y, c) is slow mainly because:",
-    "option1": "It computes pixel memory addresses at runtime via BGI layer",
-    "option2": "It uses floating-point operations internally",
-    "option3": "It updates the entire screen every call",
-    "option4": "It runs in hardware interrupt mode",
-    "option5": "It uses DMA transfer per pixel",
-    "solution": "It computes pixel memory addresses at runtime via BGI layer"
+    "question": "Hard: Which class is used for URL encoding?",
+    "option1": "Codec",
+    "option2": "Encoder",
+    "option3": "URLEncoder",
+    "option4": "Base64",
+    "option5": "URLCodec",
+    "solution": "URLEncoder"
   },
   {
-    "question": "Which problem arises when performing repeated animations using putpixel without clearing frames?",
-    "option1": "Ghost images appear due to frame overwrite not being erased",
-    "option2": "Z-buffer becomes corrupted",
-    "option3": "Textures become aliased",
-    "option4": "Memory leak occurs in the BGI driver",
-    "option5": "Objects rotate incorrectly",
-    "solution": "Ghost images appear due to frame overwrite not being erased"
+    "question": "Hard: Identify the output:\nInetAddress a = InetAddress.getByName(\"localhost\"); System.out.println(a.getHostAddress());",
+    "option1": "127.0.0.1",
+    "option2": "localhost",
+    "option3": "0.0.0.0",
+    "option4": "error",
+    "option5": "null",
+    "solution": "127.0.0.1"
   },
   {
-    "question": "Why is double-buffering difficult to implement directly in Turbo C graphics?",
-    "option1": "BGI does not expose raw pointers to video memory",
-    "option2": "Turbo C does not support arrays",
-    "option3": "Line drawing functions are unavailable",
-    "option4": "Interrupts cannot be disabled",
-    "option5": "Mouse handler conflicts with page flipping",
-    "solution": "BGI does not expose raw pointers to video memory"
+    "question": "Hard: Which socket API is blocking by default?",
+    "option1": "DatagramSocket",
+    "option2": "MulticastSocket",
+    "option3": "Socket",
+    "option4": "ServerSocket",
+    "option5": "Channel",
+    "solution": "Socket"
   },
   {
-    "question": "A major limitation of setcolor() in Turbo C graphics is:",
-    "option1": "It supports only a fixed palette of 16 colors in standard modes",
-    "option2": "It resets pixel values after each frame",
-    "option3": "It disables clipping",
-    "option4": "It cannot be used inside loops",
-    "option5": "It accepts only hexadecimal values",
-    "solution": "It supports only a fixed palette of 16 colors in standard modes"
+    "question": "Hard: Which protocol uses port 22?",
+    "option1": "SMTP",
+    "option2": "FTP",
+    "option3": "SSH",
+    "option4": "DNS",
+    "option5": "HTTP",
+    "solution": "SSH"
   },
   {
-    "question": "The function line(x1, y1, x2, y2) internally uses:",
-    "option1": "A modified Bresenham line algorithm through BGI layer",
-    "option2": "DDA algorithm for all slopes",
-    "option3": "Hardware rasterization",
-    "option4": "Z-buffer based drawing",
-    "option5": "Floating-point midpoint algorithm",
-    "solution": "A modified Bresenham line algorithm through BGI layer"
+    "question": "Hard: Which method checks if socket is connected?",
+    "option1": "isConnected()",
+    "option2": "check()",
+    "option3": "connected()",
+    "option4": "live()",
+    "option5": "status()",
+    "solution": "isConnected()"
   },
   {
-    "question": "Which issue occurs when drawing shapes partially outside the screen boundary in Turbo C?",
-    "option1": "Clipping is not applied automatically and may cause memory writes outside safe range",
-    "option2": "Turbo C auto-resizes the window",
-    "option3": "Shapes disappear entirely",
-    "option4": "The color palette resets",
-    "option5": "The graphics mode exits automatically",
-    "solution": "Clipping is not applied automatically and may cause memory writes outside safe range"
+    "question": "Hard: Which Java class supports NON-blocking networking?",
+    "option1": "ServerSocket",
+    "option2": "DatagramSocket",
+    "option3": "SocketChannel",
+    "option4": "Socket",
+    "option5": "URL",
+    "solution": "SocketChannel"
   },
   {
-    "question": "What is the typical reason for flickering in Turbo C animations?",
-    "option1": "Redrawing frames directly on the visible buffer without double-buffering",
-    "option2": "Mouse interrupts overriding CPU cycles",
-    "option3": "Incorrect timer frequency",
-    "option4": "Invalid color mode selection",
-    "option5": "Shadow buffer misalignment",
-    "solution": "Redrawing frames directly on the visible buffer without double-buffering"
-  },
-  {
-    "question": "Why is circle(x, y, r) slower compared to line() in Turbo C?",
-    "option1": "It computes symmetric points repeatedly using BGI software loops",
-    "option2": "It relies on recursive subdivision",
-    "option3": "It requires texture sampling",
-    "option4": "It performs z-depth calculation",
-    "option5": "It clears the frame buffer before drawing",
-    "solution": "It computes symmetric points repeatedly using BGI software loops"
-  },
-  {
-    "question": "Which problem arises when saving images using writeimagefile()?",
-    "option1": "It saves only a rectangular region and not the full screen unless specified",
-    "option2": "It saves only in PNG format",
-    "option3": "It removes all pixel colors",
-    "option4": "It automatically compresses using JPEG",
-    "option5": "It overwrites the frame buffer",
-    "solution": "It saves only a rectangular region and not the full screen unless specified"
-  },
-  {
-    "question": "In Turbo C, the function getimage() captures:",
-    "option1": "A raw block of pixel memory without format conversion",
-    "option2": "A BMP-formatted bitmap",
-    "option3": "An indexed color table",
-    "option4": "A compressed JPEG stream",
-    "option5": "A polygon vertex list",
-    "solution": "A raw block of pixel memory without format conversion"
-  },
-  {
-    "question": "What is a major downside of using floodfill() in Turbo C?",
-    "option1": "It is slow and can freeze for large regions due to stack-based recursion",
-    "option2": "It cannot fill polygons",
-    "option3": "It supports only grayscale colors",
-    "option4": "It corrupts the VRAM",
-    "option5": "It requires hardware acceleration",
-    "solution": "It is slow and can freeze for large regions due to stack-based recursion"
-  },
-  {
-    "question": "Why is text rendering using outtextxy() often misaligned?",
-    "option1": "The function uses a fixed-width bitmap font without kerning",
-    "option2": "The coordinates must be multiples of 8",
-    "option3": "It uses trigonometric scaling",
-    "option4": "It rounds coordinates to nearest even number",
-    "option5": "It depends on page flipping mode",
-    "solution": "The function uses a fixed-width bitmap font without kerning"
-  },
-  {
-    "question": "When performing transformations manually in Turbo C, which challenge occurs?",
-    "option1": "Lack of matrix multiplication support in the API",
-    "option2": "BGI automatically modifies the coordinate system",
-    "option3": "Transforms cannot be performed on polygons",
-    "option4": "setviewport() disables transformations",
-    "option5": "Coordinates must be floating-point only",
-    "solution": "Lack of matrix multiplication support in the API"
-  },
-  {
-    "question": "Which limitation of Turbo C makes smooth animations difficult?",
-    "option1": "Restricted 16-color palette reduces motion clarity",
-    "option2": "No vsync synchronization",
-    "option3": "Mouse cannot be used",
-    "option4": "No support for line clipping",
-    "option5": "Only integer coordinates are allowed",
-    "solution": "Restricted 16-color palette reduces motion clarity"
-  },
-  {
-    "question": "Why are BGI functions slower than direct VGA memory programming?",
-    "option1": "BGI introduces an abstraction layer performing extra checks and function calls",
-    "option2": "BGI uses hardware interrupts exclusively",
-    "option3": "BGI stores frames in system RAM only",
-    "option4": "BGI always uses floating-point calculations",
-    "option5": "BGI doubles the pixel resolution internally",
-    "solution": "BGI introduces an abstraction layer performing extra checks and function calls"
-  },
-  {
-    "question": "In animations such as Towers of Hanoi in Turbo C, the main bottleneck is:",
-    "option1": "Frequent redrawing of static background elements",
-    "option2": "Incorrect recursion depth",
-    "option3": "Failure of frame swapping",
-    "option4": "Color palette underflow",
-    "option5": "Recursive stack tearing",
-    "solution": "Frequent redrawing of static background elements"
-  },
-  {
-    "question": "Why do transformations implemented in Turbo C graphics often appear inaccurate?",
-    "option1": "All coordinates are integer-rounded, causing geometric distortion",
-    "option2": "Turbo C converts all values to grayscale",
-    "option3": "The viewport shifts automatically",
-    "option4": "Frame buffer interpolation fails",
-    "option5": "The graphics mode loses precision after each frame",
-    "solution": "All coordinates are integer-rounded, causing geometric distortion"
-  },
-  {
-    "question": "Which internal issue makes Turbo C animations tear during motion?",
-    "option1": "Lack of vertical synchronization (vsync)",
-    "option2": "Incorrect segmentation registers",
-    "option3": "Texture cache misses",
-    "option4": "Faulty blitting hardware",
-    "option5": "Missing polygon rasterizer",
-    "solution": "Lack of vertical synchronization (vsync)"
+    "question": "Hard code: Identify output:\nSocket s = new Socket(\"localhost\", 8080); System.out.println(s.isClosed());",
+    "option1": "false",
+    "option2": "true",
+    "option3": "null",
+    "option4": "error",
+    "option5": "0",
+    "solution": "false"
   }
 ]

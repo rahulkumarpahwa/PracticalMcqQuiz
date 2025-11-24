@@ -1,13 +1,13 @@
-# Graphics Quiz
+# Advanced Java Quiz
 
 - The page loads these topics:
-  1. Display Devices
-  2. Display Description
-  3. Interactive Graphics
-  4. 3-D Graphics
-  5. Turbo-C Graphic Language
-  6. OpenGL
-  7. Programming Projects
+  1. Swing
+  2. JDBC
+  3. Java RMI
+  4. Java Servlets
+  5. Networking
+  6. Java Beans / EJB
+  7. Java Server Pages (JSP)
 
 https://practicalmcqquiz.netlify.app/
 http://quiz.rahulkumarpahwa.tech/

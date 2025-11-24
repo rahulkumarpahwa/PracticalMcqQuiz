@@ -1,452 +1,374 @@
 [
   {
-    "question": "OpenGL is primarily used for:",
-    "option1": "Rendering 2D and 3D graphics",
-    "option2": "Audio processing",
-    "option3": "Database management",
-    "option4": "Operating system development",
-    "option5": "Compiler design",
-    "solution": "Rendering 2D and 3D graphics"
+    "question": "A JavaBean is:",
+    "option1": "A reusable software component",
+    "option2": "A servlet",
+    "option3": "A database connector",
+    "option4": "Only a GUI component",
+    "option5": "HTML generator",
+    "solution": "A reusable software component"
   },
   {
-    "question": "OpenGL stands for:",
-    "option1": "Open Graphics Library",
-    "option2": "Open General Language",
-    "option3": "Open Game Logic",
-    "option4": "Operating Graphics Loader",
-    "option5": "Online Graphics Layout",
-    "solution": "Open Graphics Library"
+    "question": "Which package contains JavaBeans classes?",
+    "option1": "java.beans",
+    "option2": "javax.bean",
+    "option3": "java.bean",
+    "option4": "beans.java",
+    "option5": "bean.core",
+    "solution": "java.beans"
   },
   {
-    "question": "OpenGL is a:",
-    "option1": "Cross-platform graphics API",
-    "option2": "Hardware driver",
-    "option3": "Database engine",
-    "option4": "Scripting language",
-    "option5": "Network protocol",
-    "solution": "Cross-platform graphics API"
+    "question": "A JavaBean class must have:",
+    "option1": "Public default constructor",
+    "option2": "No constructor",
+    "option3": "Private constructor",
+    "option4": "Abstract methods",
+    "option5": "Static factory",
+    "solution": "Public default constructor"
   },
   {
-    "question": "Which language is commonly used with OpenGL?",
-    "option1": "C/C++",
-    "option2": "HTML",
-    "option3": "SQL",
-    "option4": "Bash",
-    "option5": "Prolog",
-    "solution": "C/C++"
+    "question": "JavaBeans follow which naming convention?",
+    "option1": "PascalCase",
+    "option2": "JavaBean property rules",
+    "option3": "CamelCase only",
+    "option4": "SnakeCase",
+    "option5": "Hungarian",
+    "solution": "JavaBean property rules"
   },
   {
-    "question": "A primitive in OpenGL refers to:",
-    "option1": "Basic shape like points, lines, triangles",
-    "option2": "Complete 3D model",
-    "option3": "Shader program",
-    "option4": "Texture file",
-    "option5": "Audio buffer",
-    "solution": "Basic shape like points, lines, triangles"
+    "question": "Which method retrieves property values in a bean?",
+    "option1": "getProperty()",
+    "option2": "show()",
+    "option3": "getXxx()",
+    "option4": "read()",
+    "option5": "fetchX()",
+    "solution": "getXxx()"
   },
   {
-    "question": "OpenGL uses which type of coordinate system?",
-    "option1": "Right-handed",
-    "option2": "Left-handed",
-    "option3": "Polar only",
-    "option4": "Spherical only",
-    "option5": "Arbitrary",
-    "solution": "Right-handed"
+    "question": "Which method sets property values in a bean?",
+    "option1": "setValue()",
+    "option2": "setXxx()",
+    "option3": "init()",
+    "option4": "putValue()",
+    "option5": "assign()",
+    "solution": "setXxx()"
   },
   {
-    "question": "The function glBegin() is used to:",
-    "option1": "Start drawing primitives",
-    "option2": "Initialize shader",
-    "option3": "Allocate memory",
-    "option4": "Create textures",
-    "option5": "Load fonts",
-    "solution": "Start drawing primitives"
+    "question": "JavaBeans support:",
+    "option1": "Introspection",
+    "option2": "Only inheritance",
+    "option3": "Machine learning",
+    "option4": "Networking only",
+    "option5": "Database persistence only",
+    "solution": "Introspection"
   },
   {
-    "question": "glVertex3f() specifies:",
-    "option1": "A 3D point",
-    "option2": "A color",
-    "option3": "A texture coordinate",
-    "option4": "A window size",
-    "option5": "A normal vector",
-    "solution": "A 3D point"
+    "question": "Which tool is used for developing beans graphically?",
+    "option1": "BDK",
+    "option2": "NetTools",
+    "option3": "BeanEditor",
+    "option4": "BeanMaker",
+    "option5": "JBuilder",
+    "solution": "BDK"
   },
   {
-    "question": "Which function sets color in OpenGL?",
-    "option1": "glColor3f()",
-    "option2": "setcolor()",
-    "option3": "color()",
-    "option4": "setRGB()",
-    "option5": "glShade()",
-    "solution": "glColor3f()"
+    "question": "Which file stores multiple JavaBeans?",
+    "option1": "EAR",
+    "option2": "WAR",
+    "option3": "JAR",
+    "option4": "ZIP",
+    "option5": "BUNDLE",
+    "solution": "JAR"
   },
   {
-    "question": "glEnd() is always used with:",
-    "option1": "glBegin()",
-    "option2": "glEnable()",
-    "option3": "glMatrixMode()",
-    "option4": "glLoadIdentity()",
-    "option5": "glFlush()",
-    "solution": "glBegin()"
+    "question": "Which interface handles event notifications?",
+    "option1": "EventListener",
+    "option2": "ActionListener",
+    "option3": "BeanListener",
+    "option4": "Handler",
+    "option5": "Notifier",
+    "solution": "EventListener"
+  },
+
+  {
+    "question": "Which component model is used for server-side business logic?",
+    "option1": "AWT",
+    "option2": "EJB",
+    "option3": "JSP",
+    "option4": "Swing",
+    "option5": "JavaFX",
+    "solution": "EJB"
   },
   {
-    "question": "OpenGL pipeline includes:",
-    "option1": "Vertex, rasterization, fragment stages",
-    "option2": "Compiler, linker, loader stages",
-    "option3": "Input, output, error stages",
-    "option4": "File, memory, I/O stages",
-    "option5": "Thread, buffer, swap stages",
-    "solution": "Vertex, rasterization, fragment stages"
+    "question": "EJB stands for:",
+    "option1": "Enterprise JavaBeans",
+    "option2": "Enterprise Joint Beans",
+    "option3": "Enterprise JSON Beans",
+    "option4": "Enterprise Java Bundle",
+    "option5": "Enhanced JavaBeans",
+    "solution": "Enterprise JavaBeans"
   },
   {
-    "question": "Which OpenGL mode draws triangles?",
-    "option1": "GL_TRIANGLES",
-    "option2": "GL_POINTS",
-    "option3": "GL_LINES",
-    "option4": "GL_BITMAP",
-    "option5": "GL_SELECT",
-    "solution": "GL_TRIANGLES"
+    "question": "EJB components run inside:",
+    "option1": "Application server",
+    "option2": "Browser",
+    "option3": "JVM only",
+    "option4": "Client device",
+    "option5": "Database",
+    "solution": "Application server"
   },
   {
-    "question": "glMatrixMode() is used to:",
-    "option1": "Select the current matrix",
-    "option2": "Set line thickness",
-    "option3": "Define viewport",
-    "option4": "Draw polygons",
-    "option5": "Load texture",
-    "solution": "Select the current matrix"
+    "question": "Which type of EJB manages long-term persistence?",
+    "option1": "Session Beans",
+    "option2": "Entity Beans",
+    "option3": "Message-driven Beans",
+    "option4": "Container Beans",
+    "option5": "Static Beans",
+    "solution": "Entity Beans"
   },
   {
-    "question": "Which matrix is used for object transformations?",
-    "option1": "GL_MODELVIEW",
-    "option2": "GL_PROJECTION",
-    "option3": "GL_TEXTURE",
-    "option4": "GL_COLOR",
-    "option5": "GL_DEPTH",
-    "solution": "GL_MODELVIEW"
+    "question": "Which bean handles asynchronous messaging?",
+    "option1": "Session Bean",
+    "option2": "Entity Bean",
+    "option3": "Message-Driven Bean",
+    "option4": "Singleton Bean",
+    "option5": "Remote Bean",
+    "solution": "Message-Driven Bean"
   },
   {
-    "question": "Which matrix handles perspective projection?",
-    "option1": "GL_PROJECTION",
-    "option2": "GL_MODELVIEW",
-    "option3": "GL_COLOR",
-    "option4": "GL_BITMAP",
-    "option5": "GL_DEPTH",
-    "solution": "GL_PROJECTION"
+    "question": "Stateless session beans:",
+    "option1": "Store no client state",
+    "option2": "Store full session data",
+    "option3": "Store user cookies",
+    "option4": "Store distributed logs",
+    "option5": "Store user credentials",
+    "solution": "Store no client state"
   },
   {
-    "question": "glLoadIdentity() is used to:",
-    "option1": "Reset matrix to identity",
-    "option2": "Load a texture",
-    "option3": "Clear screen",
-    "option4": "Draw pixels",
-    "option5": "Set lighting model",
-    "solution": "Reset matrix to identity"
+    "question": "Stateful session beans:",
+    "option1": "Lose state after every call",
+    "option2": "Maintain client state",
+    "option3": "Maintain server logs",
+    "option4": "Maintain DB schema",
+    "option5": "Maintain network state",
+    "solution": "Maintain client state"
   },
   {
-    "question": "OpenGL uses which type of rendering?",
-    "option1": "Immediate mode and retained mode",
-    "option2": "Hardware-only mode",
-    "option3": "Software-only mode",
-    "option4": "Audio rendering",
-    "option5": "Binary rendering",
-    "solution": "Immediate mode and retained mode"
-  },
-  {
-    "question": "glTranslatef() performs:",
-    "option1": "Translation transformation",
-    "option2": "Scaling",
-    "option3": "Rotation",
-    "option4": "Perspective projection",
-    "option5": "Shading",
-    "solution": "Translation transformation"
-  },
-  {
-    "question": "glRotatef() performs rotation about:",
-    "option1": "A specified axis",
-    "option2": "Screen axis only",
-    "option3": "Z-axis only",
-    "option4": "Y-axis only",
-    "option5": "X-axis only",
-    "solution": "A specified axis"
-  },
-  {
-    "question": "glScalef() performs:",
-    "option1": "Scaling transformation",
-    "option2": "Clipping",
-    "option3": "Lighting",
-    "option4": "Texture sampling",
-    "option5": "Shading",
-    "solution": "Scaling transformation"
-  },
-  {
-    "question": "OpenGL uses which data type for vertices?",
-    "option1": "Floating-point",
-    "option2": "Integer only",
-    "option3": "Boolean",
-    "option4": "Character",
-    "option5": "Double only",
-    "solution": "Floating-point"
-  },
-  {
-    "question": "OpenGL supports which type of shading?",
-    "option1": "Flat and smooth shading",
-    "option2": "Ray-traced shading",
-    "option3": "Path tracing",
-    "option4": "Audio shading",
-    "option5": "Hybrid shading",
-    "solution": "Flat and smooth shading"
-  },
-  {
-    "question": "glFlush() is used to:",
-    "option1": "Force execution of OpenGL commands",
-    "option2": "Reset screen",
-    "option3": "Load shader",
-    "option4": "Start animation",
-    "option5": "Clear color buffer",
-    "solution": "Force execution of OpenGL commands"
-  },
-  {
-    "question": "OpenGL supports textures through:",
-    "option1": "glTexImage2D()",
-    "option2": "glShader2D()",
-    "option3": "loadTexture()",
-    "option4": "texdraw()",
-    "option5": "glColorTex()",
-    "solution": "glTexImage2D()"
-  },
-  {
-    "question": "Which primitive draws connected line segments?",
-    "option1": "GL_LINE_STRIP",
-    "option2": "GL_POINTS",
-    "option3": "GL_QUADS",
-    "option4": "GL_POLYGON",
-    "option5": "GL_BITMAP",
-    "solution": "GL_LINE_STRIP"
-  },
-  {
-    "question": "Immediate mode in OpenGL uses:",
-    "option1": "glBegin() / glEnd()",
-    "option2": "Shaders only",
-    "option3": "Matrix stacks only",
-    "option4": "Buffers only",
-    "option5": "Textures only",
-    "solution": "glBegin() / glEnd()"
-  },
-  {
-    "question": "OpenGL works based on which rendering pipeline?",
-    "option1": "State machine",
-    "option2": "Functional pipeline",
-    "option3": "Object pipeline",
-    "option4": "Event pipeline",
-    "option5": "Shader pipeline only",
-    "solution": "State machine"
-  },
-  {
-    "question": "Lighting in OpenGL is enabled using:",
-    "option1": "glEnable(GL_LIGHTING)",
-    "option2": "glStartLight()",
-    "option3": "setlight()",
-    "option4": "glLightBegin()",
-    "option5": "glShadeLight()",
-    "solution": "glEnable(GL_LIGHTING)"
-  },
-  {
-    "question": "Which feature is supported by OpenGL?",
-    "option1": "Depth buffering",
-    "option2": "SQL querying",
-    "option3": "Compiler optimization",
-    "option4": "Network routing",
+    "question": "EJB Container provides:",
+    "option1": "Memory caching only",
+    "option2": "Transaction & security services",
+    "option3": "JavaFX rendering",
+    "option4": "Operating system access",
     "option5": "File compression",
-    "solution": "Depth buffering"
+    "solution": "Transaction & security services"
   },
   {
-    "question": "OpenGL uses which buffer for hidden-surface removal?",
-    "option1": "Z-buffer",
-    "option2": "Audio buffer",
-    "option3": "File buffer",
-    "option4": "Network buffer",
-    "option5": "Print buffer",
-    "solution": "Z-buffer"
+    "question": "EJBs use which protocol?",
+    "option1": "RMI-IIOP",
+    "option2": "HTTP",
+    "option3": "SMTP",
+    "option4": "TCP only",
+    "option5": "UDP only",
+    "solution": "RMI-IIOP"
   },
   {
-    "question": "In the modern OpenGL pipeline, which stage is responsible for assembling vertices into primitives before rasterization?",
-    "option1": "Primitive assembly stage",
-    "option2": "Fragment shader stage",
-    "option3": "Vertex post-processing stage",
-    "option4": "Compute shader stage",
-    "option5": "Tessellation evaluation stage",
-    "solution": "Primitive assembly stage"
+    "question": "Local interfaces are used when:",
+    "option1": "Beans need remote clients",
+    "option2": "Beans are on the same JVM",
+    "option3": "Beans run on browsers",
+    "option4": "Beans run on OS",
+    "option5": "Beans run as CGI",
+    "solution": "Beans are on the same JVM"
+  },
+
+  {
+    "question": "Which method is part of a session bean lifecycle?",
+    "option1": "startBean()",
+    "option2": "begin()",
+    "option3": "ejbCreate()",
+    "option4": "setup()",
+    "option5": "init()",
+    "solution": "ejbCreate()"
   },
   {
-    "question": "Why must glVertex*() calls be avoided in performance-critical OpenGL applications?",
-    "option1": "Immediate mode causes CPU-GPU synchronization overhead",
-    "option2": "It disables back-face culling",
-    "option3": "It forces perspective correction",
-    "option4": "It requires normalized device coordinates",
-    "option5": "It breaks z-buffer functionality",
-    "solution": "Immediate mode causes CPU-GPU synchronization overhead"
+    "question": "Which annotation marks an Enterprise Bean?",
+    "option1": "@EJBBean",
+    "option2": "@Enterprise",
+    "option3": "@Entity",
+    "option4": "@Stateless",
+    "option5": "@Bean",
+    "solution": "@Stateless"
   },
   {
-    "question": "Which matrix transforms coordinates from eye space to clip space in the classic OpenGL pipeline?",
-    "option1": "Projection matrix",
-    "option2": "Model matrix",
-    "option3": "View matrix",
-    "option4": "Viewport matrix",
-    "option5": "Normal matrix",
-    "solution": "Projection matrix"
+    "question": "Which annotation marks a persistent bean?",
+    "option1": "@Entity",
+    "option2": "@Persist",
+    "option3": "@Database",
+    "option4": "@Permanent",
+    "option5": "@Store",
+    "solution": "@Entity"
   },
   {
-    "question": "Which step happens before perspective division in the OpenGL pipeline?",
-    "option1": "Clipping in homogeneous clip space",
-    "option2": "Viewport transformation",
-    "option3": "Fragment shading",
-    "option4": "Depth testing",
-    "option5": "Rasterization",
-    "solution": "Clipping in homogeneous clip space"
+    "question": "Message-driven beans must implement:",
+    "option1": "Serializable",
+    "option2": "MessageListener",
+    "option3": "Runnable",
+    "option4": "Observer",
+    "option5": "SessionLocal",
+    "solution": "MessageListener"
   },
   {
-    "question": "Why are vertex buffer objects (VBOs) faster than glBegin/glEnd rendering?",
-    "option1": "Data stays on GPU memory instead of being sent each frame",
-    "option2": "They automatically apply back-face culling",
-    "option3": "They reduce z-buffer pressure",
-    "option4": "They eliminate overdraw completely",
-    "option5": "They remove the need for shaders",
-    "solution": "Data stays on GPU memory instead of being sent each frame"
+    "question": "JavaBeans communication is based on:",
+    "option1": "Events",
+    "option2": "RMI",
+    "option3": "CORBA",
+    "option4": "JSP tags",
+    "option5": "Sockets",
+    "solution": "Events"
   },
   {
-    "question": "Which type of shader is responsible for interpolating values across fragments?",
-    "option1": "Rasterization stage (fixed-function)",
-    "option2": "Geometry shader",
-    "option3": "Tessellation control shader",
-    "option4": "Vertex shader",
-    "option5": "Compute shader",
-    "solution": "Rasterization stage (fixed-function)"
+    "question": "Which class provides bean introspection?",
+    "option1": "BeanAnalyzer",
+    "option2": "Introspector",
+    "option3": "BeanInfo",
+    "option4": "Inspector",
+    "option5": "Descriptor",
+    "solution": "Introspector"
   },
   {
-    "question": "A normalized device coordinate (NDC) of z = 1 indicates:",
-    "option1": "The far clipping plane",
-    "option2": "The near clipping plane",
-    "option3": "Outside the view frustum",
-    "option4": "A back-facing primitive",
-    "option5": "A point after viewport mapping",
-    "solution": "The far clipping plane"
+    "question": "Bound properties notify listeners when:",
+    "option1": "Beans load",
+    "option2": "Property changes",
+    "option3": "Server starts",
+    "option4": "JAR loads",
+    "option5": "Program exits",
+    "solution": "Property changes"
   },
   {
-    "question": "Which transform is applied LAST in the traditional OpenGL pipeline?",
-    "option1": "Viewport transform",
-    "option2": "Model transform",
-    "option3": "View transform",
-    "option4": "Projection transform",
-    "option5": "Perspective divide",
-    "solution": "Viewport transform"
+    "question": "EJBs handle transactions using:",
+    "option1": "JTA",
+    "option2": "JDBC",
+    "option3": "Threads",
+    "option4": "ServletContext",
+    "option5": "JPA",
+    "solution": "JTA"
   },
   {
-    "question": "Which OpenGL operation is NOT allowed between glBegin() and glEnd()?",
-    "option1": "glEnable()",
-    "option2": "glVertex3f()",
-    "option3": "glColor3f()",
-    "option4": "glNormal3f()",
-    "option5": "glTexCoord2f()",
-    "solution": "glEnable()"
+    "question": "Which deployment descriptor configures EJBs?",
+    "option1": "web.xml",
+    "option2": "beans.xml",
+    "option3": "ejb-jar.xml",
+    "option4": "app.xml",
+    "option5": "mapping.xml",
+    "solution": "ejb-jar.xml"
   },
   {
-    "question": "Which OpenGL feature reduces geometric detail dynamically based on distance?",
-    "option1": "Level of detail (LOD)",
-    "option2": "Alpha blending",
-    "option3": "Vertex snapping",
-    "option4": "Perspective correction",
-    "option5": "Stencil buffering",
-    "solution": "Level of detail (LOD)"
+    "question": "JavaBeans are primarily used for:",
+    "option1": "Reusable components",
+    "option2": "Server-side logic only",
+    "option3": "Low-level OS tasks",
+    "option4": "JVM booting",
+    "option5": "Database tuning",
+    "solution": "Reusable components"
   },
   {
-    "question": "Which buffer is responsible for masking pixels so that only certain regions are updated?",
-    "option1": "Stencil buffer",
-    "option2": "Depth buffer",
-    "option3": "Accumulation buffer",
-    "option4": "Color buffer",
-    "option5": "Auxiliary buffer",
-    "solution": "Stencil buffer"
+    "question": "Enterprise JavaBeans are used for:",
+    "option1": "Reusable UI",
+    "option2": "Business logic",
+    "option3": "Swing animations",
+    "option4": "CSS rendering",
+    "option5": "File parsing",
+    "solution": "Business logic"
+  },
+
+  {
+    "question": "Hard: Which interface is mandatory for EJB remote access?",
+    "option1": "Serializable",
+    "option2": "EJBRemote",
+    "option3": "Remote",
+    "option4": "RemoteBean",
+    "option5": "BeanRemote",
+    "solution": "Remote"
   },
   {
-    "question": "Why must normals be re-normalized after non-uniform scaling?",
-    "option1": "Non-uniform scaling distorts direction vectors",
-    "option2": "OpenGL uses only integer normals",
-    "option3": "Normals depend on clip-space coordinates",
-    "option4": "Perspective divide breaks normalization",
-    "option5": "Back-face culling requires integer normals",
-    "solution": "Non-uniform scaling distorts direction vectors"
+    "question": "Hard: Stateful session bean passivation means:",
+    "option1": "Bean destroyed",
+    "option2": "Bean moved to secondary storage",
+    "option3": "Bean restarted",
+    "option4": "Bean duplicated",
+    "option5": "Bean becomes stateless",
+    "solution": "Bean moved to secondary storage"
   },
   {
-    "question": "Call order matters because glMatrixMode(GL_MODELVIEW) followed by glLoadIdentity() will:",
-    "option1": "Reset both model and view transformations",
-    "option2": "Reset only the projection matrix",
-    "option3": "Disable clipping",
-    "option4": "Force shading to flat mode",
-    "option5": "Reset the z-buffer",
-    "solution": "Reset both model and view transformations"
+    "question": "Hard: Which persistence API is used with EJB?",
+    "option1": "JPA",
+    "option2": "JDBC",
+    "option3": "JTA",
+    "option4": "JSP",
+    "option5": "XML",
+    "solution": "JPA"
   },
   {
-    "question": "What is the main drawback of using glFlush() instead of glFinish()?",
-    "option1": "glFlush() does not wait for GPU completion",
-    "option2": "glFlush() clears all buffers",
-    "option3": "glFlush() disables depth testing",
-    "option4": "glFlush() resets textures",
-    "option5": "glFlush() breaks double-buffering",
-    "solution": "glFlush() does not wait for GPU completion"
+    "question": "Hard: What does @PostConstruct represent?",
+    "option1": "Bean shutdown",
+    "option2": "Bean initialization",
+    "option3": "Bean serialization",
+    "option4": "Bean passivation",
+    "option5": "Bean merging",
+    "solution": "Bean initialization"
   },
   {
-    "question": "Which buffer must be cleared when depth testing is enabled?",
-    "option1": "Depth buffer",
-    "option2": "Stencil buffer",
-    "option3": "Texture buffer",
-    "option4": "Frame buffer",
-    "option5": "Accumulation buffer",
-    "solution": "Depth buffer"
+    "question": "Hard: EJB Timer Service is used for:",
+    "option1": "Scheduling tasks",
+    "option2": "Handling HTTP",
+    "option3": "Database indexing",
+    "option4": "Memory cleanup",
+    "option5": "Garbage collection",
+    "solution": "Scheduling tasks"
   },
   {
-    "question": "What is the major benefit of using indexed rendering (glDrawElements) over glDrawArrays?",
-    "option1": "Reduces duplicated vertices in meshes",
-    "option2": "Allows floating-point frame buffers",
-    "option3": "Automatically optimizes culling",
-    "option4": "Performs shader compilation",
-    "option5": "Removes the need for VBOs",
-    "solution": "Reduces duplicated vertices in meshes"
+    "question": "Hard: Message-Driven Beans are:",
+    "option1": "Synchronous",
+    "option2": "Asynchronous",
+    "option3": "Single-threaded",
+    "option4": "GUI-driven",
+    "option5": "Client-side",
+    "solution": "Asynchronous"
   },
   {
-    "question": "Why must textures have power-of-two dimensions in older OpenGL versions?",
-    "option1": "Hardware texture samplers required power-of-two addressing",
-    "option2": "Z-buffer division required even dimensions",
-    "option3": "Stencil buffer was aligned with texture borders",
-    "option4": "Viewport transform required square textures",
-    "option5": "Lighting computations depended on texture size",
-    "solution": "Hardware texture samplers required power-of-two addressing"
+    "question": "Hard coding: Identify output:\nBeanInfo info = Introspector.getBeanInfo(String.class);",
+    "option1": "Returns BeanInfo for String",
+    "option2": "Throws error",
+    "option3": "Returns null",
+    "option4": "Creates new String",
+    "option5": "Prints nothing",
+    "solution": "Returns BeanInfo for String"
   },
   {
-    "question": "Which operation converts clip-space coordinates to NDC in OpenGL?",
-    "option1": "Perspective division (divide by W)",
-    "option2": "glViewport()",
-    "option3": "Model-view transformation",
-    "option4": "Depth testing",
-    "option5": "Fragment shading",
-    "solution": "Perspective division (divide by W)"
+    "question": "Hard: Which bean method is called before passivation?",
+    "option1": "@PreStop",
+    "option2": "@PrePassivate",
+    "option3": "@PostConstruct",
+    "option4": "@Shutdown",
+    "option5": "@BeforeStore",
+    "solution": "@PrePassivate"
   },
   {
-    "question": "Which OpenGL mechanism allows conditional drawing based on scene visibility?",
-    "option1": "Occlusion queries",
-    "option2": "Alpha test",
-    "option3": "Stencil write masking",
-    "option4": "Depth bias",
-    "option5": "Clip distance array",
-    "solution": "Occlusion queries"
+    "question": "Hard: Which mechanism allows dependency injection in EJB?",
+    "option1": "@Inject",
+    "option2": "@Stateless",
+    "option3": "@EJB",
+    "option4": "@Entity",
+    "option5": "@Resource",
+    "solution": "@EJB"
   },
   {
-    "question": "Which problem occurs if the near plane in perspective projection is set too close to zero?",
-    "option1": "Z-buffer precision collapses",
-    "option2": "Objects turn transparent",
-    "option3": "Stencil operations are disabled",
-    "option4": "Clipping becomes inconsistent",
-    "option5": "Rasterization becomes nonlinear",
-    "solution": "Z-buffer precision collapses"
+    "question": "Hard: Which method is used for EJB removal?",
+    "option1": "@Destroy",
+    "option2": "@Remove",
+    "option3": "@Delete",
+    "option4": "@Stop",
+    "option5": "@End",
+    "solution": "@Remove"
   }
 ]

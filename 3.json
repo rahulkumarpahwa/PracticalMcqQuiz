@@ -1,444 +1,401 @@
 [
   {
-    "question": "Which device uses a graphical on-screen pointer for selecting objects?",
-    "option1": "Mouse",
-    "option2": "Digitizing tablet",
-    "option3": "Trackball",
-    "option4": "Light pen",
-    "option5": "Keyboard",
-    "solution": "Mouse"
+    "question": "RMI stands for:",
+    "option1": "Remote Method Invocation",
+    "option2": "Remote Machine Interface",
+    "option3": "Remote Meta Interaction",
+    "option4": "Remote Messaging Interface",
+    "option5": "Remote Method Interface",
+    "solution": "Remote Method Invocation"
   },
   {
-    "question": "A light pen works by detecting:",
-    "option1": "Light emitted from the screen",
-    "option2": "Infrared signals",
-    "option3": "Ultrasonic waves",
-    "option4": "Pressure on a surface",
-    "option5": "Magnetic fields",
-    "solution": "Light emitted from the screen"
+    "question": "Java RMI is used for:",
+    "option1": "Calling remote methods on distributed objects",
+    "option2": "Encrypting remote data",
+    "option3": "Running threads remotely",
+    "option4": "Local process creation",
+    "option5": "Hardware remote access",
+    "solution": "Calling remote methods on distributed objects"
   },
   {
-    "question": "Digitizing tablets are mainly used for:",
-    "option1": "Graphic design and drawing",
-    "option2": "Display output",
-    "option3": "Text processing",
-    "option4": "Audio recording",
-    "option5": "Network communication",
-    "solution": "Graphic design and drawing"
+    "question": "Which package contains RMI classes?",
+    "option1": "java.remote",
+    "option2": "javax.rmi",
+    "option3": "java.rmi",
+    "option4": "remote.java",
+    "option5": "rmi.remote",
+    "solution": "java.rmi"
   },
   {
-    "question": "Trackballs are essentially:",
-    "option1": "Upside-down mice",
-    "option2": "Touchscreens",
-    "option3": "Light sensors",
-    "option4": "Laser pens",
-    "option5": "Pressure pads",
-    "solution": "Upside-down mice"
+    "question": "Which interface must remote objects implement?",
+    "option1": "RemoteInterface",
+    "option2": "Serializable",
+    "option3": "Remote",
+    "option4": "Runnable",
+    "option5": "Distributed",
+    "solution": "Remote"
   },
   {
-    "question": "Interactive graphical techniques include:",
-    "option1": "Zooming and panning",
-    "option2": "Sorting algorithms",
-    "option3": "Lighting effects",
-    "option4": "Texture mapping",
-    "option5": "Raster clipping",
-    "solution": "Zooming and panning"
+    "question": "A remote method must declare which exception?",
+    "option1": "IOException",
+    "option2": "RemoteException",
+    "option3": "SQLException",
+    "option4": "ServerException",
+    "option5": "NetworkException",
+    "solution": "RemoteException"
   },
   {
-    "question": "Rubber-band technique is used for:",
-    "option1": "Drawing temporary straight lines",
-    "option2": "Coloring shapes",
-    "option3": "Resolving polygons",
-    "option4": "Shading surfaces",
-    "option5": "Texture creation",
-    "solution": "Drawing temporary straight lines"
+    "question": "Which class is used to export remote objects?",
+    "option1": "UnicastRemoteObject",
+    "option2": "RemoteServer",
+    "option3": "RemoteObject",
+    "option4": "ServerExport",
+    "option5": "RMIExporter",
+    "solution": "UnicastRemoteObject"
   },
   {
-    "question": "Windowing is defined as:",
-    "option1": "Selecting a sub-region of the display",
-    "option2": "Clipping polygons",
-    "option3": "Applying textures",
-    "option4": "Removing hidden surfaces",
-    "option5": "Rasterizing circles",
-    "solution": "Selecting a sub-region of the display"
+    "question": "The registry lookup uses which class?",
+    "option1": "RMIRegistry",
+    "option2": "Naming",
+    "option3": "Locate",
+    "option4": "RemoteFinder",
+    "option5": "Registry",
+    "solution": "Naming"
   },
   {
-    "question": "Panning allows the user to:",
-    "option1": "Move the view horizontally or vertically",
-    "option2": "Increase object brightness",
-    "option3": "Delete graphical objects",
-    "option4": "Change frame rate",
-    "option5": "Resize the window",
-    "solution": "Move the view horizontally or vertically"
+    "question": "Which tool was used in older RMI versions to generate stubs?",
+    "option1": "rmic",
+    "option2": "rmigen",
+    "option3": "javac-rmi",
+    "option4": "stubgen",
+    "option5": "objremote",
+    "solution": "rmic"
   },
   {
-    "question": "Zooming is:",
-    "option1": "Magnifying or reducing the view",
-    "option2": "Clipping objects",
-    "option3": "Changing the color palette",
-    "option4": "Animating objects",
-    "option5": "Resizing the viewport",
-    "solution": "Magnifying or reducing the view"
+    "question": "RMI uses which protocol by default?",
+    "option1": "HTTP",
+    "option2": "TCP/IP",
+    "option3": "UDP",
+    "option4": "SMTP",
+    "option5": "RUDP",
+    "solution": "TCP/IP"
   },
   {
-    "question": "Scissoring refers to:",
-    "option1": "Restricting drawing to a rectangular region",
-    "option2": "Dividing polygons",
-    "option3": "Color blending",
-    "option4": "Transforming objects",
-    "option5": "Splitting display code",
-    "solution": "Restricting drawing to a rectangular region"
+    "question": "Remote objects must be:",
+    "option1": "Serialized",
+    "option2": "Compiled in C",
+    "option3": "Static",
+    "option4": "Synchronized",
+    "option5": "Atomic",
+    "solution": "Serialized"
+  },
+
+  {
+    "question": "Which method binds a name to a remote object?",
+    "option1": "Naming.save()",
+    "option2": "Naming.lookup()",
+    "option3": "Naming.bind()",
+    "option4": "Naming.add()",
+    "option5": "Registry.save()",
+    "solution": "Naming.bind()"
   },
   {
-    "question": "Mouse programming typically involves handling:",
-    "option1": "Events and interrupts",
-    "option2": "Network packets",
-    "option3": "Audio frequencies",
-    "option4": "Database queries",
-    "option5": "Machine code loops",
-    "solution": "Events and interrupts"
+    "question": "Which is NOT required for RMI?",
+    "option1": "Remote interface",
+    "option2": "Remote implementation",
+    "option3": "RMI registry",
+    "option4": "Database server",
+    "option5": "Stub",
+    "solution": "Database server"
   },
   {
-    "question": "Linking technique is used for:",
-    "option1": "Connecting graphical objects",
-    "option2": "Enhancing color saturation",
-    "option3": "Shadow generation",
-    "option4": "Display buffering",
-    "option5": "Error handling",
-    "solution": "Connecting graphical objects"
+    "question": "Which class starts the RMI registry programmatically?",
+    "option1": "LocateRegistry",
+    "option2": "Naming",
+    "option3": "RegistryBuilder",
+    "option4": "RMIServer",
+    "option5": "RMIBridge",
+    "solution": "LocateRegistry"
   },
   {
-    "question": "A pointing device among the following is:",
-    "option1": "Trackball",
-    "option2": "Speaker",
-    "option3": "Plotter",
-    "option4": "Keyboard",
-    "option5": "Printer",
-    "solution": "Trackball"
+    "question": "RMI follows which model?",
+    "option1": "Object-based distributed model",
+    "option2": "Thread-pooling model",
+    "option3": "Client-stream model",
+    "option4": "Pipeline model",
+    "option5": "Event-driven model",
+    "solution": "Object-based distributed model"
   },
   {
-    "question": "The cursor in graphics represents:",
-    "option1": "Current graphical position",
-    "option2": "File pointer",
-    "option3": "Memory address",
-    "option4": "Network socket",
-    "option5": "CPU register",
-    "solution": "Current graphical position"
+    "question": "Which port does the RMI registry use by default?",
+    "option1": "1521",
+    "option2": "1099",
+    "option3": "8080",
+    "option4": "1433",
+    "option5": "3306",
+    "solution": "1099"
   },
   {
-    "question": "Which technique helps in selecting objects by highlighting them?",
-    "option1": "Picking",
-    "option2": "Shading",
-    "option3": "Clipping",
-    "option4": "Shearing",
-    "option5": "Scaling",
-    "solution": "Picking"
+    "question": "Which keyword is used to mark a remote interface?",
+    "option1": "implements Remote",
+    "option2": "remote class",
+    "option3": "extends RMI",
+    "option4": "rmi object",
+    "option5": "implements Distributed",
+    "solution": "implements Remote"
   },
   {
-    "question": "Which device is used for precise 2D and 3D coordinate recording?",
-    "option1": "Digitizing tablet",
-    "option2": "Mouse",
-    "option3": "Joystick",
-    "option4": "Trackball",
-    "option5": "Light pen",
-    "solution": "Digitizing tablet"
+    "question": "Which exception indicates network failure?",
+    "option1": "RemoteException",
+    "option2": "IOException",
+    "option3": "SQLException",
+    "option4": "InterruptedException",
+    "option5": "ClassNotFoundException",
+    "solution": "RemoteException"
   },
   {
-    "question": "A joystick is mainly used in:",
-    "option1": "Interactive gaming",
-    "option2": "Document editing",
-    "option3": "Raster scanning",
-    "option4": "Audio processing",
-    "option5": "Frame buffering",
-    "solution": "Interactive gaming"
+    "question": "Which is required for RMI communication?",
+    "option1": "Security manager",
+    "option2": "HTTP server",
+    "option3": "Apache Tomcat",
+    "option4": "XML parser",
+    "option5": "FTP server",
+    "solution": "Security manager"
   },
   {
-    "question": "Windowing is closely related to:",
-    "option1": "Clipping",
-    "option2": "Shading",
-    "option3": "Rasterization",
-    "option4": "Modeling",
-    "option5": "Lighting",
-    "solution": "Clipping"
+    "question": "Stub acts as:",
+    "option1": "Client-side proxy",
+    "option2": "Database connector",
+    "option3": "Server mapper",
+    "option4": "Thread manager",
+    "option5": "Serialization handler",
+    "solution": "Client-side proxy"
   },
   {
-    "question": "Which cursor-based technique helps in drawing boxes interactively?",
-    "option1": "Rubber-band method",
-    "option2": "Zooming",
-    "option3": "Panning",
-    "option4": "Windowing",
-    "option5": "Scissoring",
-    "solution": "Rubber-band method"
+    "question": "Skeleton acts as:",
+    "option1": "Server-side dispatcher",
+    "option2": "Client proxy",
+    "option3": "Network encryptor",
+    "option4": "Object pool",
+    "option5": "Compiler",
+    "solution": "Server-side dispatcher"
+  },
+
+  {
+    "question": "Which can dynamically generate stubs since Java 5?",
+    "option1": "Proxy API",
+    "option2": "RMI Generator",
+    "option3": "rmic tool",
+    "option4": "java.stub",
+    "option5": "DynamicBinder",
+    "solution": "Proxy API"
   },
   {
-    "question": "Panning is similar to:",
-    "option1": "Moving a camera over a scene",
-    "option2": "Changing frame color",
-    "option3": "Editing text",
-    "option4": "Resizing a window",
-    "option5": "Rotating objects",
-    "solution": "Moving a camera over a scene"
+    "question": "Which method registers an object in registry?",
+    "option1": "rebind()",
+    "option2": "lookup()",
+    "option3": "connect()",
+    "option4": "assign()",
+    "option5": "registry()",
+    "solution": "rebind()"
   },
   {
-    "question": "Interactive graphics allow the user to:",
-    "option1": "Modify the display in real time",
-    "option2": "Only watch static images",
-    "option3": "Compile programs",
-    "option4": "Edit audio",
-    "option5": "Perform backups",
-    "solution": "Modify the display in real time"
+    "question": "Which of the following is a remote reference layer?",
+    "option1": "RRL",
+    "option2": "Transport",
+    "option3": "Stub",
+    "option4": "Naming",
+    "option5": "Registry",
+    "solution": "Transport"
   },
   {
-    "question": "Which technique temporarily displays graphics while dragging?",
-    "option1": "Elastic (rubber band) technique",
-    "option2": "Zoom technique",
-    "option3": "Pixel replication",
-    "option4": "Color dithering",
-    "option5": "Shading technique",
-    "solution": "Elastic (rubber band) technique"
+    "question": "RMI follows which architecture?",
+    "option1": "Three-layer architecture",
+    "option2": "Two-layer architecture",
+    "option3": "Single-layer architecture",
+    "option4": "Pipeline architecture",
+    "option5": "Query-based architecture",
+    "solution": "Three-layer architecture"
   },
   {
-    "question": "Mouse double-click is detected using:",
-    "option1": "Time-based event logic",
-    "option2": "Intensity detection",
-    "option3": "Clipping region",
-    "option4": "Coordinate normalization",
-    "option5": "Transformation matrix",
-    "solution": "Time-based event logic"
+    "question": "Which remote method call step occurs FIRST?",
+    "option1": "Network serialization",
+    "option2": "Stub invocation",
+    "option3": "Registry lookup",
+    "option4": "Skeleton mapping",
+    "option5": "Object reflection",
+    "solution": "Registry lookup"
   },
   {
-    "question": "Crosshair cursor is commonly used for:",
-    "option1": "Pointing and precision drawing",
-    "option2": "Running animations",
-    "option3": "Color blending",
-    "option4": "Depth computation",
-    "option5": "Shading surfaces",
-    "solution": "Pointing and precision drawing"
+    "question": "Which layer handles marshalling?",
+    "option1": "Transport layer",
+    "option2": "Registry layer",
+    "option3": "Stub layer",
+    "option4": "Naming layer",
+    "option5": "Serialization layer",
+    "solution": "Stub layer"
   },
   {
-    "question": "Which technique is implemented when only part of the display needs to be shown?",
-    "option1": "Windowing",
-    "option2": "Clipping",
-    "option3": "Zooming",
-    "option4": "Shifting",
-    "option5": "Rasterizing",
-    "solution": "Windowing"
+    "question": "Which interface allows creating remote registry?",
+    "option1": "Connector",
+    "option2": "Registry",
+    "option3": "RMIRegistry",
+    "option4": "NamingRegistry",
+    "option5": "PortBinder",
+    "solution": "Registry"
   },
   {
-    "question": "Scissoring is also known as:",
-    "option1": "Masking",
-    "option2": "Flood fill",
-    "option3": "Projection",
-    "option4": "Raster fill",
-    "option5": "Illumination",
-    "solution": "Masking"
+    "question": "Which class provides factory methods for RMI registry?",
+    "option1": "RMIServer",
+    "option2": "RemoteFactory",
+    "option3": "LocateRegistry",
+    "option4": "RegistryBuilder",
+    "option5": "ServerLocator",
+    "solution": "LocateRegistry"
   },
   {
-    "question": "In interactive graphics, user input is mainly gathered through:",
-    "option1": "Pointing devices",
-    "option2": "Printers",
-    "option3": "Hard disks",
-    "option4": "Network cables",
-    "option5": "Speakers",
-    "solution": "Pointing devices"
+    "question": "Which return type is allowed for remote methods?",
+    "option1": "Any serializable object",
+    "option2": "Only primitive types",
+    "option3": "Only Strings",
+    "option4": "Only arrays",
+    "option5": "Only Numbers",
+    "solution": "Any serializable object"
   },
   {
-    "question": "Which is an example of interactive positioning technique?",
-    "option1": "Dragging objects with the mouse",
-    "option2": "Automatic shading",
-    "option3": "Raster generation",
-    "option4": "Model transformation",
-    "option5": "Data compression",
-    "solution": "Dragging objects with the mouse"
+    "question": "Which remote method is CORRECT?",
+    "option1": "void run();",
+    "option2": "String info() throws RemoteException;",
+    "option3": "int add();",
+    "option4": "void do() throw IOException;",
+    "option5": "void remote();",
+    "solution": "String info() throws RemoteException;"
   },
   {
-    "question": "Mouse programming in graphics deals with:",
-    "option1": "Detecting clicks and movement",
-    "option2": "Executing SQL queries",
-    "option3": "Adjusting voltage",
-    "option4": "Setting resolutions",
-    "option5": "Handling lighting models",
-    "solution": "Detecting clicks and movement"
+    "question": "Which correctly looks up registry?",
+    "option1": "Naming.lookup(\"rmi://localhost/obj\")",
+    "option2": "Registry.find(\"obj\")",
+    "option3": "Lookup.get(\"rmi\")",
+    "option4": "Remote.get(\"obj\")",
+    "option5": "Locate.find(\"obj\")",
+    "solution": "Naming.lookup(\"rmi://localhost/obj\")"
   },
   {
-    "question": "In an interactive rubber-band technique, which fundamental property must be preserved for the feedback line during drag operations?",
-    "option1": "Dynamic endpoint recomputation using XOR draw mode",
-    "option2": "Constant frame buffer refresh",
-    "option3": "Precomputed camera matrices",
-    "option4": "Bilinear interpolation of pixel colors",
-    "option5": "View-space culling",
-    "solution": "Dynamic endpoint recomputation using XOR draw mode"
+    "question": "Which method unbinds an object?",
+    "option1": "Naming.remove()",
+    "option2": "Naming.delete()",
+    "option3": "Naming.unbind()",
+    "option4": "Naming.clear()",
+    "option5": "Registry.remove()",
+    "solution": "Naming.unbind()"
   },
   {
-    "question": "Which limitation causes pointer devices like the mouse to require acceleration algorithms?",
-    "option1": "Small desktop-to-display mapping range",
-    "option2": "Insufficient sampling rate of the screen",
-    "option3": "High pixel density of LCD screens",
-    "option4": "Clipping in device coordinates",
-    "option5": "Rasterization speed mismatch",
-    "solution": "Small desktop-to-display mapping range"
+    "question": "What is transported over the network in RMI?",
+    "option1": "Method references only",
+    "option2": "Object code",
+    "option3": "Serialized parameters and results",
+    "option4": "Class definitions",
+    "option5": "Registry values",
+    "solution": "Serialized parameters and results"
   },
   {
-    "question": "In a digitizer tablet, how is absolute positioning achieved?",
-    "option1": "Mapping sensor grid coordinates directly to screen coordinates",
-    "option2": "Relative displacement accumulation like a mouse",
-    "option3": "Laser-based triangulation",
-    "option4": "Tracking CRT electron beams",
-    "option5": "XOR-based screen positioning",
-    "solution": "Mapping sensor grid coordinates directly to screen coordinates"
+    "question": "What is the major advantage of RMI?",
+    "option1": "Platform independence for distributed computing",
+    "option2": "Faster GUI rendering",
+    "option3": "Better file compression",
+    "option4": "Improved security",
+    "option5": "Database caching",
+    "solution": "Platform independence for distributed computing"
+  },
+
+  {
+    "question": "Hard: What will this code do?\nRemote obj = Naming.lookup(\"rmi://localhost/test\");",
+    "option1": "Returns a stub object",
+    "option2": "Starts server",
+    "option3": "Balances threads",
+    "option4": "Opens registry GUI",
+    "option5": "Deletes remote object",
+    "solution": "Returns a stub object"
   },
   {
-    "question": "The main difficulty in implementing interactive zoom is:",
-    "option1": "Maintaining consistent mapping between world window and viewport",
-    "option2": "Refreshing the frame buffer faster",
-    "option3": "Avoiding changes in clipping boundaries",
-    "option4": "Maintaining mouse interrupt handlers",
-    "option5": "Uniform texture interpolation",
-    "solution": "Maintaining consistent mapping between world window and viewport"
+    "question": "Hard: Which layer performs unmarshalling?",
+    "option1": "Stub layer",
+    "option2": "Skeleton layer",
+    "option3": "Transport layer",
+    "option4": "Registry layer",
+    "option5": "Lookup layer",
+    "solution": "Skeleton layer"
   },
   {
-    "question": "Which interaction issue arises when using a light pen on raster displays?",
-    "option1": "Detection depends on beam scan timing synchronization",
-    "option2": "Beam cannot register vertical hits",
-    "option3": "Pen cannot detect color changes",
-    "option4": "Pen emits its own light confusing sensors",
-    "option5": "Pen cannot detect raster lines in real-time",
-    "solution": "Detection depends on beam scan timing synchronization"
+    "question": "Hard: Which method returns a reference to remote registry?",
+    "option1": "LocateRegistry.getRegistry()",
+    "option2": "Registry.call()",
+    "option3": "RMI.get()",
+    "option4": "RMIRegistry.open()",
+    "option5": "Remote.find()",
+    "solution": "LocateRegistry.getRegistry()"
   },
   {
-    "question": "A trackball is more suitable than a mouse for some 3D applications because:",
-    "option1": "It allows continuous rotation without repositioning",
-    "option2": "It provides higher DPI",
-    "option3": "It has built-in pressure sensors",
-    "option4": "It reduces latency in GUI operations",
-    "option5": "It automatically handles world-to-screen mapping",
-    "solution": "It allows continuous rotation without repositioning"
+    "question": "Hard: RMI uses which serialization mechanism?",
+    "option1": "CORBA serialization",
+    "option2": "Java Object Serialization",
+    "option3": "Binary Compression",
+    "option4": "JSON Serialization",
+    "option5": "XML Marshalling",
+    "solution": "Java Object Serialization"
   },
   {
-    "question": "Why is XOR drawing preferred for temporary interactive graphics such as selection boxes?",
-    "option1": "It allows erasing without redrawing background",
-    "option2": "It increases pixel intensity smoothness",
-    "option3": "It evaluates z-buffer values automatically",
-    "option4": "It optimizes GPU texture fetches",
-    "option5": "It adjusts mouse sensitivity during drawing",
-    "solution": "It allows erasing without redrawing background"
+    "question": "Hard: Which is a TRUE statement about stubs?",
+    "option1": "They forward calls to skeleton",
+    "option2": "They run only on server",
+    "option3": "They generate objects",
+    "option4": "They store registry",
+    "option5": "They compile interfaces",
+    "solution": "They forward calls to skeleton"
   },
   {
-    "question": "In panning, a major implementation challenge is:",
-    "option1": "Shifting the window without shifting device viewport dimensions",
-    "option2": "Maintaining perspective correctness",
-    "option3": "Recomputing z-depth values",
-    "option4": "Keeping track of mouse acceleration curves",
-    "option5": "Preventing color bleeding",
-    "solution": "Shifting the window without shifting device viewport dimensions"
+    "question": "Hard: RMI registry maps:",
+    "option1": "Names to remote object references",
+    "option2": "Ports to threads",
+    "option3": "Classes to JVM",
+    "option4": "Exceptions to handlers",
+    "option5": "Sockets to connections",
+    "solution": "Names to remote object references"
   },
   {
-    "question": "Why is scissoring preferred over clipping for restricting draw regions?",
-    "option1": "Scissoring operates directly in device coordinates",
-    "option2": "Scissoring allows infinite recursion",
-    "option3": "Clipping removes device coordinates completely",
-    "option4": "Scissoring supports multi-layer selection",
-    "option5": "Clipping cannot handle straight lines",
-    "solution": "Scissoring operates directly in device coordinates"
+    "question": "Hard coding: Identify output:\nSystem.setProperty(\"java.rmi.server.hostname\", \"127.0.0.1\");",
+    "option1": "Sets RMI server hostname",
+    "option2": "Starts RMI registry",
+    "option3": "Creates stub",
+    "option4": "Throws exception",
+    "option5": "Does nothing",
+    "solution": "Sets RMI server hostname"
   },
   {
-    "question": "Which factor limits precision of pointing in low-resolution displays?",
-    "option1": "Pixel quantization",
-    "option2": "Lack of device drivers",
-    "option3": "Poor phosphor response",
-    "option4": "Homogeneous coordinate errors",
-    "option5": "Line clipping inaccuracies",
-    "solution": "Pixel quantization"
+    "question": "Hard: Which class is extended to make a remote class?",
+    "option1": "UnicastRemoteObject",
+    "option2": "RemoteObject",
+    "option3": "RMIBase",
+    "option4": "RemoteServer",
+    "option5": "Distributed",
+    "solution": "UnicastRemoteObject"
   },
   {
-    "question": "In interactive windowing, mapping errors occur mainly due to:",
-    "option1": "Non-matching aspect ratios between window and viewport",
-    "option2": "Restricted color depth",
-    "option3": "Limited clipping region size",
-    "option4": "Perspective division faults",
-    "option5": "Rasterization pipeline stalls",
-    "solution": "Non-matching aspect ratios between window and viewport"
+    "question": "Hard: RMI remote method parameters must be:",
+    "option1": "Serializable",
+    "option2": "Thread-safe",
+    "option3": "Primitive only",
+    "option4": "Static",
+    "option5": "Transient",
+    "solution": "Serializable"
   },
   {
-    "question": "Why is 'picking' complex in scenes with 3D objects?",
-    "option1": "Objects require projection to screen space before selection computation",
-    "option2": "Pick rays cannot penetrate z-buffer",
-    "option3": "Depth testing must be disabled",
-    "option4": "Textures must be removed first",
-    "option5": "Mouse resolution is insufficient",
-    "solution": "Objects require projection to screen space before selection computation"
-  },
-  {
-    "question": "A major difficulty in implementing linking between objects is:",
-    "option1": "Maintaining consistent relative transformations during motion",
-    "option2": "Redrawing lines using XOR mode",
-    "option3": "Distinguishing between click states",
-    "option4": "Mapping device coordinates to pixel shaders",
-    "option5": "Keyframe interpolation",
-    "solution": "Maintaining consistent relative transformations during motion"
-  },
-  {
-    "question": "Why does interactive dragging often require partial redrawing?",
-    "option1": "To restore previously overwritten regions",
-    "option2": "To recompute z-buffer indices",
-    "option3": "To recalculate projection matrices",
-    "option4": "To maintain high-precision color interpolation",
-    "option5": "To trigger vsync locks",
-    "solution": "To restore previously overwritten regions"
-  },
-  {
-    "question": "Which factor limits the responsiveness of an interactive graphics system?",
-    "option1": "Event-handling latency in software",
-    "option2": "Screen phosphor decay",
-    "option3": "Shadow mask misalignment",
-    "option4": "Lack of RGB DAC synchronization",
-    "option5": "Monitor gamma settings",
-    "solution": "Event-handling latency in software"
-  },
-  {
-    "question": "Picking using area selection is harder than point selection because:",
-    "option1": "All objects intersecting the region must be tested with bounding volume checks",
-    "option2": "Z-buffer must be disabled",
-    "option3": "Textures must be downscaled",
-    "option4": "Mouse resolution decreases",
-    "option5": "Clipping becomes unnecessary",
-    "solution": "All objects intersecting the region must be tested with bounding volume checks"
-  },
-  {
-    "question": "The biggest challenge in interactive clipping is:",
-    "option1": "Efficient redrawing after clipping boundaries change dynamically",
-    "option2": "Maintaining consistent color depth",
-    "option3": "Applying shearing transformations",
-    "option4": "Using homogeneous coordinates",
-    "option5": "Managing frame buffer overflows",
-    "solution": "Efficient redrawing after clipping boundaries change dynamically"
-  },
-  {
-    "question": "A typical problem in implementing a zoomable viewport is:",
-    "option1": "Re-calculating world window scale while maintaining center alignment",
-    "option2": "Changing pixel resolution",
-    "option3": "Enforcing homogeneous coordinates",
-    "option4": "Removing unused scanlines",
-    "option5": "Resetting device drivers",
-    "solution": "Re-calculating world window scale while maintaining center alignment"
-  },
-  {
-    "question": "Interactive transformations suffer from jitter mainly because:",
-    "option1": "Device coordinates are integer-quantized",
-    "option2": "Color LUT updates lag behind",
-    "option3": "Raster beam moves too slowly",
-    "option4": "Cache misses in frame buffer",
-    "option5": "Clipping is inconsistent",
-    "solution": "Device coordinates are integer-quantized"
-  },
-  {
-    "question": "Complex GUI systems rely on event loops because:",
-    "option1": "They decouple user input processing from rendering tasks",
-    "option2": "They increase device refresh rate",
-    "option3": "They force uniform color mapping",
-    "option4": "They eliminate real-time clipping",
-    "option5": "They improve phosphor brightness",
-    "solution": "They decouple user input processing from rendering tasks"
+    "question": "Hard: What happens when server crashes during remote call?",
+    "option1": "RemoteException",
+    "option2": "NullPointerException",
+    "option3": "SQL Error",
+    "option4": "No output",
+    "option5": "Shutdown event",
+    "solution": "RemoteException"
   }
 ]
-

@@ -1,434 +1,374 @@
 [
   {
-    "question": "Which project best demonstrates 2D geometric transformations?",
-    "option1": "Animating a rotating, scaling triangle",
-    "option2": "Rendering a textured sphere",
-    "option3": "Implementing a sound visualizer",
-    "option4": "Building a web API",
-    "option5": "Designing a database schema",
-    "solution": "Animating a rotating, scaling triangle"
+    "question": "JSP stands for:",
+    "option1": "Java Server Pages",
+    "option2": "Java Servlet Pages",
+    "option3": "JSON Server Pages",
+    "option4": "JavaScript Pages",
+    "option5": "Java Super Pages",
+    "solution": "Java Server Pages"
   },
   {
-    "question": "Which transformation is NOT part of basic 2D transforms?",
-    "option1": "Shearing",
-    "option2": "Translation",
-    "option3": "Rotation",
-    "option4": "Scaling",
-    "option5": "Extrusion",
-    "solution": "Extrusion"
+    "question": "JSP is executed on the:",
+    "option1": "Client browser",
+    "option2": "Web server",
+    "option3": "Database server",
+    "option4": "Operating system",
+    "option5": "Servlet",
+    "solution": "Web server"
   },
   {
-    "question": "A good beginner 3D project is:",
-    "option1": "Wireframe cube with interactive rotation",
-    "option2": "Real-time global illumination",
-    "option3": "Physics-based cloth simulation",
-    "option4": "Full PBR rendering engine",
-    "option5": "Distributed rendering cluster",
-    "solution": "Wireframe cube with interactive rotation"
+    "question": "JSP is converted into:",
+    "option1": "HTML",
+    "option2": "Servlet",
+    "option3": "JavaBean",
+    "option4": "XML",
+    "option5": "JSON",
+    "solution": "Servlet"
   },
   {
-    "question": "Which technique helps a user reposition the view in an interactive project?",
-    "option1": "Panning",
-    "option2": "Z-buffering",
-    "option3": "Back-face removal",
-    "option4": "Scanline fill",
-    "option5": "Texture mapping",
-    "solution": "Panning"
+    "question": "Which scripting element is used for variable declarations?",
+    "option1": "<% %>",
+    "option2": "<%! %>",
+    "option3": "<%= %>",
+    "option4": "<?java ?>",
+    "option5": "<%@ %>",
+    "solution": "<%! %>"
   },
   {
-    "question": "Which Turbo C feature is useful to demonstrate animation?",
-    "option1": "Frame-by-frame redraw using getpixel/putpixel",
-    "option2": "Hardware shaders",
-    "option3": "Multithreaded rendering",
-    "option4": "GPU tessellation",
-    "option5": "Deferred shading",
-    "solution": "Frame-by-frame redraw using getpixel/putpixel"
+    "question": "Which JSP tag outputs data?",
+    "option1": "<% output %>",
+    "option2": "<%= %>",
+    "option3": "<%! %>",
+    "option4": "<%# %>",
+    "option5": "<%out%>",
+    "solution": "<%= %>"
   },
   {
-    "question": "A 2D transformation project should include tests for:",
-    "option1": "Translation, rotation, scaling correctness",
-    "option2": "Network latency",
-    "option3": "Database indexing",
-    "option4": "Audio latency",
-    "option5": "File I/O throughput",
-    "solution": "Translation, rotation, scaling correctness"
+    "question": "Which directive imports Java packages?",
+    "option1": "<%@ include %>",
+    "option2": "<%@ page import %>",
+    "option3": "<% import %>",
+    "option4": "<%! JavaImport %>",
+    "option5": "<%@ library %>",
+    "solution": "<%@ page import %>"
   },
   {
-    "question": "Which project demonstrates clipping and windowing interactively?",
-    "option1": "A zoomable drawing canvas with rectangular window selection",
-    "option2": "Audio equalizer",
-    "option3": "Text editor",
-    "option4": "Static image viewer",
-    "option5": "File compressor",
-    "solution": "A zoomable drawing canvas with rectangular window selection"
+    "question": "Which JSP implicit object is the output writer?",
+    "option1": "response",
+    "option2": "request",
+    "option3": "config",
+    "option4": "out",
+    "option5": "application",
+    "solution": "out"
   },
   {
-    "question": "Which 3D project element demonstrates hidden-surface elimination?",
-    "option1": "Implementing z-buffer to render filled polygons",
-    "option2": "Using rubber-band lines for selection",
-    "option3": "Animating bubble sort",
-    "option4": "Printing graphics to disk",
-    "option5": "Using getpixel to sample color",
-    "solution": "Implementing z-buffer to render filled polygons"
+    "question": "Which implicit object refers to servlet context?",
+    "option1": "application",
+    "option2": "session",
+    "option3": "page",
+    "option4": "config",
+    "option5": "context",
+    "solution": "application"
   },
   {
-    "question": "For a GUI-based graphics project, which control is essential?",
-    "option1": "View manipulation controls (zoom/rotate/pan)",
-    "option2": "SQL query editor",
-    "option3": "Audio playback control",
-    "option4": "File system defragmenter",
-    "option5": "Mail client integration",
-    "solution": "View manipulation controls (zoom/rotate/pan)"
+    "question": "Which implicit object handles session data?",
+    "option1": "session",
+    "option2": "request",
+    "option3": "out",
+    "option4": "pageContext",
+    "option5": "application",
+    "solution": "session"
   },
   {
-    "question": "Which small project best teaches interactive pointing devices?",
-    "option1": "Drawing app that supports mouse drag and rubber-band line",
-    "option2": "Batch image converter",
-    "option3": "Static slideshow generator",
-    "option4": "Command-line calculator",
-    "option5": "Background file sync service",
-    "solution": "Drawing app that supports mouse drag and rubber-band line"
+    "question": "Which directive includes other JSP/HTML files?",
+    "option1": "<%@ use %>",
+    "option2": "<%@ join %>",
+    "option3": "<%@ include %>",
+    "option4": "<%@ add %>",
+    "option5": "<%@ file %>",
+    "solution": "<%@ include %>"
+  },
+
+  {
+    "question": "JSP expression tag evaluates:",
+    "option1": "Java expressions",
+    "option2": "SQL queries",
+    "option3": "CSS rules",
+    "option4": "HTML only",
+    "option5": "XML nodes",
+    "solution": "Java expressions"
   },
   {
-    "question": "Which project is suitable to illustrate 2D composite transformations?",
-    "option1": "Applying translate → rotate → scale to a shape and showing order effect",
-    "option2": "Printing images to an inkjet",
-    "option3": "Implementing a file system",
-    "option4": "Sorting network packets",
-    "option5": "Building a REST API",
-    "solution": "Applying translate → rotate → scale to a shape and showing order effect"
+    "question": "JSP scriptlet is enclosed in:",
+    "option1": "<%! %>",
+    "option2": "<% %>",
+    "option3": "<%= %>",
+    "option4": "<%@ %>",
+    "option5": "<%%>",
+    "solution": "<% %>"
   },
   {
-    "question": "A final-year project on 3D should include:",
-    "option1": "Modeling, viewing transform, projection, and visibility",
-    "option2": "Only text rendering",
-    "option3": "Purely database design",
-    "option4": "Audio signal processing",
-    "option5": "Email client features",
-    "solution": "Modeling, viewing transform, projection, and visibility"
+    "question": "Which object handles request parameters?",
+    "option1": "request",
+    "option2": "response",
+    "option3": "session",
+    "option4": "out",
+    "option5": "application",
+    "solution": "request"
   },
   {
-    "question": "Which learning outcome comes from implementing Turbo C graphics routines?",
-    "option1": "Understanding low-level raster operations",
-    "option2": "Mastering modern GPU pipelines",
-    "option3": "Creating distributed systems",
-    "option4": "Developing mobile apps",
-    "option5": "Designing relational schemas",
-    "solution": "Understanding low-level raster operations"
+    "question": "JSP pages are saved with extension:",
+    "option1": ".html",
+    "option2": ".jsp",
+    "option3": ".java",
+    "option4": ".jst",
+    "option5": ".jsv",
+    "solution": ".jsp"
   },
   {
-    "question": "Which project demonstrates GUI event-driven programming with graphics?",
-    "option1": "Interactive drawing tool with buttons and menus",
-    "option2": "Static image slideshow without controls",
-    "option3": "Batch image resizer script",
-    "option4": "Headless image processor",
-    "option5": "Command-line file copier",
-    "solution": "Interactive drawing tool with buttons and menus"
+    "question": "Which life cycle method is called first?",
+    "option1": "jspInit()",
+    "option2": "service()",
+    "option3": "_jspService()",
+    "option4": "jspDestroy()",
+    "option5": "initPage()",
+    "solution": "jspInit()"
   },
   {
-    "question": "Which project best exercises 3D projective transformations?",
-    "option1": "Perspective camera with adjustable focal length",
-    "option2": "2D pixel-art editor",
-    "option3": "Text-only console game",
-    "option4": "Simple encryption tool",
-    "option5": "Spreadsheet application",
-    "solution": "Perspective camera with adjustable focal length"
+    "question": "JSP page is compiled into which file?",
+    "option1": ".class",
+    "option2": ".jsp",
+    "option3": ".html",
+    "option4": ".xml",
+    "option5": ".jar",
+    "solution": ".class"
   },
   {
-    "question": "For teaching interactive techniques, which demo is useful?",
-    "option1": "Rubber-band rectangle selection and dragging objects",
-    "option2": "Offline batch rendering",
-    "option3": "Non-interactive slideshow",
-    "option4": "Static chart generator",
-    "option5": "File checksum utility",
-    "solution": "Rubber-band rectangle selection and dragging objects"
+    "question": "Which directive defines page-level settings?",
+    "option1": "<%@ page %>",
+    "option2": "<%@ include %>",
+    "option3": "<%@ taglib %>",
+    "option4": "<% page %>",
+    "option5": "<%! settings %>",
+    "solution": "<%@ page %>"
   },
   {
-    "question": "Which project demonstrates animation algorithms using Turbo C?",
-    "option1": "Animating sorting algorithm bars frame-by-frame",
-    "option2": "Implementing SQL joins",
-    "option3": "Creating an HTTP server",
-    "option4": "Building an email parser",
-    "option5": "Compiling a language",
-    "solution": "Animating sorting algorithm bars frame-by-frame"
+    "question": "Which implicit object handles cookies?",
+    "option1": "cookie",
+    "option2": "session",
+    "option3": "application",
+    "option4": "response",
+    "option5": "request",
+    "solution": "request"
   },
   {
-    "question": "Which project element teaches coordinate transformations clearly?",
-    "option1": "Displaying object before and after applying a transform matrix",
-    "option2": "Saving images to disk only",
-    "option3": "Measuring file sizes",
-    "option4": "Playing sound effects",
-    "option5": "Transmitting data over serial",
-    "solution": "Displaying object before and after applying a transform matrix"
+    "question": "JSP comments are written using:",
+    "option1": "<!-- HTML comment -->",
+    "option2": "// Java comment",
+    "option3": "<%-- JSP comment --%>",
+    "option4": "<! -- Jcomment -->",
+    "option5": "/* comment */",
+    "solution": "<%-- JSP comment --%>"
   },
   {
-    "question": "Which small project illustrates back-face removal simply?",
-    "option1": "Rendering a cube and culling faces based on normals",
-    "option2": "Rendering only points",
-    "option3": "Painting gradients",
-    "option4": "Printing to thermal paper",
-    "option5": "Encoding video",
-    "solution": "Rendering a cube and culling faces based on normals"
+    "question": "Which method handles all client requests in JSP?",
+    "option1": "_jspService()",
+    "option2": "service()",
+    "option3": "jspInit()",
+    "option4": "doGet()",
+    "option5": "doPost()",
+    "solution": "_jspService()"
+  },
+
+  {
+    "question": "JSP is best used for:",
+    "option1": "Presentation logic",
+    "option2": "Database design",
+    "option3": "Protocol creation",
+    "option4": "Operating system tasks",
+    "option5": "Thread scheduling",
+    "solution": "Presentation logic"
   },
   {
-    "question": "Which GUI requirement is important for student projects?",
-    "option1": "Clear feedback for user actions and undo capability",
-    "option2": "Automatic OS updates",
-    "option3": "Real-time network synchronization",
-    "option4": "High-frequency trading hooks",
-    "option5": "Filesystem encryption",
-    "solution": "Clear feedback for user actions and undo capability"
+    "question": "Which implicit object forwards request?",
+    "option1": "response",
+    "option2": "pageContext",
+    "option3": "config",
+    "option4": "out",
+    "option5": "page",
+    "solution": "pageContext"
   },
   {
-    "question": "Which project is ideal to teach viewport and window mapping?",
-    "option1": "Map viewer that converts world to device coordinates",
-    "option2": "Audio file organizer",
-    "option3": "Simple text formatter",
-    "option4": "Static wallpaper changer",
-    "option5": "Log file analyzer",
-    "solution": "Map viewer that converts world to device coordinates"
+    "question": "Which returns the application root directory?",
+    "option1": "application.getRootPath()",
+    "option2": "session.getRoot()",
+    "option3": "application.getRealPath()",
+    "option4": "request.getRoot()",
+    "option5": "response.getRoot()",
+    "solution": "application.getRealPath()"
   },
   {
-    "question": "Which student project demonstrates interactive clipping?",
-    "option1": "Line drawing app that clips lines to a rectangular window",
-    "option2": "Static image exporter",
-    "option3": "Batch file renamer",
-    "option4": "Headless render farm",
-    "option5": "Simple calculator",
-    "solution": "Line drawing app that clips lines to a rectangular window"
+    "question": "Which tag defines custom tags?",
+    "option1": "<%@ custom %>",
+    "option2": "<%@ include %>",
+    "option3": "<%@ taglib %>",
+    "option4": "<% tag %>",
+    "option5": "<jsp:tagset>",
+    "solution": "<%@ taglib %>"
   },
   {
-    "question": "Which 3D rendering topic is lightweight enough for a course project?",
-    "option1": "Implementing a simple scanline or z-buffer rasterizer",
-    "option2": "Path-traced global illumination",
-    "option3": "Physically accurate fluid dynamics",
-    "option4": "Large-scale volumetric rendering",
-    "option5": "Distributed real-time raytracing",
-    "solution": "Implementing a simple scanline or z-buffer rasterizer"
+    "question": "JSP uses which design pattern?",
+    "option1": "MVC",
+    "option2": "Iterator",
+    "option3": "Mediator",
+    "option4": "Factory",
+    "option5": "Bridge",
+    "solution": "MVC"
   },
   {
-    "question": "Which Turbo C demo helps students understand pixel addressing?",
-    "option1": "putpixel/getpixel manipulation and direct image copy",
-    "option2": "Using GL shaders",
-    "option3": "OpenCL kernel execution",
-    "option4": "Direct3D texture streaming",
-    "option5": "Vulkan command buffer recording",
-    "solution": "putpixel/getpixel manipulation and direct image copy"
+    "question": "Which object stores headings and metadata?",
+    "option1": "session",
+    "option2": "request",
+    "option3": "response",
+    "option4": "pageContext",
+    "option5": "application",
+    "solution": "response"
   },
   {
-    "question": "A good final project combining topics could be:",
-    "option1": "Interactive 3D scene with model transforms, camera controls, and simple visibility",
-    "option2": "CLI text processing tool",
-    "option3": "Network packet sniffer",
-    "option4": "Database migration script",
-    "option5": "Spreadsheet macro",
-    "solution": "Interactive 3D scene with model transforms, camera controls, and simple visibility"
+    "question": "include directive is processed:",
+    "option1": "At runtime",
+    "option2": "At translation time",
+    "option3": "At compile time only",
+    "option4": "At server load",
+    "option5": "At browser load",
+    "solution": "At translation time"
   },
   {
-    "question": "Which assessment criterion is most relevant for graphics projects?",
-    "option1": "Correctness of transformations and interactivity",
-    "option2": "Number of files in the repo",
-    "option3": "Use of third-party APIs only",
-    "option4": "Time spent coding",
-    "option5": "Font choices in documentation",
-    "solution": "Correctness of transformations and interactivity"
+    "question": "jspInit() is similar to:",
+    "option1": "init() in Servlet",
+    "option2": "main()",
+    "option3": "start()",
+    "option4": "constructor",
+    "option5": "boot()",
+    "solution": "init() in Servlet"
   },
   {
-    "question": "Which project helps teach combining 2D and 3D concepts?",
-    "option1": "2D GUI overlay (HUD) on a 3D scene",
-    "option2": "Pure text mode renderer",
-    "option3": "Database-backed website",
-    "option4": "Audio synthesizer",
-    "option5": "Compiler front-end",
-    "solution": "2D GUI overlay (HUD) on a 3D scene"
+    "question": "Which is NOT an implicit JSP object?",
+    "option1": "page",
+    "option2": "application",
+    "option3": "exception",
+    "option4": "cookie",
+    "option5": "session",
+    "solution": "cookie"
   },
   {
-    "question": "Which feature is essential for an educational graphics project using Turbo C?",
-    "option1": "Step-by-step visualization of algorithms",
-    "option2": "Multi-GPU scaling",
-    "option3": "Cloud deployment",
-    "option4": "Mobile app store publishing",
-    "option5": "Blockchain integration",
-    "solution": "Step-by-step visualization of algorithms"
+    "question": "Which tag sends data to another page?",
+    "option1": "<jsp:send>",
+    "option2": "<jsp:redirect>",
+    "option3": "<jsp:forward>",
+    "option4": "<jsp:move>",
+    "option5": "<jsp:go>",
+    "solution": "<jsp:forward>"
   },
   {
-    "question": "In a 2D transformation project, which issue arises when applying transformations in the wrong sequence?",
-    "option1": "Final object shape and position become incorrect due to non-commutativity",
-    "option2": "Screen refresh rate decreases automatically",
-    "option3": "Clipping is disabled by the system",
-    "option4": "Z-buffer becomes active in 2D mode",
-    "option5": "Mouse coordinates no longer map to device coordinates",
-    "solution": "Final object shape and position become incorrect due to non-commutativity"
+    "question": "JSP page by default is:",
+    "option1": "Thread-safe",
+    "option2": "Not thread-safe",
+    "option3": "Static",
+    "option4": "Asynchronous",
+    "option5": "Single-threaded",
+    "solution": "Not thread-safe"
+  },
+
+  {
+    "question": "Hard: Which mechanism avoids scriptlets in JSP?",
+    "option1": "JSTL + EL",
+    "option2": "Cookies",
+    "option3": "JAR files",
+    "option4": "JDBC",
+    "option5": "XML",
+    "solution": "JSTL + EL"
   },
   {
-    "question": "When building a 3D transformation project, why must objects be transformed into camera (view) space before projection?",
-    "option1": "Ensures correctness of perspective projection relative to the viewer",
-    "option2": "Improves mouse picking accuracy",
-    "option3": "Reduces memory consumption",
-    "option4": "Forces all normals to face the camera",
-    "option5": "Removes back-facing polygons automatically",
-    "solution": "Ensures correctness of perspective projection relative to the viewer"
+    "question": "Hard: Which object handles error pages?",
+    "option1": "request",
+    "option2": "exception",
+    "option3": "out",
+    "option4": "config",
+    "option5": "session",
+    "solution": "exception"
   },
   {
-    "question": "Which difficulty commonly appears when implementing 2D composite transformations manually?",
-    "option1": "Accumulated floating-point errors distort the final image",
-    "option2": "Turbo C disables matrix multiplication",
-    "option3": "Clipping must be done before each transformation",
-    "option4": "Coordinate space must be recalculated in polar form",
-    "option5": "Viewports require hardware switching",
-    "solution": "Accumulated floating-point errors distort the final image"
+    "question": "Hard: Custom tags are written using:",
+    "option1": "JavaBeans components",
+    "option2": "Servlets",
+    "option3": "Tag handlers",
+    "option4": "HTML",
+    "option5": "CSS",
+    "solution": "Tag handlers"
   },
   {
-    "question": "In interactive graphics projects, which challenge occurs when supporting dragging of multiple objects simultaneously?",
-    "option1": "Maintaining object-specific transformation states without interference",
-    "option2": "Z-buffer must be flushed each frame",
-    "option3": "Mouse interrupts fail during parallel events",
-    "option4": "Clipping boundaries move automatically",
-    "option5": "All objects must share the same viewport",
-    "solution": "Maintaining object-specific transformation states without interference"
+    "question": "Hard: EL stands for:",
+    "option1": "Event Language",
+    "option2": "Expression Language",
+    "option3": "Element Logic",
+    "option4": "Extended Language",
+    "option5": "Execution Layer",
+    "solution": "Expression Language"
   },
   {
-    "question": "When implementing zoom functionality for 2D projects, what is the major mathematical difficulty?",
-    "option1": "Ensuring zoom is performed around the correct anchor point",
-    "option2": "Resetting device coordinates on every frame",
-    "option3": "Maintaining constant pixel intensity",
-    "option4": "Avoiding texture aliasing",
-    "option5": "Computing polygon fill rates",
-    "solution": "Ensuring zoom is performed around the correct anchor point"
+    "question": "Hard: Identify the output:\n<%= 2 + 3 * 2 %>",
+    "option1": "10",
+    "option2": "8",
+    "option3": "6",
+    "option4": "12",
+    "option5": "5",
+    "solution": "8"
   },
   {
-    "question": "In a 3D transformation demo, why is it necessary to normalize normals after scaling?",
-    "option1": "Non-uniform scaling distorts surface normals affecting lighting calculations",
-    "option2": "It ensures textures are not blurred",
-    "option3": "Prevents clipping errors",
-    "option4": "Avoids z-fighting",
-    "option5": "Improves mouse selection accuracy",
-    "solution": "Non-uniform scaling distorts surface normals affecting lighting calculations"
+    "question": "Hard: Which file describes web application structure?",
+    "option1": "web.config",
+    "option2": "web.jsp",
+    "option3": "web.xml",
+    "option4": "app.xml",
+    "option5": "context.jsp",
+    "solution": "web.xml"
   },
   {
-    "question": "Why does using putpixel() inside animation loops degrade performance in Turbo C graphics?",
-    "option1": "Each call computes memory offsets via the slow BGI layer",
-    "option2": "Hardware acceleration conflicts with the command",
-    "option3": "It forces the CPU to perform perspective correction",
-    "option4": "The frame buffer is cleared each time",
-    "option5": "It triggers a mouse interrupt handler",
-    "solution": "Each call computes memory offsets via the slow BGI layer"
+    "question": "Hard: EL evaluates variables using:",
+    "option1": "${ }",
+    "option2": "<? >",
+    "option3": "<%= %>",
+    "option4": "<< >>",
+    "option5": "<$ >",
+    "solution": "${ }"
   },
   {
-    "question": "Which core issue arises in GUI-based graphics applications when redrawing complex scenes?",
-    "option1": "Redundant redrawing causes flicker without double buffering",
-    "option2": "Textures become corrupted after each redraw",
-    "option3": "Vectors fail to convert to raster",
-    "option4": "Color depth automatically reduces",
-    "option5": "Device drivers get reloaded every frame",
-    "solution": "Redundant redrawing causes flicker without double buffering"
+    "question": "Hard: Which tag is used for looping in JSTL?",
+    "option1": "<c:for>",
+    "option2": "<c:set>",
+    "option3": "<c:loop>",
+    "option4": "<for:each>",
+    "option5": "<c:forEach>",
+    "solution": "<c:forEach>"
   },
   {
-    "question": "In a 3D project, implementing back-face culling incorrectly may cause:",
-    "option1": "Visible polygons to disappear based on incorrect normal orientation",
-    "option2": "Objects to lose their color information",
-    "option3": "Perspective projection to convert into orthographic projection",
-    "option4": "Screen resolution to change",
-    "option5": "The viewport to collapse to zero",
-    "solution": "Visible polygons to disappear based on incorrect normal orientation"
+    "question": "Hard: Which directive enables error page?",
+    "option1": "<%@ page error %>",
+    "option2": "<%@ errorPage %>",
+    "option3": "<%@ page errorPage %>",
+    "option4": "<%@ exceptionPage %>",
+    "option5": "<%@ page errors %>",
+    "solution": "<%@ page errorPage %>"
   },
   {
-    "question": "Which practical issue occurs when performing object rotation using Euler angles?",
-    "option1": "Gimbal lock leading to loss of a degree of freedom",
-    "option2": "Viewport clipping becomes inaccurate",
-    "option3": "Object always rotates about the world origin",
-    "option4": "Normals invert randomly",
-    "option5": "Hardware interrupts are disabled",
-    "solution": "Gimbal lock leading to loss of a degree of freedom"
-  },
-  {
-    "question": "When developing interactive tools (zoom, pan, rotate), a major architectural challenge is:",
-    "option1": "Maintaining separate world-to-screen mapping states",
-    "option2": "Forcing the GPU to recalculate raster lines",
-    "option3": "Memory fragmentation across VRAM",
-    "option4": "Applying homogeneous coordinates to hardware buffers",
-    "option5": "Avoiding recursion in the event loop",
-    "solution": "Maintaining separate world-to-screen mapping states"
-  },
-  {
-    "question": "Why is matrix multiplication chaining required in any transformation-focused educational project?",
-    "option1": "It allows combining multiple affine transformations efficiently",
-    "option2": "It ensures that the z-buffer initializes properly",
-    "option3": "It maintains integer precision",
-    "option4": "It automatically adjusts aspect ratio",
-    "option5": "It enforces viewport scaling",
-    "solution": "It allows combining multiple affine transformations efficiently"
-  },
-  {
-    "question": "In a 3D programming project, what issue can arise if the near-plane value is extremely small?",
-    "option1": "Z-buffer precision collapses causing z-fighting artifacts",
-    "option2": "All objects are clipped",
-    "option3": "Ambient lighting disappears",
-    "option4": "Vertices collapse to origin",
-    "option5": "Texture coordinates invert",
-    "solution": "Z-buffer precision collapses causing z-fighting artifacts"
-  },
-  {
-    "question": "Why does animation of algorithms (sorting, searching) flicker heavily in Turbo C?",
-    "option1": "Single-buffer rendering makes intermediate frames visible",
-    "option2": "The BGI layer overwrites memory incorrectly",
-    "option3": "Colors cannot be reused",
-    "option4": "getpixel() returns cached values",
-    "option5": "Turbo C uses 24-bit color internally",
-    "solution": "Single-buffer rendering makes intermediate frames visible"
-  },
-  {
-    "question": "In a 2D project, what is the critical problem when scaling about an arbitrary pivot?",
-    "option1": "Pivot must be translated to origin before scaling and restored afterward",
-    "option2": "Scaling matrix must be inverted every frame",
-    "option3": "Clipping boundaries disappear",
-    "option4": "Viewport must be reset",
-    "option5": "XOR drawing must be used",
-    "solution": "Pivot must be translated to origin before scaling and restored afterward"
-  },
-  {
-    "question": "Which difficulty occurs when building an interactive polyline editor?",
-    "option1": "Maintaining vertex adjacency during drag updates",
-    "option2": "Z-buffer must be disabled",
-    "option3": "2D lines must be converted to 3D automatically",
-    "option4": "The clipping window is removed",
-    "option5": "The GUI cannot process mouse interrupts",
-    "solution": "Maintaining vertex adjacency during drag updates"
-  },
-  {
-    "question": "Why is object-level undo/redo difficult in interactive graphic editors?",
-    "option1": "Each transformation must be stored as a separate reversible step",
-    "option2": "The screen buffer cannot be rewound",
-    "option3": "Stack overflow occurs during redraw",
-    "option4": "Turbo C blocks memory stacks",
-    "option5": "Mouse events cannot be logged",
-    "solution": "Each transformation must be stored as a separate reversible step"
-  },
-  {
-    "question": "Which advanced challenge appears when combining 2D and 3D transformations in one project?",
-    "option1": "Consistent handling of mixed coordinate spaces",
-    "option2": "Textures must be disabled",
-    "option3": "Projection matrix becomes unavailable",
-    "option4": "Clipping cannot be applied",
-    "option5": "Viewport must remain circular",
-    "solution": "Consistent handling of mixed coordinate spaces"
-  },
-  {
-    "question": "In a GUI application with drawing capabilities, which performance problem arises when resizing windows?",
-    "option1": "All graphics must be redrawn due to viewport change",
-    "option2": "Z-buffer must be recalculated",
-    "option3": "Mouse events stop firing",
-    "option4": "Textures distort automatically",
-    "option5": "Transformation matrices reset",
-    "solution": "All graphics must be redrawn due to viewport change"
-  },
-  {
-    "question": "Which key architectural decision impacts the scalability of a large graphics project?",
-    "option1": "Separating rendering logic from input/event handling",
-    "option2": "Always using immediate mode rendering",
-    "option3": "Disabling clipping globally",
-    "option4": "Using integer-only math",
-    "option5": "Avoiding transformation matrices entirely",
-    "solution": "Separating rendering logic from input/event handling"
+    "question": "Hard coding: Identify output:\n<%= request.getMethod() %>",
+    "option1": "POST",
+    "option2": "GET",
+    "option3": "PUT",
+    "option4": "HEAD",
+    "option5": "Depends on client request",
+    "solution": "Depends on client request"
   }
 ]

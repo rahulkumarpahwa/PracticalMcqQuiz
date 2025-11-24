@@ -1,453 +1,453 @@
 [
   {
-    "question": "Which device is used to plot individual points and lines directly on paper?",
-    "option1": "Vector plotter",
-    "option2": "Raster display",
-    "option3": "LCD panel",
-    "option4": "Plasma screen",
-    "option5": "LED matrix",
-    "solution": "Vector plotter"
+    "question": "Which class is the superclass of all Swing components?",
+    "option1": "Component",
+    "option2": "JComponent",
+    "option3": "Object",
+    "option4": "AWTComponent",
+    "option5": "SwingBase",
+    "solution": "JComponent"
   },
   {
-    "question": "Raster displays operate on which basic element?",
-    "option1": "Vertices",
-    "option2": "Pixels",
-    "option3": "Edges",
-    "option4": "Vectors",
-    "option5": "Luminance beams",
-    "solution": "Pixels"
+    "question": "Swing is built on top of which older GUI framework?",
+    "option1": "GTK",
+    "option2": "AWT",
+    "option3": "JavaFX",
+    "option4": "SWT",
+    "option5": "WinForms",
+    "solution": "AWT"
   },
   {
-    "question": "Which system uses electron beams to refresh the screen continuously?",
-    "option1": "Raster scan",
-    "option2": "Vector refresh",
-    "option3": "Static LCD",
-    "option4": "Digital frame buffer",
-    "option5": "Plasma panel",
-    "solution": "Raster scan"
+    "question": "Swing components are considered:",
+    "option1": "Heavyweight",
+    "option2": "Kernel-based",
+    "option3": "Lightweight",
+    "option4": "Native-only",
+    "option5": "Hardware-accelerated",
+    "solution": "Lightweight"
   },
   {
-    "question": "Vector refresh displays are also known as:",
-    "option1": "Random scan displays",
-    "option2": "Raster scan displays",
-    "option3": "Plasma displays",
-    "option4": "LCD displays",
-    "option5": "Frame buffer displays",
-    "solution": "Random scan displays"
+    "question": "Which Swing class creates a clickable button?",
+    "option1": "Button",
+    "option2": "JToggle",
+    "option3": "JPress",
+    "option4": "JButton",
+    "option5": "JAction",
+    "solution": "JButton"
   },
   {
-    "question": "Which memory component stores pixel intensity values?",
-    "option1": "Video RAM",
-    "option2": "Accumulator",
-    "option3": "Hard Disk",
-    "option4": "Shadow Buffer",
-    "option5": "Light Sensor",
-    "solution": "Video RAM"
+    "question": "Which component is commonly used to group multiple Swing components?",
+    "option1": "JList",
+    "option2": "JPanel",
+    "option3": "JFrame",
+    "option4": "JDialog",
+    "option5": "JSplitPane",
+    "solution": "JPanel"
   },
   {
-    "question": "Plasma panels work on the principle of:",
-    "option1": "Ionized gas discharge",
-    "option2": "Cathode ray scanning",
-    "option3": "Liquid crystal twisting",
-    "option4": "LED reflection",
-    "option5": "Fiber optic refraction",
-    "solution": "Ionized gas discharge"
+    "question": "A top-level Swing container is:",
+    "option1": "JLabel",
+    "option2": "JFrame",
+    "option3": "JButton",
+    "option4": "JMenuItem",
+    "option5": "JPanel",
+    "solution": "JFrame"
   },
   {
-    "question": "Continuous-refresh vector displays require which component?",
-    "option1": "Refresh buffer",
-    "option2": "Static RAM",
-    "option3": "Color palette",
-    "option4": "Pen plotter",
-    "option5": "External UPS",
-    "solution": "Refresh buffer"
+    "question": "Swing is located in which Java package?",
+    "option1": "java.ui.swing",
+    "option2": "javax.swing",
+    "option3": "java.swing",
+    "option4": "javax.ui",
+    "option5": "java.awt",
+    "solution": "javax.swing"
   },
   {
-    "question": "Which type of CRT display uses three phosphor dots per pixel?",
-    "option1": "Penetration CRT",
-    "option2": "Shadow mask CRT",
-    "option3": "Plasma CRT",
-    "option4": "Monochrome CRT",
-    "option5": "OLED CRT",
-    "solution": "Shadow mask CRT"
+    "question": "Which layout manager arranges items in a single row or column?",
+    "option1": "FlowLayout",
+    "option2": "BorderLayout",
+    "option3": "BoxLayout",
+    "option4": "GridLayout",
+    "option5": "CardLayout",
+    "solution": "BoxLayout"
   },
   {
-    "question": "In penetration CRTs, the number of displayable colors is limited because:",
-    "option1": "Only two-layer phosphors are used",
-    "option2": "Electron gun is weak",
-    "option3": "Beam cannot focus correctly",
-    "option4": "Resolution is lower",
-    "option5": "Frame buffer is small",
-    "solution": "Only two-layer phosphors are used"
+    "question": "Which Swing component displays a list of items?",
+    "option1": "JMenu",
+    "option2": "JTable",
+    "option3": "JList",
+    "option4": "JPanel",
+    "option5": "JToolBar",
+    "solution": "JList"
   },
   {
-    "question": "Hard-copy devices include:",
-    "option1": "Inkjet printers",
-    "option2": "LCD monitors",
-    "option3": "CRT monitors",
-    "option4": "Plasma displays",
-    "option5": "LED panels",
-    "solution": "Inkjet printers"
+    "question": "Which is NOT a Swing container?",
+    "option1": "JPanel",
+    "option2": "JFrame",
+    "option3": "JDialog",
+    "option4": "JTable",
+    "option5": "JWindow",
+    "solution": "JTable"
+  },
+
+  {
+    "question": "Which method displays a JFrame?",
+    "option1": "show()",
+    "option2": "reveal()",
+    "option3": "setVisible(true)",
+    "option4": "displayFrame()",
+    "option5": "open()",
+    "solution": "setVisible(true)"
   },
   {
-    "question": "Which system draws images by directly controlling the electron beam path?",
-    "option1": "Vector display",
-    "option2": "Raster display",
-    "option3": "Plasma panel",
-    "option4": "LCD display",
-    "option5": "LED display",
-    "solution": "Vector display"
+    "question": "Which Swing class provides tabular data visualization?",
+    "option1": "JTree",
+    "option2": "JTable",
+    "option3": "JPanel",
+    "option4": "JLabel",
+    "option5": "JMenu",
+    "solution": "JTable"
   },
   {
-    "question": "A digital frame buffer stores:",
-    "option1": "Numeric color values for all pixels",
-    "option2": "Vector coordinates",
-    "option3": "ASCII character codes",
-    "option4": "Mesh geometry",
-    "option5": "Video compression data",
-    "solution": "Numeric color values for all pixels"
+    "question": "Which dialog type shows simple alert messages?",
+    "option1": "JDialog",
+    "option2": "JOptionPane.showMessageDialog",
+    "option3": "JTextDialog",
+    "option4": "JWarningBox",
+    "option5": "JWindow",
+    "solution": "JOptionPane.showMessageDialog"
   },
   {
-    "question": "Which component interprets commands and generates low-level display instructions?",
-    "option1": "Display processor",
-    "option2": "Character generator",
-    "option3": "GPU cooling system",
-    "option4": "Screen buffer",
-    "option5": "Monitor circuit",
-    "solution": "Display processor"
+    "question": "Which component adds scrollbars around another component?",
+    "option1": "JScrollPane",
+    "option2": "JTrackBar",
+    "option3": "JScrollView",
+    "option4": "JSlider",
+    "option5": "JViewport",
+    "solution": "JScrollPane"
   },
   {
-    "question": "Character generators store:",
-    "option1": "Bitmap patterns for alphanumeric symbols",
-    "option2": "3D models",
-    "option3": "Audio waveforms",
-    "option4": "Texture coordinates",
-    "option5": "Pixel shaders",
-    "solution": "Bitmap patterns for alphanumeric symbols"
+    "question": "Which event listener handles button clicks?",
+    "option1": "MouseListener",
+    "option2": "KeyListener",
+    "option3": "ActionListener",
+    "option4": "WindowListener",
+    "option5": "FocusListener",
+    "solution": "ActionListener"
   },
   {
-    "question": "Vector plotters use:",
-    "option1": "Continuous pen movement",
-    "option2": "Pixel illumination",
-    "option3": "Gas discharge",
-    "option4": "Color masks",
-    "option5": "Polygon shading",
-    "solution": "Continuous pen movement"
+    "question": "Swing's event mechanism is based on:",
+    "option1": "Polling",
+    "option2": "Interrupts",
+    "option3": "Delegation event model",
+    "option4": "Listener threads",
+    "option5": "Rendering cycles",
+    "solution": "Delegation event model"
   },
   {
-    "question": "Which type of display consists of a grid of small cells containing gas?",
-    "option1": "Plasma panel",
-    "option2": "Raster CRT",
-    "option3": "LCD",
-    "option4": "Vector CRT",
-    "option5": "Hard copy printer",
-    "solution": "Plasma panel"
+    "question": "Which component is used for hierarchical data?",
+    "option1": "JTree",
+    "option2": "JLabel",
+    "option3": "JPanel",
+    "option4": "JList",
+    "option5": "JGrid",
+    "solution": "JTree"
   },
   {
-    "question": "Which is an example of a storage display?",
-    "option1": "Direct-view storage tube",
-    "option2": "LCD monitor",
-    "option3": "LED TV",
-    "option4": "Plasma display",
-    "option5": "Inkjet printer",
-    "solution": "Direct-view storage tube"
+    "question": "Which component gives slider functionality?",
+    "option1": "JSlider",
+    "option2": "JLevel",
+    "option3": "JBar",
+    "option4": "JScrollBar",
+    "option5": "JRotate",
+    "solution": "JSlider"
   },
   {
-    "question": "Which display requires constant refreshing?",
-    "option1": "Raster CRT",
-    "option2": "Storage CRT",
-    "option3": "LCD",
-    "option4": "Plasma",
-    "option5": "Printer output",
-    "solution": "Raster CRT"
+    "question": "Which component represents a progress indicator?",
+    "option1": "JSlider",
+    "option2": "JProgressBar",
+    "option3": "JLoadBar",
+    "option4": "JStatus",
+    "option5": "JMonitor",
+    "solution": "JProgressBar"
   },
   {
-    "question": "Penetration CRT uses:",
-    "option1": "Layers of phosphors",
-    "option2": "Shadow masks",
-    "option3": "Gas discharge",
-    "option4": "Pixel buffers",
-    "option5": "Color filters",
-    "solution": "Layers of phosphors"
+    "question": "Swing components should be updated only on:",
+    "option1": "Main thread",
+    "option2": "AWT thread",
+    "option3": "Event Dispatch Thread",
+    "option4": "Worker thread",
+    "option5": "Network thread",
+    "solution": "Event Dispatch Thread"
+  },
+
+  {
+    "question": "Which code correctly adds a JButton to a JFrame?",
+    "option1": "f.attach(new JButton(\"OK\"));",
+    "option2": "f.insert(btn);",
+    "option3": "f.add(new JButton(\"OK\"));",
+    "option4": "f.put(btn);",
+    "option5": "f.push(btn);",
+    "solution": "f.add(new JButton(\"OK\"));"
   },
   {
-    "question": "Shadow mask CRT ensures color accuracy by:",
-    "option1": "Using a metal sheet with holes",
-    "option2": "Applying two phosphor layers",
-    "option3": "Using vector scanning",
-    "option4": "Increasing refresh rate",
-    "option5": "Color dithering",
-    "solution": "Using a metal sheet with holes"
+    "question": "Which layout arranges components sequentially left to right?",
+    "option1": "BorderLayout",
+    "option2": "GridLayout",
+    "option3": "FlowLayout",
+    "option4": "BoxLayout",
+    "option5": "CardLayout",
+    "solution": "FlowLayout"
   },
   {
-    "question": "Which device prints color images using heat-sensitive paper?",
-    "option1": "Thermal printer",
-    "option2": "Dot matrix printer",
-    "option3": "Inkjet printer",
-    "option4": "Laser printer",
-    "option5": "Drum plotter",
-    "solution": "Thermal printer"
+    "question": "Which component allows only one item to be selected at a time?",
+    "option1": "JCheckBox",
+    "option2": "JButton",
+    "option3": "JRadioButton",
+    "option4": "JList",
+    "option5": "JTextField",
+    "solution": "JRadioButton"
   },
   {
-    "question": "Which plotter type uses pins to draw dots on paper?",
-    "option1": "Pixel plotter",
-    "option2": "Pen plotter",
-    "option3": "Electrostatic printer",
-    "option4": "Raster painter",
-    "option5": "CRT plotter",
-    "solution": "Pixel plotter"
+    "question": "Which class groups multiple radio buttons?",
+    "option1": "ButtonGroup",
+    "option2": "JGroup",
+    "option3": "JPanel",
+    "option4": "JBox",
+    "option5": "GridGroup",
+    "solution": "ButtonGroup"
   },
   {
-    "question": "Storage tube displays do not require:",
-    "option1": "Refresh circuits",
-    "option2": "Electron beams",
-    "option3": "Phosphor coating",
-    "option4": "Power supply",
-    "option5": "Display processor",
-    "solution": "Refresh circuits"
+    "question": "Which layout divides window into 5 regions?",
+    "option1": "GridLayout",
+    "option2": "FlowLayout",
+    "option3": "CardLayout",
+    "option4": "BorderLayout",
+    "option5": "StackLayout",
+    "solution": "BorderLayout"
   },
   {
-    "question": "Which display has the best brightness and contrast?",
-    "option1": "Plasma display",
-    "option2": "Penetration CRT",
-    "option3": "Shadow mask CRT",
-    "option4": "LCD",
-    "option5": "Vector CRT",
-    "solution": "Plasma display"
+    "question": "Which method triggers redraw of a Swing component?",
+    "option1": "repaint()",
+    "option2": "updateUI()",
+    "option3": "refresh()",
+    "option4": "paint()",
+    "option5": "render()",
+    "solution": "repaint()"
   },
   {
-    "question": "Hard-copy color printers can include:",
-    "option1": "Laser printers",
-    "option2": "CRT devices",
-    "option3": "Storage tubes",
-    "option4": "Plasma panels",
-    "option5": "Vector displays",
-    "solution": "Laser printers"
+    "question": "Which event occurs when a user presses a key?",
+    "option1": "keyPressed",
+    "option2": "keyDown",
+    "option3": "keyStart",
+    "option4": "keyInput",
+    "option5": "keyEnter",
+    "solution": "keyPressed"
   },
   {
-    "question": "A pixel is:",
-    "option1": "Picture element",
-    "option2": "Panel element",
-    "option3": "Plot element",
-    "option4": "Pipeline element",
-    "option5": "Primitive element",
-    "solution": "Picture element"
+    "question": "Which container splits two components horizontally or vertically?",
+    "option1": "JSplitPane",
+    "option2": "JSeparator",
+    "option3": "JPanel",
+    "option4": "JFrame",
+    "option5": "JSlidePane",
+    "solution": "JSplitPane"
   },
   {
-    "question": "Which system uses an electron gun?",
-    "option1": "CRT",
-    "option2": "LCD",
-    "option3": "LED",
-    "option4": "Plasma",
-    "option5": "Inkjet printer",
-    "solution": "CRT"
+    "question": "Which method adds tooltip text to a Swing element?",
+    "option1": "setHint()",
+    "option2": "addTooltip()",
+    "option3": "Tooltip()",
+    "option4": "setToolTipText()",
+    "option5": "setDescription()",
+    "solution": "setToolTipText()"
   },
   {
-    "question": "Colour look-up tables help in:",
-    "option1": "Mapping pixel values to RGB intensities",
-    "option2": "Increasing resolution",
-    "option3": "Decreasing refresh rate",
-    "option4": "Reducing storage space",
-    "option5": "Fixing shadow mask errors",
-    "solution": "Mapping pixel values to RGB intensities"
+    "question": "JTable relies on which model?",
+    "option1": "TreeModel",
+    "option2": "ComboModel",
+    "option3": "TableModel",
+    "option4": "GridModel",
+    "option5": "NodeModel",
+    "solution": "TableModel"
   },
   {
-    "question": "The device that produces permanent visual output is:",
-    "option1": "Hard-copy printer",
-    "option2": "CRT",
-    "option3": "LCD",
-    "option4": "Vector display",
-    "option5": "Plasma panel",
-    "solution": "Hard-copy printer"
+    "question": "Which thread handles Swing event processing?",
+    "option1": "WorkerThread",
+    "option2": "RenderThread",
+    "option3": "Event Dispatch Thread",
+    "option4": "UIThread",
+    "option5": "UpdateThread",
+    "solution": "Event Dispatch Thread"
   },
   {
-    "question": "Which device uses electromechanical movement for plotting?",
-    "option1": "Pen plotter",
-    "option2": "Raster display",
-    "option3": "LCD",
-    "option4": "LED array",
-    "option5": "Plasma panel",
-    "solution": "Pen plotter"
+    "question": "Which Swing component allows selection of multiple check options?",
+    "option1": "JCheckBox",
+    "option2": "JButton",
+    "option3": "JTreeNode",
+    "option4": "JProgressBar",
+    "option5": "JToggleButton",
+    "solution": "JCheckBox"
   },
   {
-    "question": "In a random-scan (vector) display, the refresh rate depends primarily on:",
-    "option1": "Number of line segments in the scene",
-    "option2": "Number of pixels on the screen",
-    "option3": "Phosphor decay time only",
-    "option4": "Shadow-mask aperture size",
-    "option5": "Frame buffer memory size",
-    "solution": "Number of line segments in the scene"
+    "question": "Which listener handles window close events?",
+    "option1": "ActionListener",
+    "option2": "MouseListener",
+    "option3": "WindowListener",
+    "option4": "FocusListener",
+    "option5": "KeyListener",
+    "solution": "WindowListener"
   },
   {
-    "question": "In a direct-view storage tube (DVST), once a picture is drawn, it remains until:",
-    "option1": "The screen is erased using a flood gun",
-    "option2": "The refresh buffer overwrites the content",
-    "option3": "Pixel intensities naturally decay",
-    "option4": "User triggers a redraw cycle",
-    "option5": "The beam scans the screen again",
-    "solution": "The screen is erased using a flood gun"
+    "question": "The content container of JFrame is:",
+    "option1": "Root Pane",
+    "option2": "Glass Pane",
+    "option3": "Content Pane",
+    "option4": "UI Pane",
+    "option5": "Base Pane",
+    "solution": "Content Pane"
   },
   {
-    "question": "Which factor limits the number of distinguishable colors in a penetration CRT?",
-    "option1": "Number of phosphor layers and beam energy levels",
-    "option2": "Shadow mask hole density",
-    "option3": "Bandwidth of the electron beam",
-    "option4": "Vertical retrace time",
-    "option5": "Resolution of the frame buffer",
-    "solution": "Number of phosphor layers and beam energy levels"
+    "question": "Which class is used for modal pop-up windows?",
+    "option1": "JDialog",
+    "option2": "JFrame",
+    "option3": "JPanel",
+    "option4": "JPopup",
+    "option5": "JWindow",
+    "solution": "JDialog"
   },
   {
-    "question": "Why are shadow mask CRTs less bright than aperture-grill CRTs?",
-    "option1": "The shadow mask blocks a significant portion of electron beam energy",
-    "option2": "Beam cannot focus easily on RGB stripes",
-    "option3": "Phosphor decay time is too short",
-    "option4": "Frame buffer bandwidth is lower",
-    "option5": "Electron gun voltage is limited",
-    "solution": "The shadow mask blocks a significant portion of electron beam energy"
+    "question": "Which Swing component supports both icons and text?",
+    "option1": "JLabel",
+    "option2": "JWindow",
+    "option3": "JButton",
+    "option4": "JTable",
+    "option5": "JSplitPane",
+    "solution": "JButton"
+  },
+
+  {
+    "question": "Which layout manager offers highest flexibility but complexity?",
+    "option1": "GridLayout",
+    "option2": "BorderLayout",
+    "option3": "GridBagLayout",
+    "option4": "FlowLayout",
+    "option5": "CardLayout",
+    "solution": "GridBagLayout"
   },
   {
-    "question": "In raster displays, 'beam penetration' technique becomes impractical for high resolutions because:",
-    "option1": "Precise control of beam energy becomes more difficult",
-    "option2": "Phosphor layers cannot handle large pixel densities",
-    "option3": "Mask alignment becomes impossible",
-    "option4": "Frame buffer does not support RGB mapping",
-    "option5": "Refresh rate becomes extremely slow",
-    "solution": "Precise control of beam energy becomes more difficult"
+    "question": "Which class handles tree nodes?",
+    "option1": "DefaultTreeNode",
+    "option2": "MutableTreeNode",
+    "option3": "DefaultMutableTreeNode",
+    "option4": "TreeNodeChild",
+    "option5": "NodePane",
+    "solution": "DefaultMutableTreeNode"
   },
   {
-    "question": "A plasma panel displays images using:",
-    "option1": "Ionized gas that emits UV light exciting phosphors",
-    "option2": "Electron beam scanning like CRT",
-    "option3": "Liquid crystals blocking light",
-    "option4": "Electromagnetic induction in phosphors",
-    "option5": "Pixel-level LED drivers",
-    "solution": "Ionized gas that emits UV light exciting phosphors"
+    "question": "Which method refreshes UI after Look & Feel change?",
+    "option1": "SwingUtilities.updateComponentTreeUI",
+    "option2": "refreshUI()",
+    "option3": "updateLook()",
+    "option4": "changeUI()",
+    "option5": "reloadUI()",
+    "solution": "SwingUtilities.updateComponentTreeUI"
   },
   {
-    "question": "In a raster display, the time required for vertical retrace depends on:",
-    "option1": "The total number of scanlines including blanking intervals",
-    "option2": "Pixel color depth",
-    "option3": "Shadow mask configuration",
-    "option4": "CRT tube voltage only",
-    "option5": "Frame buffer storage format",
-    "solution": "The total number of scanlines including blanking intervals"
+    "question": "Which component is ideal for displaying HTML?",
+    "option1": "JEditorPane",
+    "option2": "JTextField",
+    "option3": "JList",
+    "option4": "JBox",
+    "option5": "JScrollBar",
+    "solution": "JEditorPane"
+  },
+
+  {
+    "question": "Which thread is recommended for updating Swing components?",
+    "option1": "Main Thread",
+    "option2": "Worker Thread",
+    "option3": "Event Dispatch Thread",
+    "option4": "Network Thread",
+    "option5": "Render Thread",
+    "solution": "Event Dispatch Thread"
   },
   {
-    "question": "Digital frame buffers implement color using:",
-    "option1": "Indexed color tables or direct RGB encoding",
-    "option2": "Analog beam modulation exclusively",
-    "option3": "Phosphor layer switching",
-    "option4": "Voltage modulation at pixel electrodes",
-    "option5": "Magnetic beam shaping",
-    "solution": "Indexed color tables or direct RGB encoding"
+    "question": "Swing's painting system internally uses:",
+    "option1": "Single-buffered model",
+    "option2": "Hardware rasterizer",
+    "option3": "Double-buffering",
+    "option4": "Native OS drawing",
+    "option5": "SWT paint cycle",
+    "solution": "Double-buffering"
+  },
+
+  {
+    "question": "Which code snippet creates a JFrame titled 'Home'?",
+    "option1": "JFrame f = new JFrame(); f.setName(\"Home\");",
+    "option2": "Frame f = new Frame(\"Home\");",
+    "option3": "JFrame f = new JFrame(\"Home\");",
+    "option4": "JWindow f = new JWindow(\"Home\");",
+    "option5": "JFrame f = JFrame.get(\"Home\");",
+    "solution": "JFrame f = new JFrame(\"Home\");"
+  },
+
+  {
+    "question": "Which JTable setup allows editable cells?",
+    "option1": "EditableTableModel",
+    "option2": "ReadOnlyModel",
+    "option3": "TreeTableModel",
+    "option4": "StaticModel",
+    "option5": "LockedModel",
+    "solution": "EditableTableModel"
+  },
+
+  {
+    "question": "What happens if Swing UI is updated outside EDT?",
+    "option1": "Possible race conditions and UI glitches",
+    "option2": "Frame closes automatically",
+    "option3": "App switches to AWT mode",
+    "option4": "Look & Feel resets",
+    "option5": "Thread crashes immediately",
+    "solution": "Possible race conditions and UI glitches"
   },
   {
-    "question": "The main drawback of storage-tube displays is that:",
-    "option1": "They cannot selectively update small parts of the screen",
-    "option2": "They require very high refresh rate",
-    "option3": "They cannot maintain image for more than 5 seconds",
-    "option4": "They produce excessive flicker",
-    "option5": "They need constant beam scanning",
-    "solution": "They cannot selectively update small parts of the screen"
+    "question": "Which method is overridden for custom painting?",
+    "option1": "paint()",
+    "option2": "updateUI()",
+    "option3": "paintComponent(Graphics g)",
+    "option4": "render()",
+    "option5": "draw()",
+    "solution": "paintComponent(Graphics g)"
   },
+
   {
-    "question": "Which characteristic makes vector displays unsuitable for complex shaded images?",
-    "option1": "They draw only lines and cannot fill areas efficiently",
-    "option2": "Phosphor response time is too slow",
-    "option3": "Beam width cannot be adjusted",
-    "option4": "Frame buffer is integrated permanently",
-    "option5": "High power consumption for pixels",
-    "solution": "They draw only lines and cannot fill areas efficiently"
+    "question": "What will this code print?\nJLabel l = new JLabel(); l.setText(\"Hi\"); System.out.println(l.getText());",
+    "option1": "null",
+    "option2": "Hi",
+    "option3": "Empty",
+    "option4": "Label",
+    "option5": "None",
+    "solution": "Hi"
   },
+
   {
-    "question": "The brightness of a pixel in a raster CRT is controlled by:",
-    "option1": "Modulating the electron beam intensity while scanning",
-    "option2": "Changing shadow mask aperture size",
-    "option3": "Adjusting phosphor molecular density",
-    "option4": "Moving the beam at higher speed",
-    "option5": "Stretching the scanlines",
-    "solution": "Modulating the electron beam intensity while scanning"
+    "question": "Which Swing component supports custom cell rendering?",
+    "option1": "JTree",
+    "option2": "JTable",
+    "option3": "JScrollPane",
+    "option4": "JDialog",
+    "option5": "JPanel",
+    "solution": "JTable"
   },
+
   {
-    "question": "Why do plasma panels consume more power than LCDs?",
-    "option1": "Each pixel is an active discharge cell requiring sustained ionization",
-    "option2": "They require high-frequency backlight modulation",
-    "option3": "They store multiple frame buffers",
-    "option4": "They use mechanical shutters",
-    "option5": "Voltage conversion losses are high",
-    "solution": "Each pixel is an active discharge cell requiring sustained ionization"
-  },
-  {
-    "question": "In a shadow mask CRT, color purity mainly depends on:",
-    "option1": "Precise alignment of three electron guns",
-    "option2": "Memory bandwidth of the frame buffer",
-    "option3": "Phosphor decay variance",
-    "option4": "Raster line density",
-    "option5": "Availability of gamma correction",
-    "solution": "Precise alignment of three electron guns"
-  },
-  {
-    "question": "Which is true about vector refresh displays?",
-    "option1": "Display time increases proportionally with number of vectors",
-    "option2": "Display time is constant regardless of image complexity",
-    "option3": "They store pixel values in memory for all pixels",
-    "option4": "They require shadow masks for color",
-    "option5": "They only support monochrome imaging",
-    "solution": "Display time increases proportionally with number of vectors"
-  },
-  {
-    "question": "Which factor limits the speed of raster scanning in CRT?",
-    "option1": "Phosphor persistence and electron gun deflection speed",
-    "option2": "Number of possible RGB values",
-    "option3": "Frame buffer file format",
-    "option4": "Shadow mask thickness",
-    "option5": "LCD refresh synchronization",
-    "solution": "Phosphor persistence and electron gun deflection speed"
-  },
-  {
-    "question": "Why do LCDs not suffer from geometric distortion like CRTs?",
-    "option1": "They use fixed grid pixel structure unaffected by deflection errors",
-    "option2": "They use magnetic scanning",
-    "option3": "Their phosphors are sprayed uniformly",
-    "option4": "Their voltage patterns auto-correct shape",
-    "option5": "LCDs refresh using electron beams",
-    "solution": "They use fixed grid pixel structure unaffected by deflection errors"
-  },
-  {
-    "question": "Which display device is MOST affected by phosphor persistence?",
-    "option1": "CRT",
-    "option2": "LCD",
-    "option3": "LED display",
-    "option4": "Plasma panel",
-    "option5": "E-ink display",
-    "solution": "CRT"
-  },
-  {
-    "question": "Color Look-Up Table (CLUT) advantages include:",
-    "option1": "Efficient modifications of entire image colors by editing LUT entries",
-    "option2": "Higher resolution than RGB frame buffers",
-    "option3": "Faster horizontal retrace",
-    "option4": "Direct control of plasma discharge",
-    "option5": "Avoiding frame buffer usage",
-    "solution": "Efficient modifications of entire image colors by editing LUT entries"
-  },
-  {
-    "question": "A key limitation of pen plotters is that they:",
-    "option1": "Are slow for complex images due to mechanical movement",
-    "option2": "Cannot draw continuous curves",
-    "option3": "Have fixed color depth",
-    "option4": "Require CRT-based rasterization",
-    "option5": "Cannot draw straight lines",
-    "solution": "Are slow for complex images due to mechanical movement"
-  },
-  {
-    "question": "An advantage of raster displays over vector displays is that:",
-    "option1": "They can easily support shaded and textured images",
-    "option2": "They require no frame buffer",
-    "option3": "They consume less memory for high resolutions",
-    "option4": "They do not require pixel addressing",
-    "option5": "They use deflection amplifiers only",
-    "solution": "They can easily support shaded and textured images"
+    "question": "Which is the correct way to safely update a JLabel from a background thread?",
+    "option1": "label.setText(\"Done\");",
+    "option2": "Thread.sleep(1); label.setText(\"Done\");",
+    "option3": "SwingUtilities.invokeLater(() -> label.setText(\"Done\"));",
+    "option4": "label.updateUI();",
+    "option5": "runLater(label);",
+    "solution": "SwingUtilities.invokeLater(() -> label.setText(\"Done\"));"
   }
 ]
-

@@ -1,11 +1,11 @@
 const topics = [
-  "Display Devices",
-  "Display Description",
-  "Interactive Graphics",
-  "3-D Graphics",
-  "Turbo-C Graphic Language",
-  "OpenGL",
-  "Programming Projects",
+  "Swing",
+  "JDBC",
+  "Java RMI",
+  "Java Servlets",
+  "Networking",
+  "Java Beans / EJB",
+  "Java Server Pages (JSP)",
 ];
 
 const files = [
