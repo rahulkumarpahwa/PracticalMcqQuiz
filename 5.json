@@ -379,5 +379,96 @@
     "option4": "error",
     "option5": "0",
     "solution": "false"
+  },
+  {
+    "question": "In the TCP/IP client-server example where the server reverses a string, which class should the client use to connect to the server?",
+    "option1": "ServerSocket",
+    "option2": "DatagramSocket",
+    "option3": "Socket",
+    "option4": "InetAddress",
+    "option5": "URL",
+    "solution": "Socket"
+  },
+  {
+    "question": "Datagram-based networking in Java is implemented using:",
+    "option1": "ServerSocket and Socket",
+    "option2": "URL and URLConnection",
+    "option3": "DatagramSocket and DatagramPacket",
+    "option4": "InetAddress only",
+    "option5": "JSP and Servlets",
+    "solution": "DatagramSocket and DatagramPacket"
+  },
+  {
+    "question": "In the question where packets are valid if they start and end with '*', which role does the receiver program perform?",
+    "option1": "Encrypts all incoming packets",
+    "option2": "Counts how many received strings are valid vs invalid",
+    "option3": "Compiles Java code in packets",
+    "option4": "Transforms UDP into TCP",
+    "option5": "Stores packets into JDBC",
+    "solution": "Counts how many received strings are valid vs invalid"
+  },
+  {
+    "question": "In TCP/IP socket programming, which class represents the server listening for connections?",
+    "option1": "Socket",
+    "option2": "ServerSocket",
+    "option3": "DatagramSocket",
+    "option4": "URL",
+    "option5": "InetAddress",
+    "solution": "ServerSocket"
+  },
+  {
+    "question": "Sockets and ports are best described as:",
+    "option1": "A physical cable and a network card",
+    "option2": "A combination of IP address and port number identifying an endpoint",
+    "option3": "Only a software library",
+    "option4": "Only a URL location",
+    "option5": "An email server",
+    "solution": "A combination of IP address and port number identifying an endpoint"
+  },
+  {
+    "question": "Which is a typical factory method used to get address for a host name?",
+    "option1": "InetAddress.getName()",
+    "option2": "InetAddress.getAddress()",
+    "option3": "InetAddress.getByName(String host)",
+    "option4": "InetAddress.lookup()",
+    "option5": "InetAddress.create()",
+    "solution": "InetAddress.getByName(String host)"
+  },
+  {
+    "question": "In a Java TCP server that converts incoming messages to uppercase, which streams are generally used?",
+    "option1": "FileInputStream and FileOutputStream",
+    "option2": "ObjectInputStream and ObjectOutputStream only",
+    "option3": "InputStream and OutputStream from the Socket",
+    "option4": "Scanner only",
+    "option5": "Console streams only",
+    "solution": "InputStream and OutputStream from the Socket"
+  },
+  {
+    "question": "Which statement is correct about TCP client/server sockets?",
+    "option1": "TCP client sockets listen for incoming connections",
+    "option2": "TCP server sockets actively connect to multiple clients",
+    "option3": "TCP server uses ServerSocket to accept connections; client uses Socket to connect",
+    "option4": "Both client and server use only DatagramSocket",
+    "option5": "Client uses URL and server uses URLConnection",
+    "solution": "TCP server uses ServerSocket to accept connections; client uses Socket to connect"
+  },
+  {
+    "question": "Which method of URL typically returns the host name of the URL?",
+    "option1": "getIP()",
+    "option2": "getAddress()",
+    "option3": "getHost()",
+    "option4": "getServer()",
+    "option5": "getNode()",
+    "solution": "getHost()"
+  },
+  {
+    "question": "In the vowel/consonant counting server question, which approach is most appropriate for counting characters?",
+    "option1": "Use streams from Socket and then iterate characters in the received string",
+    "option2": "Use RMI to count remotely",
+    "option3": "Use JDBC to count letters in database",
+    "option4": "Use JSP to render counts",
+    "option5": "Use CardLayout to manage counts",
+    "solution": "Use streams from Socket and then iterate characters in the received string"
   }
 ]
+

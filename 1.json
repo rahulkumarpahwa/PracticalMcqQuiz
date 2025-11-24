@@ -449,5 +449,96 @@
     "option4": "label.updateUI();",
     "option5": "runLater(label);",
     "solution": "SwingUtilities.invokeLater(() -> label.setText(\"Done\"));"
+  },
+  {
+    "question": "In Java’s GUI class hierarchy, which option best describes the relationship among Component, Container, Panel, Window, and Frame?",
+    "option1": "Container extends Component; Panel and Window extend Container; Frame extends Window",
+    "option2": "Component extends Container; Window extends Frame; Panel extends Window",
+    "option3": "Panel extends Frame; Frame extends Container; Container extends Window",
+    "option4": "Window extends Component; Container extends Window; Panel extends Frame",
+    "option5": "Component extends Panel; Frame extends Component; Window extends Frame",
+    "solution": "Container extends Component; Panel and Window extend Container; Frame extends Window"
+  },
+  {
+    "question": "According to the previous-year questions, Swing is preferred over AWT mainly because:",
+    "option1": "Swing components are platform dependent and heavier",
+    "option2": "Swing directly uses native OS widgets for all components",
+    "option3": "Swing is lightweight, pluggable look-and-feel, and more flexible than AWT",
+    "option4": "Swing cannot handle events, only AWT can",
+    "option5": "AWT does not support layout managers but Swing does",
+    "solution": "Swing is lightweight, pluggable look-and-feel, and more flexible than AWT"
+  },
+  {
+    "question": "Which of the following is a valid container control in the Swing package commonly compared in exams?",
+    "option1": "JTable",
+    "option2": "JButton",
+    "option3": "JPanel",
+    "option4": "JLabel",
+    "option5": "JTextField",
+    "solution": "JPanel"
+  },
+  {
+    "question": "Which pair correctly matches an AWT component with its Swing counterpart, as often asked in comparisons?",
+    "option1": "Label – JLabel",
+    "option2": "Panel – JDialog",
+    "option3": "ScrollBar – JTable",
+    "option4": "Button – JTree",
+    "option5": "Frame – JTextField",
+    "solution": "Label – JLabel"
+  },
+  {
+    "question": "The delegation event model used for Swing event handling involves:",
+    "option1": "Event source, event listener, and event object",
+    "option2": "Only event source and event queue",
+    "option3": "Servlet container and JSP page",
+    "option4": "Only adapter classes without listeners",
+    "option5": "Only event object and event queue",
+    "solution": "Event source, event listener, and event object"
+  },
+  {
+    "question": "Adapter classes are used in event handling primarily to:",
+    "option1": "Replace layout managers in complex GUIs",
+    "option2": "Avoid implementing all methods of a listener interface",
+    "option3": "Store event data in a database",
+    "option4": "Convert AWT components into Swing",
+    "option5": "Generate random events for testing",
+    "solution": "Avoid implementing all methods of a listener interface"
+  },
+  {
+    "question": "Which statement about JProgressBar, as discussed in the PYQ, is correct?",
+    "option1": "JProgressBar shows numeric data in tabular form",
+    "option2": "JProgressBar is used to represent completion status of a task",
+    "option3": "JProgressBar can only run in indeterminate mode",
+    "option4": "JProgressBar cannot display a string representation of progress",
+    "option5": "JProgressBar is a top-level container",
+    "solution": "JProgressBar is used to represent completion status of a task"
+  },
+  {
+    "question": "In a GUI quiz application (country–capital) described in the PYQ, which combination of Swing components is most appropriate?",
+    "option1": "JLabel for country, JList for options, JButton to submit, JOptionPane for result",
+    "option2": "JTextArea for country, JTable for options, JLabel for result",
+    "option3": "JFrame only with println output for result",
+    "option4": "JScrollBar for options, JTextField for result",
+    "option5": "JSlider for options, JLabel for result",
+    "solution": "JLabel for country, JList for options, JButton to submit, JOptionPane for result"
+  },
+  {
+    "question": "Which AWT layout manager mentioned in the short questions arranges components one at a time like cards?",
+    "option1": "GridLayout",
+    "option2": "BorderLayout",
+    "option3": "FlowLayout",
+    "option4": "CardLayout",
+    "option5": "BoxLayout",
+    "solution": "CardLayout"
+  },
+  {
+    "question": "In a Swing login screen question, which component is most appropriate for masking password input?",
+    "option1": "JTextField",
+    "option2": "JLabel",
+    "option3": "JTextArea",
+    "option4": "JPasswordField",
+    "option5": "JProgressBar",
+    "solution": "JPasswordField"
   }
 ]
+

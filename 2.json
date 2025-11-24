@@ -379,5 +379,96 @@
     "option4": "It performs auto-commit always",
     "option5": "It removes need for drivers",
     "solution": "It reuses DB connections to improve performance"
+  },
+  {
+    "question": "In JDBC, which object is used to store the fetched data from a SELECT query, as mentioned in the short questions?",
+    "option1": "Statement",
+    "option2": "ResultSet",
+    "option3": "Connection",
+    "option4": "DriverManager",
+    "option5": "SQLQuery",
+    "solution": "ResultSet"
+  },
+  {
+    "question": "According to the PYQs, the first step in establishing database connectivity in a Java JDBC program is usually to:",
+    "option1": "Create a ResultSet",
+    "option2": "Load the JDBC driver class",
+    "option3": "Execute a prepared statement",
+    "option4": "Commit the transaction",
+    "option5": "Create a DSN in Java code",
+    "solution": "Load the JDBC driver class"
+  },
+  {
+    "question": "In an application manipulating employee records (insert, update, show), which JDBC interface is best suited for executing simple static SQL queries?",
+    "option1": "CallableStatement",
+    "option2": "Statement",
+    "option3": "PreparedStatement",
+    "option4": "Connection",
+    "option5": "Driver",
+    "solution": "Statement"
+  },
+  {
+    "question": "PreparedStatement is preferred over Statement because it:",
+    "option1": "Cannot accept parameters",
+    "option2": "Is always slower than Statement",
+    "option3": "Supports precompiled parameterized queries, improving performance and security",
+    "option4": "Is used only for DDL operations",
+    "option5": "Never throws SQLExceptions",
+    "solution": "Supports precompiled parameterized queries, improving performance and security"
+  },
+  {
+    "question": "In the ROOM table example (ROOM_RENT > 5000 and ROOM_TYPE = 'STUDIO'), which JDBC method should be used to fetch the matching records?",
+    "option1": "executeUpdate() on PreparedStatement",
+    "option2": "execute() on Connection",
+    "option3": "executeQuery() on Statement or PreparedStatement",
+    "option4": "executeBatch() on Statement",
+    "option5": "runQuery() on ResultSet",
+    "solution": "executeQuery() on Statement or PreparedStatement"
+  },
+  {
+    "question": "In data navigation questions, which typical ResultSet method moves the cursor back to the first row in a scrollable ResultSet?",
+    "option1": "previous()",
+    "option2": "first()",
+    "option3": "beforeFirst()",
+    "option4": "absolute(0)",
+    "option5": "top()",
+    "solution": "first()"
+  },
+  {
+    "question": "Which JDBC exception class is specifically mentioned for batch updates in theory discussions?",
+    "option1": "SQLTimeoutException",
+    "option2": "BatchUpdateException",
+    "option3": "SQLSyntaxErrorException",
+    "option4": "SQLRecoverableException",
+    "option5": "SQLClientInfoException",
+    "solution": "BatchUpdateException"
+  },
+  {
+    "question": "In the hotel ROOM example, to set ROOM_RENT and ROOM_TYPE parameters in a PreparedStatement, which sequence is correct?",
+    "option1": "setInt(), setString()",
+    "option2": "setString(), setDate()",
+    "option3": "setFloat(), setTime()",
+    "option4": "setBytes(), setLong()",
+    "option5": "setObject(), setBlob()",
+    "solution": "setInt(), setString()"
+  },
+  {
+    "question": "In the note about DSN in the PYQ, DSN (Data Source Name) is primarily used to:",
+    "option1": "Identify an ODBC data source for database connectivity",
+    "option2": "Select a Java package",
+    "option3": "Store ResultSet metadata",
+    "option4": "Encrypt SQL queries",
+    "option5": "Manage servlet lifecycle",
+    "solution": "Identify an ODBC data source for database connectivity"
+  },
+  {
+    "question": "Which of the following best represents the typical order of steps in a JDBC program as described in the connectivity model question?",
+    "option1": "Create ResultSet → Load driver → Close connection",
+    "option2": "Connect to DB → Load driver → Execute SQL → Close connection",
+    "option3": "Load driver → Get connection → Create statement → Execute SQL → Process ResultSet → Close resources",
+    "option4": "Execute SQL → Get connection → Load driver → Close resources",
+    "option5": "Load driver → Execute SQL → Create connection → Process ResultSet",
+    "solution": "Load driver → Get connection → Create statement → Execute SQL → Process ResultSet → Close resources"
   }
 ]
+

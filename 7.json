@@ -89,7 +89,6 @@
     "option5": "<%@ file %>",
     "solution": "<%@ include %>"
   },
-
   {
     "question": "JSP expression tag evaluates:",
     "option1": "Java expressions",
@@ -180,7 +179,6 @@
     "option5": "doPost()",
     "solution": "_jspService()"
   },
-
   {
     "question": "JSP is best used for:",
     "option1": "Presentation logic",
@@ -280,7 +278,6 @@
     "option5": "Single-threaded",
     "solution": "Not thread-safe"
   },
-
   {
     "question": "Hard: Which mechanism avoids scriptlets in JSP?",
     "option1": "JSTL + EL",
@@ -370,5 +367,95 @@
     "option4": "HEAD",
     "option5": "Depends on client request",
     "solution": "Depends on client request"
+  },
+  {
+    "question": "The main purpose of JSP (Java Server Pages) is to:",
+    "option1": "Replace all servlets in Java EE",
+    "option2": "Allow mixing HTML with Java code for dynamic web content",
+    "option3": "Create desktop GUIs",
+    "option4": "Manage operating system processes",
+    "option5": "Compile JavaBeans",
+    "solution": "Allow mixing HTML with Java code for dynamic web content"
+  },
+  {
+    "question": "In JSP architecture questions, JSP pages are first translated into:",
+    "option1": "HTML files",
+    "option2": "Servlet classes",
+    "option3": "JDBC drivers",
+    "option4": "JavaBeans only",
+    "option5": "XML configuration",
+    "solution": "Servlet classes"
+  },
+  {
+    "question": "Which JSP implicit object is used to read form data submitted from an HTML page?",
+    "option1": "response",
+    "option2": "session",
+    "option3": "request",
+    "option4": "application",
+    "option5": "page",
+    "solution": "request"
+  },
+  {
+    "question": "Which tag is commonly used to import Java classes/packages into a JSP?",
+    "option1": "<%@ import %>",
+    "option2": "<%@ page import=\"...\" %>",
+    "option3": "<jsp:import class=\"...\" />",
+    "option4": "<jsp:useBean />",
+    "option5": "<%@ include file=\"...\" %>",
+    "solution": "<%@ page import=\"...\" %>"
+  },
+  {
+    "question": "Which two types of text are contained in a JSP page?",
+    "option1": "CSS and Java",
+    "option2": "HTML template text and JSP elements (scripting/directives/tags)",
+    "option3": "XML and JSON",
+    "option4": "SQL and PL/SQL",
+    "option5": "Servlet and Bean",
+    "solution": "HTML template text and JSP elements (scripting/directives/tags)"
+  },
+  {
+    "question": "Scriptlets in JSP are used to:",
+    "option1": "Declare page directives",
+    "option2": "Insert arbitrary Java code into the JSP",
+    "option3": "Define custom tags",
+    "option4": "Import libraries",
+    "option5": "Write only comments",
+    "solution": "Insert arbitrary Java code into the JSP"
+  },
+  {
+    "question": "Which method corresponds to handling requests in the translated servlet?",
+    "option1": "jspInit() / init()",
+    "option2": "jspDestroy() / destroy()",
+    "option3": "jspService() / _jspService()",
+    "option4": "main()",
+    "option5": "doGet() only",
+    "solution": "jspService() / _jspService()"
+  },
+  {
+    "question": "The default value of isErrorPage attribute of the page directive is:",
+    "option1": "true",
+    "option2": "false",
+    "option3": "null",
+    "option4": "undefined",
+    "option5": "error",
+    "solution": "false"
+  },
+  {
+    "question": "The JSP implicit object that provides access to application-wide information (ServletContext) is:",
+    "option1": "pageContext",
+    "option2": "application",
+    "option3": "session",
+    "option4": "config",
+    "option5": "page",
+    "solution": "application"
+  },
+  {
+    "question": "One advantage of JSP over pure Servlets mentioned in theory is that:",
+    "option1": "JSP cannot use Java code at all",
+    "option2": "JSP requires less separation of presentation and logic",
+    "option3": "JSP makes it easier to write and maintain presentation-heavy pages than writing HTML in println() statements",
+    "option4": "JSP can only be used with RMI",
+    "option5": "JSP cannot access session data",
+    "solution": "JSP makes it easier to write and maintain presentation-heavy pages than writing HTML in println() statements"
   }
 ]

@@ -371,4 +371,96 @@
     "option5": "@End",
     "solution": "@Remove"
   }
+,
+  {
+    "question": "According to the PYQ, JavaBeans are primarily described as:",
+    "option1": "Server-side business components only",
+    "option2": "Reusable software components that follow certain conventions",
+    "option3": "Only GUI containers",
+    "option4": "Only XML configuration files",
+    "option5": "Low-level OS libraries",
+    "solution": "Reusable software components that follow certain conventions"
+  },
+  {
+    "question": "Which is a key characteristic of a JavaBean mentioned in the questions?",
+    "option1": "Must extend HttpServlet",
+    "option2": "Must be an abstract class",
+    "option3": "Must have a no-argument public constructor and getter/setter methods",
+    "option4": "Must implement Runnable",
+    "option5": "Must be final",
+    "solution": "Must have a no-argument public constructor and getter/setter methods"
+  },
+  {
+    "question": "The JavaBeans API is mainly used for:",
+    "option1": "Defining CORBA objects",
+    "option2": "Managing HTTP sessions",
+    "option3": "Providing classes and interfaces for building reusable components with properties, events, and persistence",
+    "option4": "Managing SQL queries",
+    "option5": "Compiling JSP pages",
+    "solution": "Providing classes and interfaces for building reusable components with properties, events, and persistence"
+  },
+  {
+    "question": "According to the PYQ, BDK (Bean Development Kit) is used to:",
+    "option1": "Compile JavaBeans only",
+    "option2": "Visually create, test, and manipulate JavaBeans components",
+    "option3": "Generate EJB servers",
+    "option4": "Create JDBC drivers",
+    "option5": "Design JSP pages",
+    "solution": "Visually create, test, and manipulate JavaBeans components"
+  },
+  {
+    "question": "A JAR file, as mentioned in the JavaBeans questions, is primarily used to:",
+    "option1": "Store only classpath configuration",
+    "option2": "Store a collection of Java classes and resources in a compressed archive",
+    "option3": "Store HTML pages only",
+    "option4": "Store OS drivers",
+    "option5": "Store SQL scripts",
+    "solution": "Store a collection of Java classes and resources in a compressed archive"
+  },
+  {
+    "question": "Bound properties in JavaBeans are those whose changes:",
+    "option1": "Are only logged to console",
+    "option2": "Trigger property change events to registered listeners",
+    "option3": "Cannot be changed at runtime",
+    "option4": "Must be static fields",
+    "option5": "Are stored in web.xml",
+    "solution": "Trigger property change events to registered listeners"
+  },
+  {
+    "question": "Enterprise JavaBeans (EJBs) are primarily used for:",
+    "option1": "Client-side form validation",
+    "option2": "Enterprise-level, server-side business logic and transactions",
+    "option3": "Only GUI event handling",
+    "option4": "Operating system device management",
+    "option5": "Rendering HTML",
+    "solution": "Enterprise-level, server-side business logic and transactions"
+  },
+  {
+    "question": "Types of EJB include:",
+    "option1": "Singleton, Filter, Listener",
+    "option2": "Servlet, JSP, Bean",
+    "option3": "Session beans, Entity beans, Message-driven beans",
+    "option4": "Applet beans, GUI beans, Socket beans",
+    "option5": "Remote beans and Local beans only",
+    "solution": "Session beans, Entity beans, Message-driven beans"
+  },
+  {
+    "question": "In EJB architecture questions, which component provides services like security and transaction management?",
+    "option1": "JSP container",
+    "option2": "JDBC driver",
+    "option3": "EJB container",
+    "option4": "Swing event dispatcher",
+    "option5": "RMI registry",
+    "solution": "EJB container"
+  },
+  {
+    "question": "Introspection in JavaBeans means:",
+    "option1": "Gathering runtime information about bean properties, events, and methods",
+    "option2": "Encrypting bean data",
+    "option3": "Serializing a bean into XML",
+    "option4": "Compiling beans to native code",
+    "option5": "Connecting a bean to JDBC",
+    "solution": "Gathering runtime information about bean properties, events, and methods"
+  }
 ]
+

@@ -397,5 +397,96 @@
     "option4": "No output",
     "option5": "Shutdown event",
     "solution": "RemoteException"
+  },
+  {
+    "question": "Distributed Object Technology, as discussed in the RMI section, mainly aims to:",
+    "option1": "Allow objects located on different machines to interact as if local",
+    "option2": "Compress objects in memory",
+    "option3": "Encrypt files on disk",
+    "option4": "Speed up Swing GUIs",
+    "option5": "Replace JDBC drivers",
+    "solution": "Allow objects located on different machines to interact as if local"
+  },
+  {
+    "question": "In a typical RMI client-server example with two numbers, what is the usual role of the remote method?",
+    "option1": "Return the sum of numbers only",
+    "option2": "Return the smaller number only",
+    "option3": "Return the bigger number to the client",
+    "option4": "Return both numbers unmodified",
+    "option5": "Store numbers in a database",
+    "solution": "Return the bigger number to the client"
+  },
+  {
+    "question": "In RMI client/server example where client sends 10 numbers and server returns counts of even and odd numbers, which side typically hosts the remote object?",
+    "option1": "Client",
+    "option2": "Server",
+    "option3": "Both client and server simultaneously",
+    "option4": "Database machine",
+    "option5": "Web browser",
+    "solution": "Server"
+  },
+  {
+    "question": "In RMI architecture questions, which component holds the mapping from a name to a remote object reference?",
+    "option1": "Stub",
+    "option2": "rmiregistry",
+    "option3": "Skeleton",
+    "option4": "Servlet container",
+    "option5": "JDBC driver",
+    "solution": "rmiregistry"
+  },
+  {
+    "question": "Which interface must every remote interface extend in Java RMI?",
+    "option1": "Serializable",
+    "option2": "Remote",
+    "option3": "Runnable",
+    "option4": "Cloneable",
+    "option5": "Comparable",
+    "solution": "Remote"
+  },
+  {
+    "question": "In RMI, the client obtains a stub reference to the remote object typically by calling:",
+    "option1": "Naming.bind()",
+    "option2": "Naming.lookup()",
+    "option3": "Remote.getObject()",
+    "option4": "Registry.register()",
+    "option5": "RMI.start()",
+    "solution": "Naming.lookup()"
+  },
+  {
+    "question": "What is the role of rmiregistry in an RMI application?",
+    "option1": "To store SQL queries",
+    "option2": "To store remote object references bound to names",
+    "option3": "To compile remote interfaces",
+    "option4": "To encrypt remote communication",
+    "option5": "To handle Swing events remotely",
+    "solution": "To store remote object references bound to names"
+  },
+  {
+    "question": "In the RMI string-processing example (remove extra spaces then reverse), which of these is the most likely remote method signature?",
+    "option1": "public void process(String s) throws SQLException;",
+    "option2": "public int process(int a, int b) throws RemoteException;",
+    "option3": "public String process(String s) throws RemoteException;",
+    "option4": "public String[] process(String[] s) throws IOException;",
+    "option5": "public void process() throws RemoteException;",
+    "solution": "public String process(String s) throws RemoteException;"
+  },
+  {
+    "question": "Which pair correctly matches responsibility in RMI architecture?",
+    "option1": "Stub – server-side dispatcher; Skeleton – client proxy",
+    "option2": "Stub – client proxy; Skeleton – server-side dispatcher",
+    "option3": "Stub – database connector; Skeleton – GUI builder",
+    "option4": "Stub – exception logger; Skeleton – RMI registry",
+    "option5": "Stub – thread manager; Skeleton – serializer",
+    "solution": "Stub – client proxy; Skeleton – server-side dispatcher"
+  },
+  {
+    "question": "One key benefit of distributed object technologies (like RMI) is:",
+    "option1": "They eliminate network communication",
+    "option2": "They allow methods of remote objects to be invoked as if local",
+    "option3": "They remove the need for interfaces",
+    "option4": "They run only on a single JVM",
+    "option5": "They replace all socket handling in Java",
+    "solution": "They allow methods of remote objects to be invoked as if local"
   }
 ]
+

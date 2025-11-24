@@ -89,7 +89,6 @@
     "option5": "load()",
     "solution": "service()"
   },
-
   {
     "question": "Which object stores servlet initialization parameters?",
     "option1": "ServletContext",
@@ -180,7 +179,6 @@
     "option5": "close()",
     "solution": "destroy()"
   },
-
   {
     "question": "Which method reads form data in POST request?",
     "option1": "request.getForm()",
@@ -307,7 +305,6 @@
     "option5": "HttpSession",
     "solution": "ServletResponse"
   },
-
   {
     "question": "Hard: doGet() and doPost() are called by:",
     "option1": "Web container",
@@ -397,5 +394,95 @@
     "option4": "HTML",
     "option5": "Nothing",
     "solution": "Hi"
+  },
+  {
+    "question": "A Servlet is mainly described as:",
+    "option1": "A client-side script",
+    "option2": "A server-side Java program that extends web server capabilities",
+    "option3": "A standalone desktop GUI application",
+    "option4": "A database configuration file",
+    "option5": "A browser plugin",
+    "solution": "A server-side Java program that extends web server capabilities"
+  },
+  {
+    "question": "Which is a key advantage of servlets over CGI as repeatedly asked?",
+    "option1": "Servlets run as separate OS processes per request",
+    "option2": "Servlets are written only in C",
+    "option3": "Servlets are multithreaded and run inside a single JVM, reducing overhead",
+    "option4": "Servlets do not support HTTP methods",
+    "option5": "Servlets cannot use sessions",
+    "solution": "Servlets are multithreaded and run inside a single JVM, reducing overhead"
+  },
+  {
+    "question": "Which methods define the life cycle of a generic servlet?",
+    "option1": "init(), doGet(), doPost(), close()",
+    "option2": "init(), service(), destroy()",
+    "option3": "start(), run(), stop()",
+    "option4": "configure(), run(), end()",
+    "option5": "open(), process(), close()",
+    "solution": "init(), service(), destroy()"
+  },
+  {
+    "question": "In questions about session tracking using HttpSession, which method is commonly used to get the current session?",
+    "option1": "request.getSession()",
+    "option2": "response.getSession()",
+    "option3": "context.getSession()",
+    "option4": "ServletConfig.getSession()",
+    "option5": "SessionFactory.getSession()",
+    "solution": "request.getSession()"
+  },
+  {
+    "question": "A servlet reading a name from an HTML form typically accesses it with:",
+    "option1": "request.getField(\"name\")",
+    "option2": "request.getParameter(\"name\")",
+    "option3": "response.getParameter(\"name\")",
+    "option4": "session.getParameter(\"name\")",
+    "option5": "config.getParameter(\"name\")",
+    "solution": "request.getParameter(\"name\")"
+  },
+  {
+    "question": "Which file is traditionally used to configure servlets (mapping, init-params) in older web apps?",
+    "option1": "servlet.xml",
+    "option2": "config.xml",
+    "option3": "web.xml",
+    "option4": "deploy.xml",
+    "option5": "server.xml",
+    "solution": "web.xml"
+  },
+  {
+    "question": "In a servlet that displays a welcome message, which content type is usually set before writing HTML?",
+    "option1": "text/plain",
+    "option2": "application/json",
+    "option3": "text/html",
+    "option4": "text/css",
+    "option5": "application/xml",
+    "solution": "text/html"
+  },
+  {
+    "question": "An important limitation of CGI mentioned in short questions is:",
+    "option1": "CGI cannot handle HTTP POST",
+    "option2": "CGI scripts are not portable",
+    "option3": "CGI creates a new process per request, leading to more overhead",
+    "option4": "CGI cannot run on Linux",
+    "option5": "CGI does not support HTML",
+    "solution": "CGI creates a new process per request, leading to more overhead"
+  },
+  {
+    "question": "Which method in HttpServlet is normally overridden to handle HTTP GET requests?",
+    "option1": "service()",
+    "option2": "doGet()",
+    "option3": "doPost()",
+    "option4": "init()",
+    "option5": "destroy()",
+    "solution": "doGet()"
+  },
+  {
+    "question": "In session tracking explanations, which of the following is NOT a standard technique?",
+    "option1": "Cookies",
+    "option2": "URL rewriting",
+    "option3": "Hidden form fields",
+    "option4": "HttpSession interface",
+    "option5": "JDBC metadata",
+    "solution": "JDBC metadata"
   }
 ]
